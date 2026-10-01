@@ -85,6 +85,33 @@ Règles des thèmes :
 
 ---
 
+## 📏 Unités (i18n des mesures)
+
+Les données embarquent des **unités canoniques métriques** (SI) — la conversion
+vers les systèmes locaux (lb/oz…) se fait **à l'affichage**, pas dans les données :
+
+| Champ | Unité canonique | Helper d'affichage |
+|---|---|---|
+| `item.weight` | grammes | `formatItemWeight(weight, locale)` |
+| `vehicle.massKg` | kg | `formatVehicleMass(massKg, locale)` |
+| `vehicle.fuelCapacity` | litres | à convertir par le consommateur |
+| `vehicle.maxSpeed` | km/h | à convertir par le consommateur |
+| `cargo.maxWeightKg` | kg | à convertir par le consommateur |
+
+```js
+import { formatItemWeight, formatVehicleMass } from 'roleplay-data';
+
+formatItemWeight(950, 'fr');            // "950 g"     (métrique)
+formatItemWeight(950, 'en');            // "2 lb 2 oz" (impérial)
+formatItemWeight(950, 'en', { unit: 'metric' }); // "950 g" (forcé)
+formatVehicleMass(1480, 'en');          // "3 263 lb"
+```
+
+Le système retenu dérive de la locale (métrique pour fr/es/de/…, impérial pour
+en/us…) — il peut être **forcé** via `opts.unit`.
+
+---
+
 ## Consumption
 
 ### npm

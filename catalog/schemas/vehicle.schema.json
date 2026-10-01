@@ -58,17 +58,17 @@
         "massKg": {
           "type": "number",
           "minimum": 0,
-          "description": "Masse du véhicule en kg."
+          "description": "Masse en kg (unité canonique métrique). Convertir à l'affichage selon la locale (lb…) via formatVehicleMass."
         },
         "fuelCapacity": {
           "type": "number",
           "minimum": 0,
-          "description": "Capacité du réservoir (unité projet)."
+          "description": "Capacité du réservoir en litres (canonique SI)."
         },
         "maxSpeed": {
           "type": "number",
           "minimum": 0,
-          "description": "Vitesse maximale (unité projet)."
+          "description": "Vitesse maximale en km/h (canonique SI)."
         },
         "cargo": {
           "type": "object",

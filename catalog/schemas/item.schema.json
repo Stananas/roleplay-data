@@ -51,7 +51,7 @@
         "weight": {
           "type": "number",
           "minimum": 0,
-          "description": "Poids en grammes."
+          "description": "Poids en grammes (unité canonique métrique). Convertir à l'affichage selon la locale (lb/oz…) via formatItemWeight."
         },
         "food": {
           "type": "number",

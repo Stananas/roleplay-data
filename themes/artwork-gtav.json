@@ -179,7 +179,7 @@
     {
       "id": "acid",
       "name": {
-        "fr": "Acid",
+        "fr": "Acide",
         "en": "Acid"
       },
       "description": {
@@ -195,7 +195,7 @@
     {
       "id": "acid_bottle",
       "name": {
-        "fr": "Acid Bottle",
+        "fr": "Bouteille d'acide",
         "en": "Acid Bottle"
       },
       "description": {
@@ -211,7 +211,7 @@
     {
       "id": "coke_acid",
       "name": {
-        "fr": "Coke Acid",
+        "fr": "Cocaïne — acide",
         "en": "Coke Acid"
       },
       "description": {
@@ -227,7 +227,7 @@
     {
       "id": "coke_benzene",
       "name": {
-        "fr": "Coke Benzene",
+        "fr": "Cocaïne — benzène",
         "en": "Coke Benzene"
       },
       "description": {
@@ -243,7 +243,7 @@
     {
       "id": "coke_brick",
       "name": {
-        "fr": "Coke Brick",
+        "fr": "Cocaïne — brique",
         "en": "Coke Brick"
       },
       "description": {
@@ -259,7 +259,7 @@
     {
       "id": "coke_campfire",
       "name": {
-        "fr": "Coke Campfire",
+        "fr": "Cocaïne — feu de camp",
         "en": "Coke Campfire"
       },
       "description": {
@@ -275,7 +275,7 @@
     {
       "id": "coke_cement",
       "name": {
-        "fr": "Coke Cement",
+        "fr": "Cocaïne — ciment",
         "en": "Coke Cement"
       },
       "description": {
@@ -291,7 +291,7 @@
     {
       "id": "coke_driedleaf",
       "name": {
-        "fr": "Coke Driedleaf",
+        "fr": "Cocaïne — feuille séchée",
         "en": "Coke Driedleaf"
       },
       "description": {
@@ -307,7 +307,7 @@
     {
       "id": "coke_leaf",
       "name": {
-        "fr": "Coke Leaf",
+        "fr": "Cocaïne — feuille",
         "en": "Coke Leaf"
       },
       "description": {
@@ -323,7 +323,7 @@
     {
       "id": "coke_leafblower",
       "name": {
-        "fr": "Coke Leafblower",
+        "fr": "Cocaïne — souffleur à feuilles",
         "en": "Coke Leafblower"
       },
       "description": {
@@ -339,7 +339,7 @@
     {
       "id": "coke_leafpile",
       "name": {
-        "fr": "Coke Leafpile",
+        "fr": "Cocaïne — tas de feuilles",
         "en": "Coke Leafpile"
       },
       "description": {
@@ -355,7 +355,7 @@
     {
       "id": "coke_packed_trophy",
       "name": {
-        "fr": "Coke Packed Trophy",
+        "fr": "Cocaïne conditionnée — trophée",
         "en": "Coke Packed Trophy"
       },
       "description": {
@@ -371,7 +371,7 @@
     {
       "id": "coke_pile",
       "name": {
-        "fr": "Coke Pile",
+        "fr": "Cocaïne — tas",
         "en": "Coke Pile"
       },
       "description": {
@@ -387,7 +387,7 @@
     {
       "id": "coke_saw",
       "name": {
-        "fr": "Coke Saw",
+        "fr": "Cocaïne — scie",
         "en": "Coke Saw"
       },
       "description": {
@@ -403,7 +403,7 @@
     {
       "id": "coke_shear",
       "name": {
-        "fr": "Coke Shear",
+        "fr": "Cocaïne — cisaille",
         "en": "Coke Shear"
       },
       "description": {
@@ -419,7 +419,7 @@
     {
       "id": "coke_spoon",
       "name": {
-        "fr": "Coke Spoon",
+        "fr": "Cocaïne — cuillère",
         "en": "Coke Spoon"
       },
       "description": {
@@ -435,7 +435,7 @@
     {
       "id": "coke_table",
       "name": {
-        "fr": "Coke Table",
+        "fr": "Cocaïne — table",
         "en": "Coke Table"
       },
       "description": {
@@ -451,7 +451,7 @@
     {
       "id": "cutted_coke",
       "name": {
-        "fr": "Cutted Coke",
+        "fr": "Cocaïne coupée",
         "en": "Cutted Coke"
       },
       "description": {
@@ -467,7 +467,7 @@
     {
       "id": "dealer_phone",
       "name": {
-        "fr": "Dealer Phone",
+        "fr": "Téléphone de revendeur",
         "en": "Dealer Phone"
       },
       "description": {
@@ -483,7 +483,7 @@
     {
       "id": "empty_bottle",
       "name": {
-        "fr": "Empty Bottle",
+        "fr": "Bouteille vide",
         "en": "Empty Bottle"
       },
       "description": {
@@ -499,7 +499,7 @@
     {
       "id": "empty_tray",
       "name": {
-        "fr": "Empty Tray",
+        "fr": "Plateau vide",
         "en": "Empty Tray"
       },
       "description": {
@@ -515,7 +515,7 @@
     {
       "id": "fan_1",
       "name": {
-        "fr": "Fan 1",
+        "fr": "Ventilateur 1",
         "en": "Fan 1"
       },
       "description": {
@@ -531,7 +531,7 @@
     {
       "id": "fan_2",
       "name": {
-        "fr": "Fan 2",
+        "fr": "Ventilateur 2",
         "en": "Fan 2"
       },
       "description": {
@@ -547,7 +547,7 @@
     {
       "id": "fan_3",
       "name": {
-        "fr": "Fan 3",
+        "fr": "Ventilateur 3",
         "en": "Fan 3"
       },
       "description": {
@@ -563,7 +563,7 @@
     {
       "id": "gas_mask",
       "name": {
-        "fr": "Gas Mask",
+        "fr": "Masque à gaz",
         "en": "Gas Mask"
       },
       "description": {
@@ -579,7 +579,7 @@
     {
       "id": "haze_bud",
       "name": {
-        "fr": "Haze Bud",
+        "fr": "Bourgeon haze",
         "en": "Haze Bud"
       },
       "description": {
@@ -595,7 +595,7 @@
     {
       "id": "haze_weed",
       "name": {
-        "fr": "Haze Weed",
+        "fr": "Herbe haze",
         "en": "Haze Weed"
       },
       "description": {
@@ -611,7 +611,7 @@
     {
       "id": "heroin_acetone",
       "name": {
-        "fr": "Heroin Acetone",
+        "fr": "Héroïne — acétone",
         "en": "Heroin Acetone"
       },
       "description": {
@@ -627,7 +627,7 @@
     {
       "id": "heroin_alchol",
       "name": {
-        "fr": "Heroin Alchol",
+        "fr": "Héroïne — alcool",
         "en": "Heroin Alchol"
       },
       "description": {
@@ -643,7 +643,7 @@
     {
       "id": "heroin_anhydride",
       "name": {
-        "fr": "Heroin Anhydride",
+        "fr": "Héroïne — anhydride",
         "en": "Heroin Anhydride"
       },
       "description": {
@@ -659,7 +659,7 @@
     {
       "id": "heroin_barrel",
       "name": {
-        "fr": "Heroin Barrel",
+        "fr": "Héroïne — canon",
         "en": "Heroin Barrel"
       },
       "description": {
@@ -675,7 +675,7 @@
     {
       "id": "heroin_base",
       "name": {
-        "fr": "Heroin Base",
+        "fr": "Héroïne — base",
         "en": "Heroin Base"
       },
       "description": {
@@ -691,7 +691,7 @@
     {
       "id": "heroin_campfire",
       "name": {
-        "fr": "Heroin Campfire",
+        "fr": "Héroïne — feu de camp",
         "en": "Heroin Campfire"
       },
       "description": {
@@ -707,7 +707,7 @@
     {
       "id": "heroin_carbon",
       "name": {
-        "fr": "Heroin Carbon",
+        "fr": "Héroïne — carbone",
         "en": "Heroin Carbon"
       },
       "description": {
@@ -723,7 +723,7 @@
     {
       "id": "heroin_hcacid",
       "name": {
-        "fr": "Heroin Hcacid",
+        "fr": "Héroïne — acide",
         "en": "Heroin Hcacid"
       },
       "description": {
@@ -739,7 +739,7 @@
     {
       "id": "heroin_leaf",
       "name": {
-        "fr": "Heroin Leaf",
+        "fr": "Héroïne — feuille",
         "en": "Heroin Leaf"
       },
       "description": {
@@ -755,7 +755,7 @@
     {
       "id": "heroin_litmuspaper",
       "name": {
-        "fr": "Heroin Litmuspaper",
+        "fr": "Héroïne — papier de tournesol",
         "en": "Heroin Litmuspaper"
       },
       "description": {
@@ -771,7 +771,7 @@
     {
       "id": "heroin_mixture",
       "name": {
-        "fr": "Heroin Mixture",
+        "fr": "Héroïne — mélange",
         "en": "Heroin Mixture"
       },
       "description": {
@@ -787,7 +787,7 @@
     {
       "id": "heroin_opium",
       "name": {
-        "fr": "Heroin Opium",
+        "fr": "Héroïne — opium",
         "en": "Heroin Opium"
       },
       "description": {
@@ -803,7 +803,7 @@
     {
       "id": "heroin_packed",
       "name": {
-        "fr": "Heroin Packed",
+        "fr": "Héroïne conditionnée",
         "en": "Heroin Packed"
       },
       "description": {
@@ -819,7 +819,7 @@
     {
       "id": "heroin_pile",
       "name": {
-        "fr": "Heroin Pile",
+        "fr": "Héroïne — tas",
         "en": "Heroin Pile"
       },
       "description": {
@@ -835,7 +835,7 @@
     {
       "id": "heroin_spoon",
       "name": {
-        "fr": "Heroin Spoon",
+        "fr": "Héroïne — cuillère",
         "en": "Heroin Spoon"
       },
       "description": {
@@ -851,7 +851,7 @@
     {
       "id": "kush_bud",
       "name": {
-        "fr": "Kush Bud",
+        "fr": "Bourgeon kush",
         "en": "Kush Bud"
       },
       "description": {
@@ -867,7 +867,7 @@
     {
       "id": "kush_weed",
       "name": {
-        "fr": "Kush Weed",
+        "fr": "Herbe kush",
         "en": "Kush Weed"
       },
       "description": {
@@ -883,7 +883,7 @@
     {
       "id": "light_1",
       "name": {
-        "fr": "Light 1",
+        "fr": "Lampe 1",
         "en": "Light 1"
       },
       "description": {
@@ -899,7 +899,7 @@
     {
       "id": "light_2",
       "name": {
-        "fr": "Light 2",
+        "fr": "Lampe 2",
         "en": "Light 2"
       },
       "description": {
@@ -915,7 +915,7 @@
     {
       "id": "light_3",
       "name": {
-        "fr": "Light 3",
+        "fr": "Lampe 3",
         "en": "Light 3"
       },
       "description": {
@@ -931,7 +931,7 @@
     {
       "id": "light_4",
       "name": {
-        "fr": "Light 4",
+        "fr": "Lampe 4",
         "en": "Light 4"
       },
       "description": {
@@ -963,7 +963,7 @@
     {
       "id": "manure_can",
       "name": {
-        "fr": "Manure Can",
+        "fr": "Canette de fumier",
         "en": "Manure Can"
       },
       "description": {
@@ -979,7 +979,7 @@
     {
       "id": "meth_ammonia",
       "name": {
-        "fr": "Meth Ammonia",
+        "fr": "Ammoniac",
         "en": "Meth Ammonia"
       },
       "description": {
@@ -995,7 +995,7 @@
     {
       "id": "meth_barrel",
       "name": {
-        "fr": "Meth Barrel",
+        "fr": "Meth — canon",
         "en": "Meth Barrel"
       },
       "description": {
@@ -1011,7 +1011,7 @@
     {
       "id": "meth_beaker",
       "name": {
-        "fr": "Meth Beaker",
+        "fr": "Bécher de meth",
         "en": "Meth Beaker"
       },
       "description": {
@@ -1027,7 +1027,7 @@
     {
       "id": "meth_crystal",
       "name": {
-        "fr": "Meth Crystal",
+        "fr": "Cristaux de meth",
         "en": "Meth Crystal"
       },
       "description": {
@@ -1043,7 +1043,7 @@
     {
       "id": "meth_hammer",
       "name": {
-        "fr": "Meth Hammer",
+        "fr": "Meth — marteau",
         "en": "Meth Hammer"
       },
       "description": {
@@ -1059,7 +1059,7 @@
     {
       "id": "meth_hcacid",
       "name": {
-        "fr": "Meth Hcacid",
+        "fr": "Meth — acide",
         "en": "Meth Hcacid"
       },
       "description": {
@@ -1075,7 +1075,7 @@
     {
       "id": "meth_lithium",
       "name": {
-        "fr": "Meth Lithium",
+        "fr": "Lithium",
         "en": "Meth Lithium"
       },
       "description": {
@@ -1091,7 +1091,7 @@
     {
       "id": "meth_mixture",
       "name": {
-        "fr": "Meth Mixture",
+        "fr": "Meth — mélange",
         "en": "Meth Mixture"
       },
       "description": {
@@ -1107,7 +1107,7 @@
     {
       "id": "meth_packed",
       "name": {
-        "fr": "Meth Packed",
+        "fr": "Meth conditionnée",
         "en": "Meth Packed"
       },
       "description": {
@@ -1123,7 +1123,7 @@
     {
       "id": "meth_phosphorus",
       "name": {
-        "fr": "Meth Phosphorus",
+        "fr": "Meth — phosphore",
         "en": "Meth Phosphorus"
       },
       "description": {
@@ -1139,7 +1139,7 @@
     {
       "id": "meth_sacid",
       "name": {
-        "fr": "Meth Sacid",
+        "fr": "Acide sulfurique",
         "en": "Meth Sacid"
       },
       "description": {
@@ -1155,7 +1155,7 @@
     {
       "id": "meth_table",
       "name": {
-        "fr": "Meth Table",
+        "fr": "Table de meth",
         "en": "Meth Table"
       },
       "description": {
@@ -1171,7 +1171,7 @@
     {
       "id": "meth_tray",
       "name": {
-        "fr": "Meth Tray",
+        "fr": "Meth — plateau",
         "en": "Meth Tray"
       },
       "description": {
@@ -1187,7 +1187,7 @@
     {
       "id": "package_table",
       "name": {
-        "fr": "Package Table",
+        "fr": "Table de conditionnement",
         "en": "Package Table"
       },
       "description": {
@@ -1203,7 +1203,7 @@
     {
       "id": "phosphorus",
       "name": {
-        "fr": "Phosphorus",
+        "fr": "Phosphore",
         "en": "Phosphorus"
       },
       "description": {
@@ -1219,7 +1219,7 @@
     {
       "id": "plant_spray",
       "name": {
-        "fr": "Plant Spray",
+        "fr": "Pulvérisateur de plantes",
         "en": "Plant Spray"
       },
       "description": {
@@ -1235,7 +1235,7 @@
     {
       "id": "powdered_milk",
       "name": {
-        "fr": "Powdered Milk",
+        "fr": "Lait en poudre",
         "en": "Powdered Milk"
       },
       "description": {
@@ -1251,7 +1251,7 @@
     {
       "id": "water_bottle_big",
       "name": {
-        "fr": "Water Bottle Big",
+        "fr": "Grande bouteille d'eau",
         "en": "Water Bottle Big"
       },
       "description": {
@@ -1267,7 +1267,7 @@
     {
       "id": "water_bottle_small",
       "name": {
-        "fr": "Water Bottle Small",
+        "fr": "Petite bouteille d'eau",
         "en": "Water Bottle Small"
       },
       "description": {
@@ -1283,7 +1283,7 @@
     {
       "id": "water_tank",
       "name": {
-        "fr": "Water Tank",
+        "fr": "Réservoir d'eau",
         "en": "Water Tank"
       },
       "description": {
@@ -1299,7 +1299,7 @@
     {
       "id": "weed_bud",
       "name": {
-        "fr": "Weed Bud",
+        "fr": "Herbe Bourgeon",
         "en": "Weed Bud"
       },
       "description": {
@@ -1315,7 +1315,7 @@
     {
       "id": "weed_dryer",
       "name": {
-        "fr": "Weed Dryer",
+        "fr": "Séchoir à herbe",
         "en": "Weed Dryer"
       },
       "description": {
@@ -1331,7 +1331,7 @@
     {
       "id": "weed_haze_pack",
       "name": {
-        "fr": "Weed Haze Pack",
+        "fr": "Paquet d'herbe haze",
         "en": "Weed Haze Pack"
       },
       "description": {
@@ -1347,7 +1347,7 @@
     {
       "id": "weed_kush_pack",
       "name": {
-        "fr": "Weed Kush Pack",
+        "fr": "Paquet d'herbe kush",
         "en": "Weed Kush Pack"
       },
       "description": {
@@ -1363,7 +1363,7 @@
     {
       "id": "weed_packed",
       "name": {
-        "fr": "Weed Packed",
+        "fr": "Herbe Conditionné",
         "en": "Weed Packed"
       },
       "description": {
@@ -1379,7 +1379,7 @@
     {
       "id": "weed_pool",
       "name": {
-        "fr": "Weed Pool",
+        "fr": "Bac d'herbe",
         "en": "Weed Pool"
       },
       "description": {
@@ -1395,7 +1395,7 @@
     {
       "id": "weed_pot",
       "name": {
-        "fr": "Weed Pot",
+        "fr": "Pot d'herbe",
         "en": "Weed Pot"
       },
       "description": {
@@ -1411,7 +1411,7 @@
     {
       "id": "weed_seed_1",
       "name": {
-        "fr": "Weed Seed 1",
+        "fr": "Herbe Graine 1",
         "en": "Weed Seed 1"
       },
       "description": {
@@ -1427,7 +1427,7 @@
     {
       "id": "weed_seed_2",
       "name": {
-        "fr": "Weed Seed 2",
+        "fr": "Herbe Graine 2",
         "en": "Weed Seed 2"
       },
       "description": {
@@ -1443,7 +1443,7 @@
     {
       "id": "weed_table",
       "name": {
-        "fr": "Weed Table",
+        "fr": "Table d'herbe",
         "en": "Weed Table"
       },
       "description": {
@@ -1475,7 +1475,7 @@
     {
       "id": "2",
       "name": {
-        "fr": "WEAPON SPECIALCARBINE MK2",
+        "fr": "Carabine spéciale MK2",
         "en": "WEAPON SPECIALCARBINE MK2"
       },
       "description": {
@@ -1491,7 +1491,7 @@
     {
       "id": "02",
       "name": {
-        "fr": "WEAPON BRIEFCASE 02",
+        "fr": "Mallette II",
         "en": "WEAPON BRIEFCASE 02"
       },
       "description": {
@@ -1507,7 +1507,7 @@
     {
       "id": "50",
       "name": {
-        "fr": "WEAPON PISTOL50",
+        "fr": "Pistolet .50",
         "en": "WEAPON PISTOL50"
       },
       "description": {
@@ -1523,7 +1523,7 @@
     {
       "id": "3",
       "name": {
-        "fr": "WEAPON RAILGUNXM3",
+        "fr": "Railgun XM3",
         "en": "WEAPON RAILGUNXM3"
       },
       "description": {
@@ -1539,7 +1539,7 @@
     {
       "id": "advancedkit",
       "name": {
-        "fr": "Advancedkit",
+        "fr": "Kit avancé",
         "en": "Advancedkit"
       },
       "description": {
@@ -1555,7 +1555,7 @@
     {
       "id": "ammo_22",
       "name": {
-        "fr": "Ammo 22",
+        "fr": "Munitions 22",
         "en": "Ammo 22"
       },
       "description": {
@@ -1571,7 +1571,7 @@
     {
       "id": "ammo_38",
       "name": {
-        "fr": "Ammo 38",
+        "fr": "Munitions 38",
         "en": "Ammo 38"
       },
       "description": {
@@ -1587,7 +1587,7 @@
     {
       "id": "ammo_44",
       "name": {
-        "fr": "Ammo 44",
+        "fr": "Munitions 44",
         "en": "Ammo 44"
       },
       "description": {
@@ -1603,7 +1603,7 @@
     {
       "id": "ammo_45",
       "name": {
-        "fr": "Ammo 45",
+        "fr": "Munitions 45",
         "en": "Ammo 45"
       },
       "description": {
@@ -1619,7 +1619,7 @@
     {
       "id": "ammo_50",
       "name": {
-        "fr": "Ammo 50",
+        "fr": "Munitions 50",
         "en": "Ammo 50"
       },
       "description": {
@@ -1635,7 +1635,7 @@
     {
       "id": "ammo_9",
       "name": {
-        "fr": "Ammo 9",
+        "fr": "Munitions 9",
         "en": "Ammo 9"
       },
       "description": {
@@ -1651,7 +1651,7 @@
     {
       "id": "ammo_beanbag",
       "name": {
-        "fr": "Ammo Beanbag",
+        "fr": "Munitions À grenaille",
         "en": "Ammo Beanbag"
       },
       "description": {
@@ -1667,7 +1667,7 @@
     {
       "id": "ammo_emp",
       "name": {
-        "fr": "Ammo Emp",
+        "fr": "Munitions Emp",
         "en": "Ammo Emp"
       },
       "description": {
@@ -1683,7 +1683,7 @@
     {
       "id": "ammo_firework",
       "name": {
-        "fr": "Ammo Firework",
+        "fr": "Munitions Feu d'artifice",
         "en": "Ammo Firework"
       },
       "description": {
@@ -1699,7 +1699,7 @@
     {
       "id": "ammo_flare",
       "name": {
-        "fr": "Ammo Flare",
+        "fr": "Munitions Flare",
         "en": "Ammo Flare"
       },
       "description": {
@@ -1715,7 +1715,7 @@
     {
       "id": "ammo_grenade",
       "name": {
-        "fr": "Ammo Grenade",
+        "fr": "Munitions Grenade",
         "en": "Ammo Grenade"
       },
       "description": {
@@ -1731,7 +1731,7 @@
     {
       "id": "ammo_heavysniper",
       "name": {
-        "fr": "Ammo Heavysniper",
+        "fr": "Munitions Sniper lourd",
         "en": "Ammo Heavysniper"
       },
       "description": {
@@ -1747,7 +1747,7 @@
     {
       "id": "ammo_laser",
       "name": {
-        "fr": "Ammo Laser",
+        "fr": "Munitions Laser",
         "en": "Ammo Laser"
       },
       "description": {
@@ -1763,7 +1763,7 @@
     {
       "id": "ammo_musket",
       "name": {
-        "fr": "Ammo Musket",
+        "fr": "Munitions Mousquet",
         "en": "Ammo Musket"
       },
       "description": {
@@ -1779,7 +1779,7 @@
     {
       "id": "ammo_railgun",
       "name": {
-        "fr": "Ammo Railgun",
+        "fr": "Munitions Railgun",
         "en": "Ammo Railgun"
       },
       "description": {
@@ -1795,7 +1795,7 @@
     {
       "id": "ammo_rifle",
       "name": {
-        "fr": "Ammo Rifle",
+        "fr": "Munitions Fusil",
         "en": "Ammo Rifle"
       },
       "description": {
@@ -1811,7 +1811,7 @@
     {
       "id": "ammo_rifle2",
       "name": {
-        "fr": "Ammo Rifle2",
+        "fr": "Munitions Fusil II",
         "en": "Ammo Rifle2"
       },
       "description": {
@@ -1827,7 +1827,7 @@
     {
       "id": "ammo_rocket",
       "name": {
-        "fr": "Ammo Rocket",
+        "fr": "Munitions Roquette",
         "en": "Ammo Rocket"
       },
       "description": {
@@ -1843,7 +1843,7 @@
     {
       "id": "ammo_shotgun",
       "name": {
-        "fr": "Ammo Shotgun",
+        "fr": "Munitions Fusil",
         "en": "Ammo Shotgun"
       },
       "description": {
@@ -1859,7 +1859,7 @@
     {
       "id": "ammo_sniper",
       "name": {
-        "fr": "Ammo Sniper",
+        "fr": "Munitions Sniper",
         "en": "Ammo Sniper"
       },
       "description": {
@@ -1875,7 +1875,7 @@
     {
       "id": "armour",
       "name": {
-        "fr": "Armour",
+        "fr": "Gilet pare-balles",
         "en": "Armour"
       },
       "description": {
@@ -1891,7 +1891,7 @@
     {
       "id": "at_barrel",
       "name": {
-        "fr": "At Barrel",
+        "fr": "Accessoire Canon",
         "en": "At Barrel"
       },
       "description": {
@@ -1907,7 +1907,7 @@
     {
       "id": "at_clip_drum",
       "name": {
-        "fr": "At Clip Drum",
+        "fr": "Accessoire Chargeur Tambour",
         "en": "At Clip Drum"
       },
       "description": {
@@ -1923,7 +1923,7 @@
     {
       "id": "at_clip_extended",
       "name": {
-        "fr": "At Clip Extended",
+        "fr": "Accessoire Chargeur Rallongé",
         "en": "At Clip Extended"
       },
       "description": {
@@ -1939,7 +1939,7 @@
     {
       "id": "at_clip_extended2",
       "name": {
-        "fr": "At Clip Extended2",
+        "fr": "Accessoire Chargeur Extended2",
         "en": "At Clip Extended2"
       },
       "description": {
@@ -1955,7 +1955,7 @@
     {
       "id": "at_flashlight",
       "name": {
-        "fr": "At Flashlight",
+        "fr": "Accessoire Lampe torche",
         "en": "At Flashlight"
       },
       "description": {
@@ -1971,7 +1971,7 @@
     {
       "id": "at_grip",
       "name": {
-        "fr": "At Grip",
+        "fr": "Accessoire Poignée",
         "en": "At Grip"
       },
       "description": {
@@ -1987,7 +1987,7 @@
     {
       "id": "at_muzzle_bell",
       "name": {
-        "fr": "At Muzzle Bell",
+        "fr": "Accessoire Bouchon de canon Cloche",
         "en": "At Muzzle Bell"
       },
       "description": {
@@ -2003,7 +2003,7 @@
     {
       "id": "at_muzzle_fat",
       "name": {
-        "fr": "At Muzzle Fat",
+        "fr": "Accessoire Bouchon de canon Large",
         "en": "At Muzzle Fat"
       },
       "description": {
@@ -2019,7 +2019,7 @@
     {
       "id": "at_muzzle_flat",
       "name": {
-        "fr": "At Muzzle Flat",
+        "fr": "Accessoire Bouchon de canon Plat",
         "en": "At Muzzle Flat"
       },
       "description": {
@@ -2035,7 +2035,7 @@
     {
       "id": "at_muzzle_heavy",
       "name": {
-        "fr": "At Muzzle Heavy",
+        "fr": "Accessoire Bouchon de canon Lourd",
         "en": "At Muzzle Heavy"
       },
       "description": {
@@ -2051,7 +2051,7 @@
     {
       "id": "at_muzzle_precision",
       "name": {
-        "fr": "At Muzzle Precision'",
+        "fr": "Accessoire Bouchon de canon Précision",
         "en": "At Muzzle Precision'"
       },
       "description": {
@@ -2067,7 +2067,7 @@
     {
       "id": "at_muzzle_slanted",
       "name": {
-        "fr": "At Muzzle Slanted",
+        "fr": "Accessoire Bouchon de canon Oblique",
         "en": "At Muzzle Slanted"
       },
       "description": {
@@ -2083,7 +2083,7 @@
     {
       "id": "at_muzzle_split",
       "name": {
-        "fr": "At Muzzle Split",
+        "fr": "Accessoire Bouchon de canon Fendu",
         "en": "At Muzzle Split"
       },
       "description": {
@@ -2099,7 +2099,7 @@
     {
       "id": "at_muzzle_squared",
       "name": {
-        "fr": "At Muzzle Squared",
+        "fr": "Accessoire Bouchon de canon Carré",
         "en": "At Muzzle Squared"
       },
       "description": {
@@ -2115,7 +2115,7 @@
     {
       "id": "at_muzzle_tactical",
       "name": {
-        "fr": "At Muzzle Tactical",
+        "fr": "Accessoire Bouchon de canon Tactique",
         "en": "At Muzzle Tactical"
       },
       "description": {
@@ -2131,7 +2131,7 @@
     {
       "id": "at_scope_advanced",
       "name": {
-        "fr": "At Scope Advanced",
+        "fr": "Accessoire Lunette Avancée",
         "en": "At Scope Advanced"
       },
       "description": {
@@ -2147,7 +2147,7 @@
     {
       "id": "at_scope_holo",
       "name": {
-        "fr": "At Scope Holo",
+        "fr": "Accessoire Lunette Holographique",
         "en": "At Scope Holo"
       },
       "description": {
@@ -2163,7 +2163,7 @@
     {
       "id": "at_scope_large",
       "name": {
-        "fr": "At Scope Large",
+        "fr": "Accessoire Lunette Grande",
         "en": "At Scope Large"
       },
       "description": {
@@ -2179,7 +2179,7 @@
     {
       "id": "at_scope_medium",
       "name": {
-        "fr": "At Scope Medium",
+        "fr": "Accessoire Lunette Moyenne",
         "en": "At Scope Medium"
       },
       "description": {
@@ -2195,7 +2195,7 @@
     {
       "id": "at_scope_nv",
       "name": {
-        "fr": "At Scope Nv",
+        "fr": "Accessoire Lunette Vision nocturne",
         "en": "At Scope Nv"
       },
       "description": {
@@ -2211,7 +2211,7 @@
     {
       "id": "at_scope_small",
       "name": {
-        "fr": "At Scope Small",
+        "fr": "Accessoire Lunette Petite",
         "en": "At Scope Small"
       },
       "description": {
@@ -2227,7 +2227,7 @@
     {
       "id": "at_scope_thermal",
       "name": {
-        "fr": "At Scope Thermal",
+        "fr": "Accessoire Lunette Thermique",
         "en": "At Scope Thermal"
       },
       "description": {
@@ -2243,7 +2243,7 @@
     {
       "id": "at_suppressor",
       "name": {
-        "fr": "At Suppressor",
+        "fr": "Accessoire Silencieux",
         "en": "At Suppressor"
       },
       "description": {
@@ -2259,7 +2259,7 @@
     {
       "id": "black_money",
       "name": {
-        "fr": "Black Money",
+        "fr": "argent noir",
         "en": "Black Money"
       },
       "description": {
@@ -2275,7 +2275,7 @@
     {
       "id": "burger_chicken",
       "name": {
-        "fr": "Burger Chicken",
+        "fr": "Burger Poulet",
         "en": "Burger Chicken"
       },
       "description": {
@@ -2291,7 +2291,7 @@
     {
       "id": "card_id",
       "name": {
-        "fr": "Card Id",
+        "fr": "carte d'identité",
         "en": "Card Id"
       },
       "description": {
@@ -2323,7 +2323,7 @@
     {
       "id": "cocaine",
       "name": {
-        "fr": "Cocaine",
+        "fr": "Cocaïne",
         "en": "Cocaine"
       },
       "description": {
@@ -2339,7 +2339,7 @@
     {
       "id": "fries",
       "name": {
-        "fr": "Fries",
+        "fr": "Frites",
         "en": "Fries"
       },
       "description": {
@@ -2355,7 +2355,7 @@
     {
       "id": "garbage",
       "name": {
-        "fr": "Garbage",
+        "fr": "Poubelle",
         "en": "Garbage"
       },
       "description": {
@@ -2387,7 +2387,7 @@
     {
       "id": "money",
       "name": {
-        "fr": "Money",
+        "fr": "Argent",
         "en": "Money"
       },
       "description": {
@@ -2403,7 +2403,7 @@
     {
       "id": "mustard",
       "name": {
-        "fr": "Mustard",
+        "fr": "Moutarde",
         "en": "Mustard"
       },
       "description": {
@@ -2419,7 +2419,7 @@
     {
       "id": "oldkey",
       "name": {
-        "fr": "Oldkey",
+        "fr": "Clé usée",
         "en": "Oldkey"
       },
       "description": {
@@ -2435,7 +2435,7 @@
     {
       "id": "panties",
       "name": {
-        "fr": "Panties",
+        "fr": "Culotte",
         "en": "Panties"
       },
       "description": {
@@ -2451,7 +2451,7 @@
     {
       "id": "paperbag",
       "name": {
-        "fr": "Paperbag",
+        "fr": "Sac en papier",
         "en": "Paperbag"
       },
       "description": {
@@ -2483,7 +2483,7 @@
     {
       "id": "pizza_ham",
       "name": {
-        "fr": "Pizza Ham",
+        "fr": "Pizza Jambon",
         "en": "Pizza Ham"
       },
       "description": {
@@ -2499,7 +2499,7 @@
     {
       "id": "pizza_ham_box",
       "name": {
-        "fr": "Pizza Ham Box",
+        "fr": "Pizza Jambon Box",
         "en": "Pizza Ham Box"
       },
       "description": {
@@ -2515,7 +2515,7 @@
     {
       "id": "pizza_ham_slice",
       "name": {
-        "fr": "Pizza Ham Slice",
+        "fr": "Pizza Jambon Slice",
         "en": "Pizza Ham Slice"
       },
       "description": {
@@ -2531,7 +2531,7 @@
     {
       "id": "scrapmetal",
       "name": {
-        "fr": "Scrapmetal",
+        "fr": "Ferraille",
         "en": "Scrapmetal"
       },
       "description": {
@@ -2547,7 +2547,7 @@
     {
       "id": "trash",
       "name": {
-        "fr": "Trash",
+        "fr": "Déchets",
         "en": "Trash"
       },
       "description": {
@@ -2563,7 +2563,7 @@
     {
       "id": "trash_bread",
       "name": {
-        "fr": "Trash Bread",
+        "fr": "Trash Pain",
         "en": "Trash Bread"
       },
       "description": {
@@ -2579,7 +2579,7 @@
     {
       "id": "trash_burger",
       "name": {
-        "fr": "Trash Burger",
+        "fr": "Burger de fast-food",
         "en": "Trash Burger"
       },
       "description": {
@@ -2595,7 +2595,7 @@
     {
       "id": "trash_can",
       "name": {
-        "fr": "Trash Can",
+        "fr": "Trash Canette",
         "en": "Trash Can"
       },
       "description": {
@@ -2611,7 +2611,7 @@
     {
       "id": "water",
       "name": {
-        "fr": "Water",
+        "fr": "Eau",
         "en": "Water"
       },
       "description": {
@@ -2627,7 +2627,7 @@
     {
       "id": "weed",
       "name": {
-        "fr": "Weed",
+        "fr": "Herbe",
         "en": "Weed"
       },
       "description": {
@@ -2643,7 +2643,7 @@
     {
       "id": "ziptie",
       "name": {
-        "fr": "Ziptie",
+        "fr": "Collier de serrage",
         "en": "Ziptie"
       },
       "description": {
@@ -2659,7 +2659,7 @@
     {
       "id": "10kgoldchain",
       "name": {
-        "fr": "10kgoldchain",
+        "fr": "chaîne en or de 10 kg",
         "en": "10kgoldchain"
       },
       "description": {
@@ -2675,7 +2675,7 @@
     {
       "id": "acetone",
       "name": {
-        "fr": "Acetone",
+        "fr": "Acétone",
         "en": "Acetone"
       },
       "description": {
@@ -2691,7 +2691,7 @@
     {
       "id": "advancedlockpick",
       "name": {
-        "fr": "Advancedlockpick",
+        "fr": "Crochet de serrure avancé",
         "en": "Advancedlockpick"
       },
       "description": {
@@ -2707,7 +2707,7 @@
     {
       "id": "advscope_attachment",
       "name": {
-        "fr": "Advscope Attachment",
+        "fr": "Advscope Accessoire",
         "en": "Advscope Attachment"
       },
       "description": {
@@ -2723,7 +2723,7 @@
     {
       "id": "aluminumoxide",
       "name": {
-        "fr": "Aluminumoxide",
+        "fr": "Oxyde d'aluminium",
         "en": "Aluminumoxide"
       },
       "description": {
@@ -2739,7 +2739,7 @@
     {
       "id": "antipatharia_coral",
       "name": {
-        "fr": "Antipatharia Coral",
+        "fr": "corail antipatharia",
         "en": "Antipatharia Coral"
       },
       "description": {
@@ -2755,7 +2755,7 @@
     {
       "id": "armor",
       "name": {
-        "fr": "Armor",
+        "fr": "Gilet pare-balles",
         "en": "Armor"
       },
       "description": {
@@ -2771,7 +2771,7 @@
     {
       "id": "bank_card",
       "name": {
-        "fr": "Bank Card",
+        "fr": "carte bancaire",
         "en": "Bank Card"
       },
       "description": {
@@ -2787,7 +2787,7 @@
     {
       "id": "barrel_attachment",
       "name": {
-        "fr": "Barrel Attachment",
+        "fr": "Canon Accessoire",
         "en": "Barrel Attachment"
       },
       "description": {
@@ -2803,7 +2803,7 @@
     {
       "id": "beer",
       "name": {
-        "fr": "Beer",
+        "fr": "Bière",
         "en": "Beer"
       },
       "description": {
@@ -2819,7 +2819,7 @@
     {
       "id": "bellend_muzzle_brake",
       "name": {
-        "fr": "Bellend Muzzle Brake",
+        "fr": "Bellend Bouchon de canon Frein",
         "en": "Bellend Muzzle Brake"
       },
       "description": {
@@ -2835,7 +2835,7 @@
     {
       "id": "binoculars",
       "name": {
-        "fr": "Binoculars",
+        "fr": "Jumelles",
         "en": "Binoculars"
       },
       "description": {
@@ -2851,7 +2851,7 @@
     {
       "id": "boomcamo_attachment",
       "name": {
-        "fr": "Boomcamo Attachment",
+        "fr": "Camouflage Accessoire",
         "en": "Boomcamo Attachment"
       },
       "description": {
@@ -2867,7 +2867,7 @@
     {
       "id": "brushcamo_attachment",
       "name": {
-        "fr": "Brushcamo Attachment",
+        "fr": "Camouflage Accessoire",
         "en": "Brushcamo Attachment"
       },
       "description": {
@@ -2883,7 +2883,7 @@
     {
       "id": "certificate",
       "name": {
-        "fr": "Certificate",
+        "fr": "Certificat",
         "en": "Certificate"
       },
       "description": {
@@ -2899,7 +2899,7 @@
     {
       "id": "cleaningkit",
       "name": {
-        "fr": "Cleaningkit",
+        "fr": "Kit de nettoyage",
         "en": "Cleaningkit"
       },
       "description": {
@@ -2915,7 +2915,7 @@
     {
       "id": "clip_attachment",
       "name": {
-        "fr": "Clip Attachment",
+        "fr": "Chargeur Accessoire",
         "en": "Clip Attachment"
       },
       "description": {
@@ -2931,7 +2931,7 @@
     {
       "id": "cocaine_baggy",
       "name": {
-        "fr": "Cocaine Baggy",
+        "fr": "Cocaïne Pochon",
         "en": "Cocaine Baggy"
       },
       "description": {
@@ -2947,7 +2947,7 @@
     {
       "id": "cocaineleaf",
       "name": {
-        "fr": "Cocaineleaf",
+        "fr": "Feuille de coca",
         "en": "Cocaineleaf"
       },
       "description": {
@@ -2963,7 +2963,7 @@
     {
       "id": "coke_small_brick",
       "name": {
-        "fr": "Coke Small Brick",
+        "fr": "Cocaïne Petite Brique",
         "en": "Coke Small Brick"
       },
       "description": {
@@ -2979,7 +2979,7 @@
     {
       "id": "comp_attachment",
       "name": {
-        "fr": "Comp Attachment",
+        "fr": "Comp Accessoire",
         "en": "Comp Attachment"
       },
       "description": {
@@ -2995,7 +2995,7 @@
     {
       "id": "copper",
       "name": {
-        "fr": "Copper",
+        "fr": "Cuivre",
         "en": "Copper"
       },
       "description": {
@@ -3011,7 +3011,7 @@
     {
       "id": "crack_baggy",
       "name": {
-        "fr": "Crack Baggy",
+        "fr": "Crack Pochon",
         "en": "Crack Baggy"
       },
       "description": {
@@ -3027,7 +3027,7 @@
     {
       "id": "cryptostick",
       "name": {
-        "fr": "Cryptostick",
+        "fr": "Clé crypto",
         "en": "Cryptostick"
       },
       "description": {
@@ -3043,7 +3043,7 @@
     {
       "id": "dendrogyra_coral",
       "name": {
-        "fr": "Dendrogyra Coral",
+        "fr": "Corail dendrogyra",
         "en": "Dendrogyra Coral"
       },
       "description": {
@@ -3059,7 +3059,7 @@
     {
       "id": "digicamo_attachment",
       "name": {
-        "fr": "Digicamo Attachment",
+        "fr": "Digicamo Accessoire",
         "en": "Digicamo Attachment"
       },
       "description": {
@@ -3075,7 +3075,7 @@
     {
       "id": "diving_gear",
       "name": {
-        "fr": "Diving Gear",
+        "fr": "Plongée Gear",
         "en": "Diving Gear"
       },
       "description": {
@@ -3091,7 +3091,7 @@
     {
       "id": "diving_tube",
       "name": {
-        "fr": "Diving Tube",
+        "fr": "Plongée Tube",
         "en": "Diving Tube"
       },
       "description": {
@@ -3107,7 +3107,7 @@
     {
       "id": "drill",
       "name": {
-        "fr": "Drill",
+        "fr": "Perceuse",
         "en": "Drill"
       },
       "description": {
@@ -3123,7 +3123,7 @@
     {
       "id": "drum_attachment",
       "name": {
-        "fr": "Drum Attachment",
+        "fr": "Tambour Accessoire",
         "en": "Drum Attachment"
       },
       "description": {
@@ -3139,7 +3139,7 @@
     {
       "id": "electronickit",
       "name": {
-        "fr": "Electronickit",
+        "fr": "Kit électronique",
         "en": "Electronickit"
       },
       "description": {
@@ -3155,7 +3155,7 @@
     {
       "id": "ephedrine",
       "name": {
-        "fr": "Ephedrine",
+        "fr": "Éphédrine",
         "en": "Ephedrine"
       },
       "description": {
@@ -3171,7 +3171,7 @@
     {
       "id": "evidence",
       "name": {
-        "fr": "Evidence",
+        "fr": "Preuve",
         "en": "Evidence"
       },
       "description": {
@@ -3187,7 +3187,7 @@
     {
       "id": "fat_end_muzzle_brake",
       "name": {
-        "fr": "Fat End Muzzle Brake",
+        "fr": "Large Extrémité Bouchon de canon Frein",
         "en": "Fat End Muzzle Brake"
       },
       "description": {
@@ -3203,7 +3203,7 @@
     {
       "id": "firework1",
       "name": {
-        "fr": "Firework1",
+        "fr": "Feu d'artifice 1",
         "en": "Firework1"
       },
       "description": {
@@ -3219,7 +3219,7 @@
     {
       "id": "firework2",
       "name": {
-        "fr": "Firework2",
+        "fr": "Feu d'artifice 2",
         "en": "Firework2"
       },
       "description": {
@@ -3235,7 +3235,7 @@
     {
       "id": "firework3",
       "name": {
-        "fr": "Firework3",
+        "fr": "Feu d'artifice 3",
         "en": "Firework3"
       },
       "description": {
@@ -3251,7 +3251,7 @@
     {
       "id": "firework4",
       "name": {
-        "fr": "Firework4",
+        "fr": "Feu d'artifice 4",
         "en": "Firework4"
       },
       "description": {
@@ -3267,7 +3267,7 @@
     {
       "id": "firstaid",
       "name": {
-        "fr": "Firstaid",
+        "fr": "Trousse de premiers soins",
         "en": "Firstaid"
       },
       "description": {
@@ -3299,7 +3299,7 @@
     {
       "id": "flashlight_attachment",
       "name": {
-        "fr": "Flashlight Attachment",
+        "fr": "Lampe torche Accessoire",
         "en": "Flashlight Attachment"
       },
       "description": {
@@ -3315,7 +3315,7 @@
     {
       "id": "flat_muzzle_brake",
       "name": {
-        "fr": "Flat Muzzle Brake",
+        "fr": "Plat Bouchon de canon Frein",
         "en": "Flat Muzzle Brake"
       },
       "description": {
@@ -3331,7 +3331,7 @@
     {
       "id": "geocamo_attachment",
       "name": {
-        "fr": "Geocamo Attachment",
+        "fr": "Geocamo Accessoire",
         "en": "Geocamo Attachment"
       },
       "description": {
@@ -3347,7 +3347,7 @@
     {
       "id": "glass",
       "name": {
-        "fr": "Glass",
+        "fr": "Verre",
         "en": "Glass"
       },
       "description": {
@@ -3363,7 +3363,7 @@
     {
       "id": "goldchain",
       "name": {
-        "fr": "Goldchain",
+        "fr": "Chaîne en or",
         "en": "Goldchain"
       },
       "description": {
@@ -3379,7 +3379,7 @@
     {
       "id": "grip_attachment",
       "name": {
-        "fr": "Grip Attachment",
+        "fr": "Poignée Accessoire",
         "en": "Grip Attachment"
       },
       "description": {
@@ -3395,7 +3395,7 @@
     {
       "id": "harness",
       "name": {
-        "fr": "Harness",
+        "fr": "Harnais",
         "en": "Harness"
       },
       "description": {
@@ -3411,7 +3411,7 @@
     {
       "id": "heavy_duty_muzzle_brake",
       "name": {
-        "fr": "Heavy Duty Muzzle Brake",
+        "fr": "Lourd Duty Bouchon de canon Frein",
         "en": "Heavy Duty Muzzle Brake"
       },
       "description": {
@@ -3427,7 +3427,7 @@
     {
       "id": "holoscope_attachment",
       "name": {
-        "fr": "Holoscope Attachment",
+        "fr": "Holoscope Accessoire",
         "en": "Holoscope Attachment"
       },
       "description": {
@@ -3443,7 +3443,7 @@
     {
       "id": "hydrochloricacid",
       "name": {
-        "fr": "Hydrochloricacid",
+        "fr": "Acide chlorhydrique",
         "en": "Hydrochloricacid"
       },
       "description": {
@@ -3459,7 +3459,7 @@
     {
       "id": "ifaks",
       "name": {
-        "fr": "Ifaks",
+        "fr": "Trousse de secours",
         "en": "Ifaks"
       },
       "description": {
@@ -3475,7 +3475,7 @@
     {
       "id": "iphone",
       "name": {
-        "fr": "Iphone",
+        "fr": "iPhone",
         "en": "Iphone"
       },
       "description": {
@@ -3491,7 +3491,7 @@
     {
       "id": "iron",
       "name": {
-        "fr": "Iron",
+        "fr": "Fer",
         "en": "Iron"
       },
       "description": {
@@ -3507,7 +3507,7 @@
     {
       "id": "ironoxide",
       "name": {
-        "fr": "Ironoxide",
+        "fr": "Oxyde de fer",
         "en": "Ironoxide"
       },
       "description": {
@@ -3523,7 +3523,7 @@
     {
       "id": "jerry_can",
       "name": {
-        "fr": "Jerry Can",
+        "fr": "Jerry Canette",
         "en": "Jerry Can"
       },
       "description": {
@@ -3555,7 +3555,7 @@
     {
       "id": "labkey",
       "name": {
-        "fr": "Labkey",
+        "fr": "Clé de laboratoire",
         "en": "Labkey"
       },
       "description": {
@@ -3571,7 +3571,7 @@
     {
       "id": "laptop",
       "name": {
-        "fr": "Laptop",
+        "fr": "Ordinateur portable",
         "en": "Laptop"
       },
       "description": {
@@ -3587,7 +3587,7 @@
     {
       "id": "largescope_attachment",
       "name": {
-        "fr": "Largescope Attachment",
+        "fr": "Largescope Accessoire",
         "en": "Largescope Attachment"
       },
       "description": {
@@ -3603,7 +3603,7 @@
     {
       "id": "lawyerpass",
       "name": {
-        "fr": "Lawyerpass",
+        "fr": "Badge d'avocat",
         "en": "Lawyerpass"
       },
       "description": {
@@ -3619,7 +3619,7 @@
     {
       "id": "leopardcamo_attachment",
       "name": {
-        "fr": "Leopardcamo Attachment",
+        "fr": "Leopardcamo Accessoire",
         "en": "Leopardcamo Attachment"
       },
       "description": {
@@ -3635,7 +3635,7 @@
     {
       "id": "markedbills",
       "name": {
-        "fr": "Markedbills",
+        "fr": "Billets marqués",
         "en": "Markedbills"
       },
       "description": {
@@ -3651,7 +3651,7 @@
     {
       "id": "medscope_attachment",
       "name": {
-        "fr": "Medscope Attachment",
+        "fr": "Medscope Accessoire",
         "en": "Medscope Attachment"
       },
       "description": {
@@ -3667,7 +3667,7 @@
     {
       "id": "metalscrap",
       "name": {
-        "fr": "Metalscrap",
+        "fr": "Ferraille",
         "en": "Metalscrap"
       },
       "description": {
@@ -3683,7 +3683,7 @@
     {
       "id": "meth_baggy",
       "name": {
-        "fr": "Meth Baggy",
+        "fr": "Meth — pochon",
         "en": "Meth Baggy"
       },
       "description": {
@@ -3699,7 +3699,7 @@
     {
       "id": "mg_ammo",
       "name": {
-        "fr": "Mg Ammo",
+        "fr": "Mitrailleuse Munitions",
         "en": "Mg Ammo"
       },
       "description": {
@@ -3715,7 +3715,7 @@
     {
       "id": "moneybag",
       "name": {
-        "fr": "Moneybag",
+        "fr": "Sac d'argent",
         "en": "Moneybag"
       },
       "description": {
@@ -3731,7 +3731,7 @@
     {
       "id": "newsbmic",
       "name": {
-        "fr": "Newsbmic",
+        "fr": "Caméra de reportage",
         "en": "Newsbmic"
       },
       "description": {
@@ -3747,7 +3747,7 @@
     {
       "id": "newscam",
       "name": {
-        "fr": "Newscam",
+        "fr": "Caméra de reportage",
         "en": "Newscam"
       },
       "description": {
@@ -3763,7 +3763,7 @@
     {
       "id": "newsmic",
       "name": {
-        "fr": "Newsmic",
+        "fr": "Micro de reportage",
         "en": "Newsmic"
       },
       "description": {
@@ -3779,7 +3779,7 @@
     {
       "id": "nitrous",
       "name": {
-        "fr": "Nitrous",
+        "fr": "Protoxyde d'azote",
         "en": "Nitrous"
       },
       "description": {
@@ -3795,7 +3795,7 @@
     {
       "id": "nvscope_attachment",
       "name": {
-        "fr": "Nvscope Attachment",
+        "fr": "Nvscope Accessoire",
         "en": "Nvscope Attachment"
       },
       "description": {
@@ -3827,7 +3827,7 @@
     {
       "id": "patriotcamo_attachment",
       "name": {
-        "fr": "Patriotcamo Attachment",
+        "fr": "Patriotcamo Accessoire",
         "en": "Patriotcamo Attachment"
       },
       "description": {
@@ -3843,7 +3843,7 @@
     {
       "id": "perseuscamo_attachment",
       "name": {
-        "fr": "Perseuscamo Attachment",
+        "fr": "Perseuscamo Accessoire",
         "en": "Perseuscamo Attachment"
       },
       "description": {
@@ -3859,7 +3859,7 @@
     {
       "id": "pinger",
       "name": {
-        "fr": "Pinger",
+        "fr": "Traceur GPS",
         "en": "Pinger"
       },
       "description": {
@@ -3875,7 +3875,7 @@
     {
       "id": "pistol_ammo",
       "name": {
-        "fr": "Pistol Ammo",
+        "fr": "Pistolet Munitions",
         "en": "Pistol Ammo"
       },
       "description": {
@@ -3891,7 +3891,7 @@
     {
       "id": "police_stormram",
       "name": {
-        "fr": "Police Stormram",
+        "fr": "Bélier anti-barricade",
         "en": "Police Stormram"
       },
       "description": {
@@ -3907,7 +3907,7 @@
     {
       "id": "precision_muzzle_brake",
       "name": {
-        "fr": "Precision Muzzle Brake",
+        "fr": "Précision Bouchon de canon Frein",
         "en": "Precision Muzzle Brake"
       },
       "description": {
@@ -3923,7 +3923,7 @@
     {
       "id": "printerdocument",
       "name": {
-        "fr": "Printerdocument",
+        "fr": "Document imprimé",
         "en": "Printerdocument"
       },
       "description": {
@@ -3939,7 +3939,7 @@
     {
       "id": "radioscanner",
       "name": {
-        "fr": "Radioscanner",
+        "fr": "Scanner radio",
         "en": "Radioscanner"
       },
       "description": {
@@ -3955,7 +3955,7 @@
     {
       "id": "repairkit",
       "name": {
-        "fr": "Repairkit",
+        "fr": "Kit de réparation",
         "en": "Repairkit"
       },
       "description": {
@@ -3971,7 +3971,7 @@
     {
       "id": "rifle_ammo",
       "name": {
-        "fr": "Rifle Ammo",
+        "fr": "Fusil Munitions",
         "en": "Rifle Ammo"
       },
       "description": {
@@ -3987,7 +3987,7 @@
     {
       "id": "rolling_paper",
       "name": {
-        "fr": "Rolling Paper",
+        "fr": "Papier à rouler",
         "en": "Rolling Paper"
       },
       "description": {
@@ -4003,7 +4003,7 @@
     {
       "id": "rubber",
       "name": {
-        "fr": "Rubber",
+        "fr": "Caoutchouc",
         "en": "Rubber"
       },
       "description": {
@@ -4019,7 +4019,7 @@
     {
       "id": "samsungphone",
       "name": {
-        "fr": "Samsungphone",
+        "fr": "Téléphone Samsung",
         "en": "Samsungphone"
       },
       "description": {
@@ -4035,7 +4035,7 @@
     {
       "id": "screwdriverset",
       "name": {
-        "fr": "Screwdriverset",
+        "fr": "Tournevis",
         "en": "Screwdriverset"
       },
       "description": {
@@ -4051,7 +4051,7 @@
     {
       "id": "security_card_01",
       "name": {
-        "fr": "Security Card 01",
+        "fr": "Sécurité Carte I",
         "en": "Security Card 01"
       },
       "description": {
@@ -4067,7 +4067,7 @@
     {
       "id": "security_card_02",
       "name": {
-        "fr": "Security Card 02",
+        "fr": "Sécurité Carte II",
         "en": "Security Card 02"
       },
       "description": {
@@ -4083,7 +4083,7 @@
     {
       "id": "sessantacamo_attachment",
       "name": {
-        "fr": "Sessantacamo Attachment",
+        "fr": "Sessantacamo Accessoire",
         "en": "Sessantacamo Attachment"
       },
       "description": {
@@ -4099,7 +4099,7 @@
     {
       "id": "shotgun_ammo",
       "name": {
-        "fr": "Shotgun Ammo",
+        "fr": "Fusil Munitions",
         "en": "Shotgun Ammo"
       },
       "description": {
@@ -4115,7 +4115,7 @@
     {
       "id": "skullcamo_attachment",
       "name": {
-        "fr": "Skullcamo Attachment",
+        "fr": "Skullcamo Accessoire",
         "en": "Skullcamo Attachment"
       },
       "description": {
@@ -4131,7 +4131,7 @@
     {
       "id": "slanted_muzzle_brake",
       "name": {
-        "fr": "Slanted Muzzle Brake",
+        "fr": "Oblique Bouchon de canon Frein",
         "en": "Slanted Muzzle Brake"
       },
       "description": {
@@ -4147,7 +4147,7 @@
     {
       "id": "smallscope_attachment",
       "name": {
-        "fr": "Smallscope Attachment",
+        "fr": "Smallscope Accessoire",
         "en": "Smallscope Attachment"
       },
       "description": {
@@ -4163,7 +4163,7 @@
     {
       "id": "smg_ammo",
       "name": {
-        "fr": "Smg Ammo",
+        "fr": "Mitraillette Munitions",
         "en": "Smg Ammo"
       },
       "description": {
@@ -4179,7 +4179,7 @@
     {
       "id": "snikkel_candy",
       "name": {
-        "fr": "Snikkel Candy",
+        "fr": "Snikkel Bonbon",
         "en": "Snikkel Candy"
       },
       "description": {
@@ -4195,7 +4195,7 @@
     {
       "id": "snowball",
       "name": {
-        "fr": "Snowball",
+        "fr": "boule de neige",
         "en": "Snowball"
       },
       "description": {
@@ -4211,7 +4211,7 @@
     {
       "id": "split_end_muzzle_brake",
       "name": {
-        "fr": "Split End Muzzle Brake",
+        "fr": "Fendu Extrémité Bouchon de canon Frein",
         "en": "Split End Muzzle Brake"
       },
       "description": {
@@ -4227,7 +4227,7 @@
     {
       "id": "squared_muzzle_brake",
       "name": {
-        "fr": "Squared Muzzle Brake",
+        "fr": "Carré Bouchon de canon Frein",
         "en": "Squared Muzzle Brake"
       },
       "description": {
@@ -4243,7 +4243,7 @@
     {
       "id": "steel",
       "name": {
-        "fr": "Steel",
+        "fr": "Acier",
         "en": "Steel"
       },
       "description": {
@@ -4259,7 +4259,7 @@
     {
       "id": "stickynote",
       "name": {
-        "fr": "Stickynote",
+        "fr": "Note autocollante",
         "en": "Stickynote"
       },
       "description": {
@@ -4275,7 +4275,7 @@
     {
       "id": "suppressor_attachment",
       "name": {
-        "fr": "Suppressor Attachment",
+        "fr": "Silencieux Accessoire",
         "en": "Suppressor Attachment"
       },
       "description": {
@@ -4291,7 +4291,7 @@
     {
       "id": "tablet",
       "name": {
-        "fr": "Tablet",
+        "fr": "Tablette",
         "en": "Tablet"
       },
       "description": {
@@ -4307,7 +4307,7 @@
     {
       "id": "tactical_muzzle_brake",
       "name": {
-        "fr": "Tactical Muzzle Brake",
+        "fr": "Tactique Bouchon de canon Frein",
         "en": "Tactical Muzzle Brake"
       },
       "description": {
@@ -4323,7 +4323,7 @@
     {
       "id": "thermalscope_attachment",
       "name": {
-        "fr": "Thermalscope Attachment",
+        "fr": "Thermalscope Accessoire",
         "en": "Thermalscope Attachment"
       },
       "description": {
@@ -4355,7 +4355,7 @@
     {
       "id": "tirerepairkit",
       "name": {
-        "fr": "Tirerepairkit",
+        "fr": "Kit de réparation de pneu",
         "en": "Tirerepairkit"
       },
       "description": {
@@ -4371,7 +4371,7 @@
     {
       "id": "twerks_candy",
       "name": {
-        "fr": "Twerks Candy",
+        "fr": "Twerks Bonbon",
         "en": "Twerks Candy"
       },
       "description": {
@@ -4387,7 +4387,7 @@
     {
       "id": "usb_device",
       "name": {
-        "fr": "Usb Device",
+        "fr": "Clé USB Device",
         "en": "Usb Device"
       },
       "description": {
@@ -4403,7 +4403,7 @@
     {
       "id": "veh_armor",
       "name": {
-        "fr": "Veh Armor",
+        "fr": "Véhicule Gilet pare-balles",
         "en": "Veh Armor"
       },
       "description": {
@@ -4419,7 +4419,7 @@
     {
       "id": "veh_brakes",
       "name": {
-        "fr": "Veh Brakes",
+        "fr": "Véhicule Brakes",
         "en": "Veh Brakes"
       },
       "description": {
@@ -4435,7 +4435,7 @@
     {
       "id": "veh_engine",
       "name": {
-        "fr": "Veh Engine",
+        "fr": "Véhicule Engine",
         "en": "Veh Engine"
       },
       "description": {
@@ -4451,7 +4451,7 @@
     {
       "id": "veh_exterior",
       "name": {
-        "fr": "Veh Exterior",
+        "fr": "Véhicule Exterior",
         "en": "Veh Exterior"
       },
       "description": {
@@ -4467,7 +4467,7 @@
     {
       "id": "veh_interior",
       "name": {
-        "fr": "Veh Interior",
+        "fr": "Véhicule Interior",
         "en": "Veh Interior"
       },
       "description": {
@@ -4483,7 +4483,7 @@
     {
       "id": "veh_neons",
       "name": {
-        "fr": "Veh Neons",
+        "fr": "Véhicule Neons",
         "en": "Veh Neons"
       },
       "description": {
@@ -4499,7 +4499,7 @@
     {
       "id": "veh_plates",
       "name": {
-        "fr": "Veh Plates",
+        "fr": "Véhicule Plates",
         "en": "Veh Plates"
       },
       "description": {
@@ -4515,7 +4515,7 @@
     {
       "id": "veh_suspension",
       "name": {
-        "fr": "Veh Suspension",
+        "fr": "Véhicule Suspension",
         "en": "Veh Suspension"
       },
       "description": {
@@ -4531,7 +4531,7 @@
     {
       "id": "veh_tint",
       "name": {
-        "fr": "Veh Tint",
+        "fr": "Véhicule Tint",
         "en": "Veh Tint"
       },
       "description": {
@@ -4547,7 +4547,7 @@
     {
       "id": "veh_toolbox",
       "name": {
-        "fr": "Veh Toolbox",
+        "fr": "Véhicule Toolbox",
         "en": "Veh Toolbox"
       },
       "description": {
@@ -4563,7 +4563,7 @@
     {
       "id": "veh_transmission",
       "name": {
-        "fr": "Veh Transmission",
+        "fr": "Véhicule Transmission",
         "en": "Veh Transmission"
       },
       "description": {
@@ -4579,7 +4579,7 @@
     {
       "id": "veh_turbo",
       "name": {
-        "fr": "Veh Turbo",
+        "fr": "Véhicule Turbo",
         "en": "Veh Turbo"
       },
       "description": {
@@ -4595,7 +4595,7 @@
     {
       "id": "veh_wheels",
       "name": {
-        "fr": "Veh Wheels",
+        "fr": "Véhicule Wheels",
         "en": "Veh Wheels"
       },
       "description": {
@@ -4611,7 +4611,7 @@
     {
       "id": "veh_xenons",
       "name": {
-        "fr": "Veh Xenons",
+        "fr": "Véhicule Xenons",
         "en": "Veh Xenons"
       },
       "description": {
@@ -4627,7 +4627,7 @@
     {
       "id": "walkstick",
       "name": {
-        "fr": "Walkstick",
+        "fr": "Canne de marche",
         "en": "Walkstick"
       },
       "description": {
@@ -4643,7 +4643,7 @@
     {
       "id": "water_bottle",
       "name": {
-        "fr": "Water Bottle",
+        "fr": "Eau Bouteille",
         "en": "Water Bottle"
       },
       "description": {
@@ -4659,7 +4659,7 @@
     {
       "id": "weapon_acidpackage",
       "name": {
-        "fr": "Weapon Acidpackage",
+        "fr": "Arme Acidpackage",
         "en": "Weapon Acidpackage"
       },
       "description": {
@@ -4677,7 +4677,7 @@
     {
       "id": "weapon_advancedrifle",
       "name": {
-        "fr": "Weapon Advancedrifle",
+        "fr": "Arme Advancedrifle",
         "en": "Weapon Advancedrifle"
       },
       "description": {
@@ -4695,7 +4695,7 @@
     {
       "id": "weapon_assaultrifle",
       "name": {
-        "fr": "Weapon Assaultrifle",
+        "fr": "Arme Fusil d'assaut",
         "en": "Weapon Assaultrifle"
       },
       "description": {
@@ -4713,7 +4713,7 @@
     {
       "id": "weapon_assaultrifle_mk2",
       "name": {
-        "fr": "Weapon Assaultrifle Mk2",
+        "fr": "Arme Fusil d'assaut MK2",
         "en": "Weapon Assaultrifle Mk2"
       },
       "description": {
@@ -4731,7 +4731,7 @@
     {
       "id": "weapon_assaultshotgun",
       "name": {
-        "fr": "Weapon Assaultshotgun",
+        "fr": "Arme Assaultshotgun",
         "en": "Weapon Assaultshotgun"
       },
       "description": {
@@ -4749,7 +4749,7 @@
     {
       "id": "weapon_assaultsmg",
       "name": {
-        "fr": "Weapon Assaultsmg",
+        "fr": "Arme Assaultsmg",
         "en": "Weapon Assaultsmg"
       },
       "description": {
@@ -4767,7 +4767,7 @@
     {
       "id": "weapon_autoshotgun",
       "name": {
-        "fr": "Weapon Autoshotgun",
+        "fr": "Arme Autoshotgun",
         "en": "Weapon Autoshotgun"
       },
       "description": {
@@ -4785,7 +4785,7 @@
     {
       "id": "weapon_ball",
       "name": {
-        "fr": "Weapon Ball",
+        "fr": "Arme Ball",
         "en": "Weapon Ball"
       },
       "description": {
@@ -4803,7 +4803,7 @@
     {
       "id": "weapon_bat",
       "name": {
-        "fr": "Weapon Bat",
+        "fr": "Arme Bat",
         "en": "Weapon Bat"
       },
       "description": {
@@ -4821,7 +4821,7 @@
     {
       "id": "weapon_battleaxe",
       "name": {
-        "fr": "Weapon Battleaxe",
+        "fr": "Arme Battleaxe",
         "en": "Weapon Battleaxe"
       },
       "description": {
@@ -4839,7 +4839,7 @@
     {
       "id": "weapon_bottle",
       "name": {
-        "fr": "Weapon Bottle",
+        "fr": "Arme Bouteille",
         "en": "Weapon Bottle"
       },
       "description": {
@@ -4857,7 +4857,7 @@
     {
       "id": "weapon_bread",
       "name": {
-        "fr": "Weapon Bread",
+        "fr": "Arme Pain",
         "en": "Weapon Bread"
       },
       "description": {
@@ -4875,7 +4875,7 @@
     {
       "id": "weapon_briefcase",
       "name": {
-        "fr": "Weapon Briefcase",
+        "fr": "Arme Mallette",
         "en": "Weapon Briefcase"
       },
       "description": {
@@ -4893,7 +4893,7 @@
     {
       "id": "weapon_briefcase_02",
       "name": {
-        "fr": "Weapon Briefcase 02",
+        "fr": "Arme Mallette II",
         "en": "Weapon Briefcase 02"
       },
       "description": {
@@ -4911,7 +4911,7 @@
     {
       "id": "weapon_bullpuprifle",
       "name": {
-        "fr": "Weapon Bullpuprifle",
+        "fr": "Arme Fusil bullpup",
         "en": "Weapon Bullpuprifle"
       },
       "description": {
@@ -4929,7 +4929,7 @@
     {
       "id": "weapon_bullpuprifle_mk2",
       "name": {
-        "fr": "Weapon Bullpuprifle Mk2",
+        "fr": "Arme Fusil bullpup MK2",
         "en": "Weapon Bullpuprifle Mk2"
       },
       "description": {
@@ -4947,7 +4947,7 @@
     {
       "id": "weapon_bullpupshotgun",
       "name": {
-        "fr": "Weapon Bullpupshotgun",
+        "fr": "Arme Bullpupshotgun",
         "en": "Weapon Bullpupshotgun"
       },
       "description": {
@@ -4965,7 +4965,7 @@
     {
       "id": "weapon_bzgas",
       "name": {
-        "fr": "Weapon Bzgas",
+        "fr": "Arme Bzgas",
         "en": "Weapon Bzgas"
       },
       "description": {
@@ -4983,7 +4983,7 @@
     {
       "id": "weapon_candycane",
       "name": {
-        "fr": "Weapon Candycane",
+        "fr": "Arme Candycane",
         "en": "Weapon Candycane"
       },
       "description": {
@@ -5001,7 +5001,7 @@
     {
       "id": "weapon_carbinerifle",
       "name": {
-        "fr": "Weapon Carbinerifle",
+        "fr": "Arme Carabine",
         "en": "Weapon Carbinerifle"
       },
       "description": {
@@ -5019,7 +5019,7 @@
     {
       "id": "weapon_carbinerifle_mk2",
       "name": {
-        "fr": "Weapon Carbinerifle Mk2",
+        "fr": "Arme Carabine MK2",
         "en": "Weapon Carbinerifle Mk2"
       },
       "description": {
@@ -5037,7 +5037,7 @@
     {
       "id": "weapon_ceramicpistol",
       "name": {
-        "fr": "Weapon Ceramicpistol",
+        "fr": "Arme Ceramicpistol",
         "en": "Weapon Ceramicpistol"
       },
       "description": {
@@ -5055,7 +5055,7 @@
     {
       "id": "weapon_combatmg",
       "name": {
-        "fr": "Weapon Combatmg",
+        "fr": "Arme Mitrailleuse de combat",
         "en": "Weapon Combatmg"
       },
       "description": {
@@ -5073,7 +5073,7 @@
     {
       "id": "weapon_combatmg_mk2",
       "name": {
-        "fr": "Weapon Combatmg Mk2",
+        "fr": "Arme Mitrailleuse de combat MK2",
         "en": "Weapon Combatmg Mk2"
       },
       "description": {
@@ -5091,7 +5091,7 @@
     {
       "id": "weapon_combatpdw",
       "name": {
-        "fr": "Weapon Combatpdw",
+        "fr": "Arme Combatpdw",
         "en": "Weapon Combatpdw"
       },
       "description": {
@@ -5109,7 +5109,7 @@
     {
       "id": "weapon_combatpistol",
       "name": {
-        "fr": "Weapon Combatpistol",
+        "fr": "Arme Combatpistol",
         "en": "Weapon Combatpistol"
       },
       "description": {
@@ -5127,7 +5127,7 @@
     {
       "id": "weapon_combatshotgun",
       "name": {
-        "fr": "Weapon Combatshotgun",
+        "fr": "Arme Combatshotgun",
         "en": "Weapon Combatshotgun"
       },
       "description": {
@@ -5145,7 +5145,7 @@
     {
       "id": "weapon_compactlauncher",
       "name": {
-        "fr": "Weapon Compactlauncher",
+        "fr": "Arme Compactlauncher",
         "en": "Weapon Compactlauncher"
       },
       "description": {
@@ -5163,7 +5163,7 @@
     {
       "id": "weapon_compactrifle",
       "name": {
-        "fr": "Weapon Compactrifle",
+        "fr": "Arme Compactrifle",
         "en": "Weapon Compactrifle"
       },
       "description": {
@@ -5181,7 +5181,7 @@
     {
       "id": "weapon_crowbar",
       "name": {
-        "fr": "Weapon Crowbar",
+        "fr": "Arme Crowbar",
         "en": "Weapon Crowbar"
       },
       "description": {
@@ -5199,7 +5199,7 @@
     {
       "id": "weapon_dagger",
       "name": {
-        "fr": "Weapon Dagger",
+        "fr": "Arme Dagger",
         "en": "Weapon Dagger"
       },
       "description": {
@@ -5217,7 +5217,7 @@
     {
       "id": "weapon_dbshotgun",
       "name": {
-        "fr": "Weapon Dbshotgun",
+        "fr": "Arme Dbshotgun",
         "en": "Weapon Dbshotgun"
       },
       "description": {
@@ -5235,7 +5235,7 @@
     {
       "id": "weapon_digiscanner",
       "name": {
-        "fr": "Weapon Digiscanner",
+        "fr": "Arme Digiscanner",
         "en": "Weapon Digiscanner"
       },
       "description": {
@@ -5253,7 +5253,7 @@
     {
       "id": "weapon_doubleaction",
       "name": {
-        "fr": "Weapon Doubleaction",
+        "fr": "Arme Doubleaction",
         "en": "Weapon Doubleaction"
       },
       "description": {
@@ -5271,7 +5271,7 @@
     {
       "id": "weapon_emplauncher",
       "name": {
-        "fr": "Weapon Emplauncher",
+        "fr": "Arme Emplauncher",
         "en": "Weapon Emplauncher"
       },
       "description": {
@@ -5289,7 +5289,7 @@
     {
       "id": "weapon_fertilizercan",
       "name": {
-        "fr": "Weapon Fertilizercan",
+        "fr": "Arme Fertilizercan",
         "en": "Weapon Fertilizercan"
       },
       "description": {
@@ -5307,7 +5307,7 @@
     {
       "id": "weapon_fireextinguisher",
       "name": {
-        "fr": "Weapon Fireextinguisher",
+        "fr": "Arme Fireextinguisher",
         "en": "Weapon Fireextinguisher"
       },
       "description": {
@@ -5325,7 +5325,7 @@
     {
       "id": "weapon_firework",
       "name": {
-        "fr": "Weapon Firework",
+        "fr": "Arme Feu d'artifice",
         "en": "Weapon Firework"
       },
       "description": {
@@ -5343,7 +5343,7 @@
     {
       "id": "weapon_flare",
       "name": {
-        "fr": "Weapon Flare",
+        "fr": "Arme Flare",
         "en": "Weapon Flare"
       },
       "description": {
@@ -5361,7 +5361,7 @@
     {
       "id": "weapon_flaregun",
       "name": {
-        "fr": "Weapon Flaregun",
+        "fr": "Arme Flaregun",
         "en": "Weapon Flaregun"
       },
       "description": {
@@ -5379,7 +5379,7 @@
     {
       "id": "weapon_flashlight",
       "name": {
-        "fr": "Weapon Flashlight",
+        "fr": "Arme Lampe torche",
         "en": "Weapon Flashlight"
       },
       "description": {
@@ -5397,7 +5397,7 @@
     {
       "id": "weapon_gadgetpistol",
       "name": {
-        "fr": "Weapon Gadgetpistol",
+        "fr": "Arme Gadgetpistol",
         "en": "Weapon Gadgetpistol"
       },
       "description": {
@@ -5415,7 +5415,7 @@
     {
       "id": "weapon_garbagebag",
       "name": {
-        "fr": "Weapon Garbagebag",
+        "fr": "Arme Garbagebag",
         "en": "Weapon Garbagebag"
       },
       "description": {
@@ -5433,7 +5433,7 @@
     {
       "id": "weapon_gas",
       "name": {
-        "fr": "Weapon Gas",
+        "fr": "Arme Gaz",
         "en": "Weapon Gas"
       },
       "description": {
@@ -5451,7 +5451,7 @@
     {
       "id": "weapon_golfclub",
       "name": {
-        "fr": "Weapon Golfclub",
+        "fr": "Arme Golfclub",
         "en": "Weapon Golfclub"
       },
       "description": {
@@ -5469,7 +5469,7 @@
     {
       "id": "weapon_grenadelauncher",
       "name": {
-        "fr": "Weapon Grenadelauncher",
+        "fr": "Arme Lance-grenades",
         "en": "Weapon Grenadelauncher"
       },
       "description": {
@@ -5487,7 +5487,7 @@
     {
       "id": "weapon_grenadelauncher_smoke",
       "name": {
-        "fr": "Weapon Grenadelauncher Smoke",
+        "fr": "Arme Lance-grenades Smoke",
         "en": "Weapon Grenadelauncher Smoke"
       },
       "description": {
@@ -5505,7 +5505,7 @@
     {
       "id": "weapon_hammer",
       "name": {
-        "fr": "Weapon Hammer",
+        "fr": "Arme Marteau",
         "en": "Weapon Hammer"
       },
       "description": {
@@ -5523,7 +5523,7 @@
     {
       "id": "weapon_handcuffs",
       "name": {
-        "fr": "Weapon Handcuffs",
+        "fr": "Arme Handcuffs",
         "en": "Weapon Handcuffs"
       },
       "description": {
@@ -5541,7 +5541,7 @@
     {
       "id": "weapon_hatchet",
       "name": {
-        "fr": "Weapon Hatchet",
+        "fr": "Arme Hachette",
         "en": "Weapon Hatchet"
       },
       "description": {
@@ -5559,7 +5559,7 @@
     {
       "id": "weapon_hazardcan",
       "name": {
-        "fr": "Weapon Hazardcan",
+        "fr": "Arme Hazardcan",
         "en": "Weapon Hazardcan"
       },
       "description": {
@@ -5577,7 +5577,7 @@
     {
       "id": "weapon_heavypistol",
       "name": {
-        "fr": "Weapon Heavypistol",
+        "fr": "Arme Heavypistol",
         "en": "Weapon Heavypistol"
       },
       "description": {
@@ -5595,7 +5595,7 @@
     {
       "id": "weapon_heavyrifle",
       "name": {
-        "fr": "Weapon Heavyrifle",
+        "fr": "Arme Heavyrifle",
         "en": "Weapon Heavyrifle"
       },
       "description": {
@@ -5613,7 +5613,7 @@
     {
       "id": "weapon_heavyshotgun",
       "name": {
-        "fr": "Weapon Heavyshotgun",
+        "fr": "Arme Heavyshotgun",
         "en": "Weapon Heavyshotgun"
       },
       "description": {
@@ -5631,7 +5631,7 @@
     {
       "id": "weapon_heavysniper",
       "name": {
-        "fr": "Weapon Heavysniper",
+        "fr": "Arme Sniper lourd",
         "en": "Weapon Heavysniper"
       },
       "description": {
@@ -5649,7 +5649,7 @@
     {
       "id": "weapon_heavysniper_mk2",
       "name": {
-        "fr": "Weapon Heavysniper Mk2",
+        "fr": "Arme Sniper lourd MK2",
         "en": "Weapon Heavysniper Mk2"
       },
       "description": {
@@ -5667,7 +5667,7 @@
     {
       "id": "weapon_hominglauncher",
       "name": {
-        "fr": "Weapon Hominglauncher",
+        "fr": "Arme Hominglauncher",
         "en": "Weapon Hominglauncher"
       },
       "description": {
@@ -5685,7 +5685,7 @@
     {
       "id": "weapon_knife",
       "name": {
-        "fr": "Weapon Knife",
+        "fr": "Arme Knife",
         "en": "Weapon Knife"
       },
       "description": {
@@ -5703,7 +5703,7 @@
     {
       "id": "weapon_knuckle",
       "name": {
-        "fr": "Weapon Knuckle",
+        "fr": "Arme Knuckle",
         "en": "Weapon Knuckle"
       },
       "description": {
@@ -5721,7 +5721,7 @@
     {
       "id": "weapon_machete",
       "name": {
-        "fr": "Weapon Machete",
+        "fr": "Arme Machete",
         "en": "Weapon Machete"
       },
       "description": {
@@ -5739,7 +5739,7 @@
     {
       "id": "weapon_machinepistol",
       "name": {
-        "fr": "Weapon Machinepistol",
+        "fr": "Arme Machinepistol",
         "en": "Weapon Machinepistol"
       },
       "description": {
@@ -5757,7 +5757,7 @@
     {
       "id": "weapon_marksmanpistol",
       "name": {
-        "fr": "Weapon Marksmanpistol",
+        "fr": "Arme Marksmanpistol",
         "en": "Weapon Marksmanpistol"
       },
       "description": {
@@ -5775,7 +5775,7 @@
     {
       "id": "weapon_marksmanrifle",
       "name": {
-        "fr": "Weapon Marksmanrifle",
+        "fr": "Arme Fusil de précision",
         "en": "Weapon Marksmanrifle"
       },
       "description": {
@@ -5793,7 +5793,7 @@
     {
       "id": "weapon_marksmanrifle_mk2",
       "name": {
-        "fr": "Weapon Marksmanrifle Mk2",
+        "fr": "Arme Fusil de précision MK2",
         "en": "Weapon Marksmanrifle Mk2"
       },
       "description": {
@@ -5811,7 +5811,7 @@
     {
       "id": "weapon_metaldetector",
       "name": {
-        "fr": "Weapon Metaldetector",
+        "fr": "Arme Metaldetector",
         "en": "Weapon Metaldetector"
       },
       "description": {
@@ -5829,7 +5829,7 @@
     {
       "id": "weapon_mg",
       "name": {
-        "fr": "Weapon Mg",
+        "fr": "Arme Mitrailleuse",
         "en": "Weapon Mg"
       },
       "description": {
@@ -5847,7 +5847,7 @@
     {
       "id": "weapon_microsmg",
       "name": {
-        "fr": "Weapon Microsmg",
+        "fr": "Arme Microsmg",
         "en": "Weapon Microsmg"
       },
       "description": {
@@ -5865,7 +5865,7 @@
     {
       "id": "weapon_militaryrifle",
       "name": {
-        "fr": "Weapon Militaryrifle",
+        "fr": "Arme Militaryrifle",
         "en": "Weapon Militaryrifle"
       },
       "description": {
@@ -5883,7 +5883,7 @@
     {
       "id": "weapon_minigun",
       "name": {
-        "fr": "Weapon Minigun",
+        "fr": "Arme Minigun",
         "en": "Weapon Minigun"
       },
       "description": {
@@ -5901,7 +5901,7 @@
     {
       "id": "weapon_minismg",
       "name": {
-        "fr": "Weapon Minismg",
+        "fr": "Arme Minismg",
         "en": "Weapon Minismg"
       },
       "description": {
@@ -5919,7 +5919,7 @@
     {
       "id": "weapon_molotov",
       "name": {
-        "fr": "Weapon Molotov",
+        "fr": "Arme Molotov",
         "en": "Weapon Molotov"
       },
       "description": {
@@ -5937,7 +5937,7 @@
     {
       "id": "weapon_musket",
       "name": {
-        "fr": "Weapon Musket",
+        "fr": "Arme Mousquet",
         "en": "Weapon Musket"
       },
       "description": {
@@ -5955,7 +5955,7 @@
     {
       "id": "weapon_navyrevolver",
       "name": {
-        "fr": "Weapon Navyrevolver",
+        "fr": "Arme Navyrevolver",
         "en": "Weapon Navyrevolver"
       },
       "description": {
@@ -5973,7 +5973,7 @@
     {
       "id": "weapon_nightstick",
       "name": {
-        "fr": "Weapon Nightstick",
+        "fr": "Arme Nightstick",
         "en": "Weapon Nightstick"
       },
       "description": {
@@ -5991,7 +5991,7 @@
     {
       "id": "weapon_petrolcan",
       "name": {
-        "fr": "Weapon Petrolcan",
+        "fr": "Arme Petrolcan",
         "en": "Weapon Petrolcan"
       },
       "description": {
@@ -6009,7 +6009,7 @@
     {
       "id": "weapon_pipebomb",
       "name": {
-        "fr": "Weapon Pipebomb",
+        "fr": "Arme Pipebomb",
         "en": "Weapon Pipebomb"
       },
       "description": {
@@ -6027,7 +6027,7 @@
     {
       "id": "weapon_pistol50",
       "name": {
-        "fr": "Weapon Pistol50",
+        "fr": "Arme Pistolet .50",
         "en": "Weapon Pistol50"
       },
       "description": {
@@ -6045,7 +6045,7 @@
     {
       "id": "weapon_pistol_mk2",
       "name": {
-        "fr": "Weapon Pistol Mk2",
+        "fr": "Arme Pistolet MK2",
         "en": "Weapon Pistol Mk2"
       },
       "description": {
@@ -6063,7 +6063,7 @@
     {
       "id": "weapon_pistolxm3",
       "name": {
-        "fr": "Weapon Pistolxm3",
+        "fr": "Arme Pistolxm3",
         "en": "Weapon Pistolxm3"
       },
       "description": {
@@ -6081,7 +6081,7 @@
     {
       "id": "weapon_poolcue",
       "name": {
-        "fr": "Weapon Poolcue",
+        "fr": "Arme Poolcue",
         "en": "Weapon Poolcue"
       },
       "description": {
@@ -6099,7 +6099,7 @@
     {
       "id": "weapon_precisionrifle",
       "name": {
-        "fr": "Weapon Precisionrifle",
+        "fr": "Arme Precisionrifle",
         "en": "Weapon Precisionrifle"
       },
       "description": {
@@ -6117,7 +6117,7 @@
     {
       "id": "weapon_proxmine",
       "name": {
-        "fr": "Weapon Proxmine",
+        "fr": "Arme Proxmine",
         "en": "Weapon Proxmine"
       },
       "description": {
@@ -6135,7 +6135,7 @@
     {
       "id": "weapon_pumpshotgun",
       "name": {
-        "fr": "Weapon Pumpshotgun",
+        "fr": "Arme Fusil à pompe",
         "en": "Weapon Pumpshotgun"
       },
       "description": {
@@ -6153,7 +6153,7 @@
     {
       "id": "weapon_pumpshotgun_mk2",
       "name": {
-        "fr": "Weapon Pumpshotgun Mk2",
+        "fr": "Arme Fusil à pompe MK2",
         "en": "Weapon Pumpshotgun Mk2"
       },
       "description": {
@@ -6171,7 +6171,7 @@
     {
       "id": "weapon_railgun",
       "name": {
-        "fr": "Weapon Railgun",
+        "fr": "Arme Railgun",
         "en": "Weapon Railgun"
       },
       "description": {
@@ -6189,7 +6189,7 @@
     {
       "id": "weapon_railgunxm3",
       "name": {
-        "fr": "Weapon Railgunxm3",
+        "fr": "Arme Railgun XM3",
         "en": "Weapon Railgunxm3"
       },
       "description": {
@@ -6207,7 +6207,7 @@
     {
       "id": "weapon_raycarbine",
       "name": {
-        "fr": "Weapon Raycarbine",
+        "fr": "Arme Raycarbine",
         "en": "Weapon Raycarbine"
       },
       "description": {
@@ -6225,7 +6225,7 @@
     {
       "id": "weapon_rayminigun",
       "name": {
-        "fr": "Weapon Rayminigun",
+        "fr": "Arme Rayminigun",
         "en": "Weapon Rayminigun"
       },
       "description": {
@@ -6243,7 +6243,7 @@
     {
       "id": "weapon_raypistol",
       "name": {
-        "fr": "Weapon Raypistol",
+        "fr": "Arme Raypistol",
         "en": "Weapon Raypistol"
       },
       "description": {
@@ -6261,7 +6261,7 @@
     {
       "id": "weapon_revolver",
       "name": {
-        "fr": "Weapon Revolver",
+        "fr": "Arme Revolver",
         "en": "Weapon Revolver"
       },
       "description": {
@@ -6279,7 +6279,7 @@
     {
       "id": "weapon_revolver_mk2",
       "name": {
-        "fr": "Weapon Revolver Mk2",
+        "fr": "Arme Revolver MK2",
         "en": "Weapon Revolver Mk2"
       },
       "description": {
@@ -6297,7 +6297,7 @@
     {
       "id": "weapon_sawnoffshotgun",
       "name": {
-        "fr": "Weapon Sawnoffshotgun",
+        "fr": "Arme Sawnoffshotgun",
         "en": "Weapon Sawnoffshotgun"
       },
       "description": {
@@ -6315,7 +6315,7 @@
     {
       "id": "weapon_smg",
       "name": {
-        "fr": "Weapon Smg",
+        "fr": "Arme Mitraillette",
         "en": "Weapon Smg"
       },
       "description": {
@@ -6333,7 +6333,7 @@
     {
       "id": "weapon_smg_mk2",
       "name": {
-        "fr": "Weapon Smg Mk2",
+        "fr": "Arme Mitraillette MK2",
         "en": "Weapon Smg Mk2"
       },
       "description": {
@@ -6351,7 +6351,7 @@
     {
       "id": "weapon_smokegrenade",
       "name": {
-        "fr": "Weapon Smokegrenade",
+        "fr": "Arme Smokegrenade",
         "en": "Weapon Smokegrenade"
       },
       "description": {
@@ -6369,7 +6369,7 @@
     {
       "id": "weapon_sniperrifle",
       "name": {
-        "fr": "Weapon Sniperrifle",
+        "fr": "Arme Sniperrifle",
         "en": "Weapon Sniperrifle"
       },
       "description": {
@@ -6387,7 +6387,7 @@
     {
       "id": "weapon_snowball",
       "name": {
-        "fr": "Weapon Snowball",
+        "fr": "Arme Snowball",
         "en": "Weapon Snowball"
       },
       "description": {
@@ -6405,7 +6405,7 @@
     {
       "id": "weapon_snspistol",
       "name": {
-        "fr": "Weapon Snspistol",
+        "fr": "Arme Pistolet SNS",
         "en": "Weapon Snspistol"
       },
       "description": {
@@ -6423,7 +6423,7 @@
     {
       "id": "weapon_snspistol_mk2",
       "name": {
-        "fr": "Weapon Snspistol Mk2",
+        "fr": "Arme Pistolet SNS MK2",
         "en": "Weapon Snspistol Mk2"
       },
       "description": {
@@ -6441,7 +6441,7 @@
     {
       "id": "weapon_specialcarbine",
       "name": {
-        "fr": "Weapon Specialcarbine",
+        "fr": "Arme Carabine spéciale",
         "en": "Weapon Specialcarbine"
       },
       "description": {
@@ -6459,7 +6459,7 @@
     {
       "id": "weapon_specialcarbine_mk2",
       "name": {
-        "fr": "Weapon Specialcarbine Mk2",
+        "fr": "Arme Carabine spéciale MK2",
         "en": "Weapon Specialcarbine Mk2"
       },
       "description": {
@@ -6477,7 +6477,7 @@
     {
       "id": "weapon_stickybomb",
       "name": {
-        "fr": "Weapon Stickybomb",
+        "fr": "Arme Bombe collante",
         "en": "Weapon Stickybomb"
       },
       "description": {
@@ -6495,7 +6495,7 @@
     {
       "id": "weapon_stone_hatchet",
       "name": {
-        "fr": "Weapon Stone Hatchet",
+        "fr": "Arme Stone Hachette",
         "en": "Weapon Stone Hatchet"
       },
       "description": {
@@ -6513,7 +6513,7 @@
     {
       "id": "weapon_stungun",
       "name": {
-        "fr": "Weapon Stungun",
+        "fr": "Arme Stungun",
         "en": "Weapon Stungun"
       },
       "description": {
@@ -6531,7 +6531,7 @@
     {
       "id": "weapon_switchblade",
       "name": {
-        "fr": "Weapon Switchblade",
+        "fr": "Arme Couteau à cran d'arrêt",
         "en": "Weapon Switchblade"
       },
       "description": {
@@ -6549,7 +6549,7 @@
     {
       "id": "weapon_tecpistol",
       "name": {
-        "fr": "Weapon Tecpistol",
+        "fr": "Arme Pistol TEC",
         "en": "Weapon Tecpistol"
       },
       "description": {
@@ -6567,7 +6567,7 @@
     {
       "id": "weapon_vintagepistol",
       "name": {
-        "fr": "Weapon Vintagepistol",
+        "fr": "Arme Pistolet vintage",
         "en": "Weapon Vintagepistol"
       },
       "description": {
@@ -6585,7 +6585,7 @@
     {
       "id": "weapon_wrench",
       "name": {
-        "fr": "Weapon Wrench",
+        "fr": "Arme Wrench",
         "en": "Weapon Wrench"
       },
       "description": {
@@ -6603,7 +6603,7 @@
     {
       "id": "weapontint_army",
       "name": {
-        "fr": "Weapontint Army",
+        "fr": "Teinte d'arme — army",
         "en": "Weapontint Army"
       },
       "description": {
@@ -6619,7 +6619,7 @@
     {
       "id": "weapontint_black",
       "name": {
-        "fr": "Weapontint Black",
+        "fr": "Weapontint Noir",
         "en": "Weapontint Black"
       },
       "description": {
@@ -6635,7 +6635,7 @@
     {
       "id": "weapontint_gold",
       "name": {
-        "fr": "Weapontint Gold",
+        "fr": "Weapontint Or",
         "en": "Weapontint Gold"
       },
       "description": {
@@ -6651,7 +6651,7 @@
     {
       "id": "weapontint_green",
       "name": {
-        "fr": "Weapontint Green",
+        "fr": "Teinte d'arme — verte",
         "en": "Weapontint Green"
       },
       "description": {
@@ -6667,7 +6667,7 @@
     {
       "id": "weapontint_lspd",
       "name": {
-        "fr": "Weapontint Lspd",
+        "fr": "Teinte d'arme — LSPD",
         "en": "Weapontint Lspd"
       },
       "description": {
@@ -6683,7 +6683,7 @@
     {
       "id": "weapontint_orange",
       "name": {
-        "fr": "Weapontint Orange",
+        "fr": "Teinte d'arme — orange",
         "en": "Weapontint Orange"
       },
       "description": {
@@ -6699,7 +6699,7 @@
     {
       "id": "weapontint_pink",
       "name": {
-        "fr": "Weapontint Pink",
+        "fr": "Teinte d'arme — rose",
         "en": "Weapontint Pink"
       },
       "description": {
@@ -6715,7 +6715,7 @@
     {
       "id": "weapontint_plat",
       "name": {
-        "fr": "Weapontint Plat",
+        "fr": "Teinte d'arme — platine",
         "en": "Weapontint Plat"
       },
       "description": {
@@ -6731,7 +6731,7 @@
     {
       "id": "weed_baggy",
       "name": {
-        "fr": "Weed Baggy",
+        "fr": "Herbe Pochon",
         "en": "Weed Baggy"
       },
       "description": {
@@ -6747,7 +6747,7 @@
     {
       "id": "weed_baggy_empty",
       "name": {
-        "fr": "Weed Baggy Empty",
+        "fr": "Herbe Pochon Empty",
         "en": "Weed Baggy Empty"
       },
       "description": {
@@ -6763,7 +6763,7 @@
     {
       "id": "weed_brick",
       "name": {
-        "fr": "Weed Brick",
+        "fr": "Herbe Brique",
         "en": "Weed Brick"
       },
       "description": {
@@ -6779,7 +6779,7 @@
     {
       "id": "weed_nutrition",
       "name": {
-        "fr": "Weed Nutrition",
+        "fr": "Herbe Nutrition",
         "en": "Weed Nutrition"
       },
       "description": {
@@ -6795,7 +6795,7 @@
     {
       "id": "weed_seed",
       "name": {
-        "fr": "Weed Seed",
+        "fr": "Herbe Graine",
         "en": "Weed Seed"
       },
       "description": {
@@ -6811,7 +6811,7 @@
     {
       "id": "whiskey",
       "name": {
-        "fr": "Whiskey",
+        "fr": "Whisky",
         "en": "Whiskey"
       },
       "description": {
@@ -6827,7 +6827,7 @@
     {
       "id": "wine",
       "name": {
-        "fr": "Wine",
+        "fr": "Vin",
         "en": "Wine"
       },
       "description": {
@@ -6843,7 +6843,7 @@
     {
       "id": "woodcamo_attachment",
       "name": {
-        "fr": "Woodcamo Attachment",
+        "fr": "Woodcamo Accessoire",
         "en": "Woodcamo Attachment"
       },
       "description": {
@@ -6859,7 +6859,7 @@
     {
       "id": "xtc_baggy",
       "name": {
-        "fr": "Xtc Baggy",
+        "fr": "Xtc Pochon",
         "en": "Xtc Baggy"
       },
       "description": {
@@ -6875,7 +6875,7 @@
     {
       "id": "zebracamo_attachment",
       "name": {
-        "fr": "Zebracamo Attachment",
+        "fr": "Zebracamo Accessoire",
         "en": "Zebracamo Attachment"
       },
       "description": {
@@ -6891,7 +6891,7 @@
     {
       "id": "ig_iamond",
       "name": {
-        "fr": "Big Diamond",
+        "fr": "gros diamant",
         "en": "Big Diamond"
       },
       "description": {
@@ -6907,7 +6907,7 @@
     {
       "id": "artegg",
       "name": {
-        "fr": "Artegg",
+        "fr": "œuf d'œuvre d'art",
         "en": "Artegg"
       },
       "description": {
@@ -6923,7 +6923,7 @@
     {
       "id": "artegg2",
       "name": {
-        "fr": "Artegg2",
+        "fr": "œuf d'œuvre d'art II",
         "en": "Artegg2"
       },
       "description": {
@@ -6939,7 +6939,7 @@
     {
       "id": "artgun",
       "name": {
-        "fr": "Artgun",
+        "fr": "arme d'œuvre d'art",
         "en": "Artgun"
       },
       "description": {
@@ -6955,7 +6955,7 @@
     {
       "id": "arthorse",
       "name": {
-        "fr": "Arthorse",
+        "fr": "cheval d'œuvre d'art",
         "en": "Arthorse"
       },
       "description": {
@@ -6971,7 +6971,7 @@
     {
       "id": "artlamp",
       "name": {
-        "fr": "Artlamp",
+        "fr": "lampe d'œuvre d'art",
         "en": "Artlamp"
       },
       "description": {
@@ -6987,7 +6987,7 @@
     {
       "id": "artskull",
       "name": {
-        "fr": "Artskull",
+        "fr": "crâne d'œuvre d'art",
         "en": "Artskull"
       },
       "description": {
@@ -7003,7 +7003,7 @@
     {
       "id": "big_bomb",
       "name": {
-        "fr": "Big Bomb",
+        "fr": "Gros Bombe",
         "en": "Big Bomb"
       },
       "description": {
@@ -7019,7 +7019,7 @@
     {
       "id": "big_drill",
       "name": {
-        "fr": "Big Drill",
+        "fr": "grosse perceuse",
         "en": "Big Drill"
       },
       "description": {
@@ -7035,7 +7035,7 @@
     {
       "id": "bolt_cutter",
       "name": {
-        "fr": "Bolt Cutter",
+        "fr": "coupe-boulons",
         "en": "Bolt Cutter"
       },
       "description": {
@@ -7051,7 +7051,7 @@
     {
       "id": "bottle",
       "name": {
-        "fr": "Bottle",
+        "fr": "Bouteille",
         "en": "Bottle"
       },
       "description": {
@@ -7067,7 +7067,7 @@
     {
       "id": "bt_c4",
       "name": {
-        "fr": "Bt C4",
+        "fr": "C4",
         "en": "Bt C4"
       },
       "description": {
@@ -7083,7 +7083,7 @@
     {
       "id": "bt_gastank",
       "name": {
-        "fr": "Bt Gastank",
+        "fr": "réservoir de gaz",
         "en": "Bt Gastank"
       },
       "description": {
@@ -7099,7 +7099,7 @@
     {
       "id": "bt_hackdevice",
       "name": {
-        "fr": "Bt Hackdevice",
+        "fr": "dispositif de piratage",
         "en": "Bt Hackdevice"
       },
       "description": {
@@ -7115,7 +7115,7 @@
     {
       "id": "c4_bomb",
       "name": {
-        "fr": "C4 Bomb",
+        "fr": "bombe C4",
         "en": "C4 Bomb"
       },
       "description": {
@@ -7131,7 +7131,7 @@
     {
       "id": "cashbon",
       "name": {
-        "fr": "Cashbon",
+        "fr": "bonus d'argent",
         "en": "Cashbon"
       },
       "description": {
@@ -7147,7 +7147,7 @@
     {
       "id": "crack_kit",
       "name": {
-        "fr": "Crack Kit",
+        "fr": "Kit de crack",
         "en": "Crack Kit"
       },
       "description": {
@@ -7163,7 +7163,7 @@
     {
       "id": "cutter",
       "name": {
-        "fr": "Cutter",
+        "fr": "Coupe-verre",
         "en": "Cutter"
       },
       "description": {
@@ -7179,7 +7179,7 @@
     {
       "id": "digiscanner",
       "name": {
-        "fr": "Digiscanner",
+        "fr": "Scanner de détection",
         "en": "Digiscanner"
       },
       "description": {
@@ -7195,7 +7195,7 @@
     {
       "id": "gold",
       "name": {
-        "fr": "Gold",
+        "fr": "Or",
         "en": "Gold"
       },
       "description": {
@@ -7211,7 +7211,7 @@
     {
       "id": "goldwatch",
       "name": {
-        "fr": "Goldwatch",
+        "fr": "Montre en or",
         "en": "Goldwatch"
       },
       "description": {
@@ -7227,7 +7227,7 @@
     {
       "id": "hack_usb",
       "name": {
-        "fr": "Hack Usb",
+        "fr": "Hack Clé USB",
         "en": "Hack Usb"
       },
       "description": {
@@ -7243,7 +7243,7 @@
     {
       "id": "laptop_h",
       "name": {
-        "fr": "Laptop H",
+        "fr": "Ordinateur portable H",
         "en": "Laptop H"
       },
       "description": {
@@ -7259,7 +7259,7 @@
     {
       "id": "napoleonic_egg",
       "name": {
-        "fr": "Napoleonic Egg",
+        "fr": "Œuf napoléonien",
         "en": "Napoleonic Egg"
       },
       "description": {
@@ -7275,7 +7275,7 @@
     {
       "id": "necklace",
       "name": {
-        "fr": "Necklace",
+        "fr": "Collier",
         "en": "Necklace"
       },
       "description": {
@@ -7291,7 +7291,7 @@
     {
       "id": "paintinge",
       "name": {
-        "fr": "Paintinge",
+        "fr": "Tableau E",
         "en": "Paintinge"
       },
       "description": {
@@ -7307,7 +7307,7 @@
     {
       "id": "paintingf",
       "name": {
-        "fr": "Paintingf",
+        "fr": "Tableau F",
         "en": "Paintingf"
       },
       "description": {
@@ -7323,7 +7323,7 @@
     {
       "id": "paintingg",
       "name": {
-        "fr": "Paintingg",
+        "fr": "Tableau G",
         "en": "Paintingg"
       },
       "description": {
@@ -7339,7 +7339,7 @@
     {
       "id": "paintingh",
       "name": {
-        "fr": "Paintingh",
+        "fr": "Tableau H",
         "en": "Paintingh"
       },
       "description": {
@@ -7355,7 +7355,7 @@
     {
       "id": "paintingi",
       "name": {
-        "fr": "Paintingi",
+        "fr": "Tableau I",
         "en": "Paintingi"
       },
       "description": {
@@ -7371,7 +7371,7 @@
     {
       "id": "paintingj",
       "name": {
-        "fr": "Paintingj",
+        "fr": "Tableau J",
         "en": "Paintingj"
       },
       "description": {
@@ -7387,7 +7387,7 @@
     {
       "id": "panther",
       "name": {
-        "fr": "Panther",
+        "fr": "Panthère",
         "en": "Panther"
       },
       "description": {
@@ -7419,7 +7419,7 @@
     {
       "id": "portable_drill",
       "name": {
-        "fr": "Portable Drill",
+        "fr": "Portable Perceuse",
         "en": "Portable Drill"
       },
       "description": {
@@ -7435,7 +7435,7 @@
     {
       "id": "portable_weld",
       "name": {
-        "fr": "Portable Weld",
+        "fr": "Poste à souder portable",
         "en": "Portable Weld"
       },
       "description": {
@@ -7451,7 +7451,7 @@
     {
       "id": "ring",
       "name": {
-        "fr": "Ring",
+        "fr": "Bague",
         "en": "Ring"
       },
       "description": {
@@ -7467,7 +7467,7 @@
     {
       "id": "scrap",
       "name": {
-        "fr": "Scrap",
+        "fr": "Ferraille",
         "en": "Scrap"
       },
       "description": {
@@ -7483,7 +7483,7 @@
     {
       "id": "scrap2",
       "name": {
-        "fr": "Scrap2",
+        "fr": "Ferraille II",
         "en": "Scrap2"
       },
       "description": {
@@ -7499,7 +7499,7 @@
     {
       "id": "scrap3",
       "name": {
-        "fr": "Scrap3",
+        "fr": "Ferraille III",
         "en": "Scrap3"
       },
       "description": {
@@ -7515,7 +7515,7 @@
     {
       "id": "stillsaw",
       "name": {
-        "fr": "Stillsaw",
+        "fr": "Scie stationnaire",
         "en": "Stillsaw"
       },
       "description": {
@@ -7531,7 +7531,7 @@
     {
       "id": "stolen_boombox_01",
       "name": {
-        "fr": "Stolen Boombox 01",
+        "fr": "Volé Boombox I",
         "en": "Stolen Boombox 01"
       },
       "description": {
@@ -7547,7 +7547,7 @@
     {
       "id": "stolen_coffemac_02",
       "name": {
-        "fr": "Stolen Coffemac 02",
+        "fr": "Volé Coffemac II",
         "en": "Stolen Coffemac 02"
       },
       "description": {
@@ -7563,7 +7563,7 @@
     {
       "id": "stolen_console_01",
       "name": {
-        "fr": "Stolen Console 01",
+        "fr": "Volé Console I",
         "en": "Stolen Console 01"
       },
       "description": {
@@ -7579,7 +7579,7 @@
     {
       "id": "stolen_hairdryer_01",
       "name": {
-        "fr": "Stolen Hairdryer 01",
+        "fr": "Volé Hairdryer I",
         "en": "Stolen Hairdryer 01"
       },
       "description": {
@@ -7595,7 +7595,7 @@
     {
       "id": "stolen_kettle_01",
       "name": {
-        "fr": "Stolen Kettle 01",
+        "fr": "Volé Kettle I",
         "en": "Stolen Kettle 01"
       },
       "description": {
@@ -7611,7 +7611,7 @@
     {
       "id": "stolen_kscales_01",
       "name": {
-        "fr": "Stolen Kscales 01",
+        "fr": "Volé Kscales I",
         "en": "Stolen Kscales 01"
       },
       "description": {
@@ -7627,7 +7627,7 @@
     {
       "id": "stolen_laptop_01a",
       "name": {
-        "fr": "Stolen Laptop 01a",
+        "fr": "Volé Ordinateur portable 01a",
         "en": "Stolen Laptop 01a"
       },
       "description": {
@@ -7643,7 +7643,7 @@
     {
       "id": "stolen_micro_01",
       "name": {
-        "fr": "Stolen Micro 01",
+        "fr": "Volé Micro I",
         "en": "Stolen Micro 01"
       },
       "description": {
@@ -7659,7 +7659,7 @@
     {
       "id": "stolen_micro_02",
       "name": {
-        "fr": "Stolen Micro 02",
+        "fr": "Volé Micro II",
         "en": "Stolen Micro 02"
       },
       "description": {
@@ -7675,7 +7675,7 @@
     {
       "id": "stolen_mixer_01",
       "name": {
-        "fr": "Stolen Mixer 01",
+        "fr": "Volé Mixer I",
         "en": "Stolen Mixer 01"
       },
       "description": {
@@ -7691,7 +7691,7 @@
     {
       "id": "stolen_mmaudio_01",
       "name": {
-        "fr": "Stolen Mmaudio 01",
+        "fr": "Volé Mmaudio I",
         "en": "Stolen Mmaudio 01"
       },
       "description": {
@@ -7707,7 +7707,7 @@
     {
       "id": "stolen_monitor_01",
       "name": {
-        "fr": "Stolen Monitor 01",
+        "fr": "Volé Monitor I",
         "en": "Stolen Monitor 01"
       },
       "description": {
@@ -7723,7 +7723,7 @@
     {
       "id": "stolen_mp3_dock",
       "name": {
-        "fr": "Stolen Mp3 Dock",
+        "fr": "Volé Mp3 Dock",
         "en": "Stolen Mp3 Dock"
       },
       "description": {
@@ -7739,7 +7739,7 @@
     {
       "id": "stolen_printer_01",
       "name": {
-        "fr": "Stolen Printer 01",
+        "fr": "Volé Printer I",
         "en": "Stolen Printer 01"
       },
       "description": {
@@ -7755,7 +7755,7 @@
     {
       "id": "stolen_tapeplayer_01",
       "name": {
-        "fr": "Stolen Tapeplayer 01",
+        "fr": "Volé Tapeplayer I",
         "en": "Stolen Tapeplayer 01"
       },
       "description": {
@@ -7771,7 +7771,7 @@
     {
       "id": "stolen_telescope_01",
       "name": {
-        "fr": "Stolen Telescope 01",
+        "fr": "Volé Telescope I",
         "en": "Stolen Telescope 01"
       },
       "description": {
@@ -7787,7 +7787,7 @@
     {
       "id": "stolen_toaster_01",
       "name": {
-        "fr": "Stolen Toaster 01",
+        "fr": "Volé Grille-pain I",
         "en": "Stolen Toaster 01"
       },
       "description": {
@@ -7803,7 +7803,7 @@
     {
       "id": "stolen_toaster_02",
       "name": {
-        "fr": "Stolen Toaster 02",
+        "fr": "Volé Grille-pain II",
         "en": "Stolen Toaster 02"
       },
       "description": {
@@ -7819,7 +7819,7 @@
     {
       "id": "stolen_tv_03",
       "name": {
-        "fr": "Stolen Tv 03",
+        "fr": "Volé Téléviseur III",
         "en": "Stolen Tv 03"
       },
       "description": {
@@ -7835,7 +7835,7 @@
     {
       "id": "stolen_tv_flat_01",
       "name": {
-        "fr": "Stolen Tv Flat 01",
+        "fr": "Volé Téléviseur Plat I",
         "en": "Stolen Tv Flat 01"
       },
       "description": {
@@ -7851,7 +7851,7 @@
     {
       "id": "stolen_tv_flat_03",
       "name": {
-        "fr": "Stolen Tv Flat 03",
+        "fr": "Volé Téléviseur Plat III",
         "en": "Stolen Tv Flat 03"
       },
       "description": {
@@ -7867,7 +7867,7 @@
     {
       "id": "stolen_vcr_01",
       "name": {
-        "fr": "Stolen Vcr 01",
+        "fr": "Volé Vcr I",
         "en": "Stolen Vcr 01"
       },
       "description": {
@@ -7883,7 +7883,7 @@
     {
       "id": "vangelico_key",
       "name": {
-        "fr": "Vangelico Key",
+        "fr": "Clé Vangelico",
         "en": "Vangelico Key"
       },
       "description": {
@@ -7899,7 +7899,7 @@
     {
       "id": "vehicle_door",
       "name": {
-        "fr": "Vehicle Door",
+        "fr": "porte de véhicule",
         "en": "Vehicle Door"
       },
       "description": {
@@ -7915,7 +7915,7 @@
     {
       "id": "vehicle_hood",
       "name": {
-        "fr": "Vehicle Hood",
+        "fr": "capot de véhicule",
         "en": "Vehicle Hood"
       },
       "description": {
@@ -7931,7 +7931,7 @@
     {
       "id": "vehicle_trunk",
       "name": {
-        "fr": "Vehicle Trunk",
+        "fr": "coffre de véhicule",
         "en": "Vehicle Trunk"
       },
       "description": {
@@ -7947,7 +7947,7 @@
     {
       "id": "vehicle_wheel",
       "name": {
-        "fr": "Vehicle Wheel",
+        "fr": "roue de véhicule",
         "en": "Vehicle Wheel"
       },
       "description": {

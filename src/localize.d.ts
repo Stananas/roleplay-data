@@ -29,3 +29,16 @@ export function vehicleLocalizedName(
   vehicle: { brand?: LocalizedLike; model?: LocalizedLike } | null | undefined,
   locale?: string
 ): string;
+
+export type UnitSystem = 'metric' | 'imperial';
+
+export type UnitOptions = { unit?: UnitSystem };
+
+/** Résout le système d'unités pour une locale (métrique par défaut). */
+export function unitsForLocale(locale?: string, opts?: UnitOptions): UnitSystem;
+
+/** Formate un poids d'item (grammes, canonique) selon la locale : g/kg ou lb/oz. */
+export function formatItemWeight(grams: number, locale?: string, opts?: UnitOptions): string;
+
+/** Formate une masse de véhicule (kg, canonique) selon la locale : kg ou lb. */
+export function formatVehicleMass(kg: number, locale?: string, opts?: UnitOptions): string;

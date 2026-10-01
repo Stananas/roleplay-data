@@ -27,6 +27,9 @@ export {
   itemLocalizedName,
   itemLocalizedDescription,
   vehicleLocalizedName,
+  unitsForLocale,
+  formatItemWeight,
+  formatVehicleMass,
 } from './localize.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
