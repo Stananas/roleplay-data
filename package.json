@@ -1,6 +1,6 @@
 {
   "name": "roleplay-data",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Base de données RP open source : items, véhicules, thèmes (images + renommages) et i18n (fr/en requis). Source de vérité unique, consommable en package npm, seed SQL/MongoDB ou archive d'assets.",
   "type": "module",
   "main": "src/index.js",
