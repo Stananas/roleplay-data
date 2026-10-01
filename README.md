@@ -175,14 +175,49 @@ dans `assets/README.md`.
 
 ---
 
+## 🚀 Releases & publication automatique
+
+Une release = une nouvelle version de **`roleplay-data`** sur npm +
+une release GitHub avec tous les artefacts. Tout est automatisé par GitHub Actions.
+
+### Option A — un clic (recommandé)
+1. GitHub → **Actions** → **bump-version** → *Run workflow*
+2. Choisis le bump : `patch` / `minor` / `major` (ou saisis une version explicite)
+3. Le workflow : `npm version` → commit + tag `vX.Y.Z` → push → **déclenche la release**
+
+```bash
+# ou en CLI :
+gh workflow run bump-version.yml -f bump=minor
+```
+
+### Option B — manuel (équivalent)
+```bash
+npm version minor && git push --tags
+```
+
+### Ce que fait le workflow `release` (sur tag `v*`)
+1. `validate` : schémas, unicité des ids, cohérence des thèmes, images
+2. `build-release --with-assets` : ZIP des assets + seeds SQL/MongoDB
+3. `npm pack` : tarball du package
+4. `npm publish` **(si le secret `NPM_TOKEN` est présent)** — sinon release quand même
+5. Release GitHub attachant : ZIP, seeds SQL/Mongo, tarball + notes générées
+
+### Prérequis pour la publication npm automatique
+- **Secret GitHub `NPM_TOKEN`** : npmjs.org → *Access Tokens* → *Granular* (scope `roleplay-data`, permission *publish*) → ajouter dans `Settings → Secrets and variables → Actions`.
+- **2FA npm en mode « Authorization only »** (npmjs.com → *Settings → Two-Factor Authentication*) : avec « Authorization & writes », la publication depuis CI exige un OTP qu'aucun robot ne peut saisir — le mode « only » permet aux tokens de publier sans OTP. *(La provenance npm demandera en plus d'activer l'option dans les settings npm.)*
+
+---
+
 ## Feuille de route
 
 - [x] v0.1 — items + véhicules + thèmes + i18n + validation + builds multi-produits
+- [x] v0.2 — thème artwork-gtav (517 items RAINMAD)
+- [x] v0.3 — traductions FR + unités i18n (g/kg vs lb/oz)
+- [x] releases GitHub Actions automatisées (bump un-clic → npm + artefacts)
 - [ ] habitations (`catalog/properties.json`), drogues, jobs
 - [ ] images de véhicules (`assets/vehicles/`)
 - [ ] API items/thèmes (hostée)
 - [ ] migration des services Amity vers `roleplay-data` (fin des copies locales)
-- [ ] publication npm + releases GitHub automatisées
 
 ---
 

@@ -1,0 +1,61 @@
+name: bump-version
+
+# Déclenche une release automatique en un clic :
+#   GitHub → Actions → bump-version → Run workflow
+# ou :
+#   gh workflow run bump-version.yml -f bump=minor
+#
+# Ce workflow : bump du numéro de version (package.json + lock + commit + tag vX.Y.Z)
+# puis push → déclenche automatiquement le workflow « release » (validation, build des
+# produits, publication npm, release GitHub avec ZIP/SQL/MongoDB/tarball).
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: 'Bump semver (patch / minor / major)'
+        required: true
+        default: minor
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+      version:
+        description: 'Version explicite (ex: 1.2.0) — prioritaire sur bump'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  bump:
+    name: Bump & tag
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          fetch-tags: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Config git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump (les tags tant qu'on y est)
+        run: |
+          if [ -n "${{ inputs.version }}" ]; then
+            npm version "${{ inputs.version }}"
+          else
+            npm version "${{ inputs.bump }}"
+          fi
+
+      - name: Push commit + tag
+        run: git push origin main --follow-tags

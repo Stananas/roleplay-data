@@ -1,12 +1,20 @@
 name: release
 
+# Automatiquement déclenché par un tag v* (créé par `npm version` + push, ou par le
+# workflow bump-version). Valide, construit et attache tout :
+#   - archive ZIP des assets (tous les packs de thèmes)
+#   - seeds SQL (PostgreSQL) + MongoDB prêts à injecter
+#   - tarball npm du package
+#   - publication npm (si NPM_TOKEN présent, avec provenance en option)
+#   - release GitHub regroupant l'ensemble
+
 on:
   push:
     tags: ['v*']
 
 permissions:
   contents: write
-  id-token: write   # requis pour npm publish --provenance
+  id-token: write   # requis pour npm publish --provenance (optionnel)
 
 jobs:
   release:
@@ -25,25 +33,36 @@ jobs:
       - name: Validation
         run: node scripts/validate.mjs
 
-      - name: Génération des produits
+      - name: Génération des produits (ZIP + SQL + Mongo + package)
         run: node scripts/build-release.mjs --with-assets
+
+      - name: Tarball du package npm
+        run: |
+          mkdir -p dist
+          npm pack --pack-destination dist/ | tail -1
 
       - name: Publication npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          if [ -n "$NODE_AUTH_TOKEN" ]; then npm publish; else echo "NPM_TOKEN absent — publication npm ignorée"; fi
+          if [ -n "$NODE_AUTH_TOKEN" ]; then
+            npm publish --provenance || npm publish
+          else
+            echo "NPM_TOKEN absent — publication npm ignorée (release GitHub quand même)"
+          fi
 
-      - name: Pause des produits dans la release GitHub
+      - name: Release GitHub (artefacts complets)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
+          NOTES=$(printf '## 📦 roleplay-data v%s\n\n- Archive ZIP des assets (tous les packs de thèmes)\n- Seed SQL (PostgreSQL) : rp_items, rp_vehicles, rp_themes, rp_theme_entries\n- Seeds MongoDB : items, vehicles, themes (mongoimport)\n- Tarball npm du package\n\nConsommation : npm install roleplay-data — voir README.md\n' "$VERSION")
           gh release create "$GITHUB_REF_NAME" \
             dist/releases/roleplay-data-v${VERSION}.zip \
             dist/sql/roleplay-data.sql \
             dist/mongodb/seed.items.json \
             dist/mongodb/seed.vehicles.json \
             dist/mongodb/seed.themes.json \
+            dist/roleplay-data-${VERSION}.tgz \
             --title "roleplay-data v${VERSION}" \
-            --notes "Assets, données et seeds — voir README.md"
+            --notes "$NOTES"
