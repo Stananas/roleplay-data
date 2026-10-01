@@ -5,7 +5,7 @@
  * Usage :
  *   node scripts/import-rainmad.mjs \
  *     --src /chemin/vers/{Categorie}/*.png \
- *     --theme artwork-gtav \
+ *     --theme gtav-artwork \
  *     --priority OX,QB,DrugsV,Robbery
  *
  * Règles :
@@ -27,7 +27,7 @@ function arg(name) {
 }
 
 const src = arg('src');
-const themeId = arg('theme') || 'artwork-gtav';
+const themeId = arg('theme') || 'gtav-artwork';
 const priority = (arg('priority') || 'OX,QB,DrugsV,Robbery').split(',').filter(Boolean);
 
 if (!src || !existsSync(src)) {

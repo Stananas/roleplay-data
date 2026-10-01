@@ -22,11 +22,11 @@ catalog/                  ✨ données canoniques
 themes/                   🎨 systèmes de thèmes (packs d'images + renommages + exclusifs)
 ├── themes.json            le registre : un thème est déclaré une fois, partout consommé
 ├── gta-artwork.json       renommages « monde GTA V » (ex: arme Beretta → « Pistol »)
-├── artwork-gtav.json      pack RAINMAD : 517 items artwork (43 overrides + 474 exclusifs)
+├── gtav-artwork.json      pack RAINMAD : 517 items artwork (43 overrides + 474 exclusifs)
 └── dayz.json              renommages + items exclusifs DayZ
 assets/                   🖼️ images (brutes en git — LFS later)
 ├── items/gta-artwork/     pack d'images par défaut (référence)
-├── items/artwork-gtav/    pack d'images RAINMAD « Artwork GTA V »
+├── items/gtav-artwork/    pack d'images RAINMAD « Artwork GTA V »
 ├── items/dayz/            pack d'images du thème DayZ
 └── no_image.png           fallback universel
 src/                      📦 l'API du package (zéro dépendance)
@@ -211,7 +211,7 @@ npm version minor && git push --tags
 ## Feuille de route
 
 - [x] v0.1 — items + véhicules + thèmes + i18n + validation + builds multi-produits
-- [x] v0.2 — thème artwork-gtav (517 items RAINMAD)
+- [x] v0.2 — thème gtav-artwork (517 items RAINMAD)
 - [x] v0.3 — traductions FR + unités i18n (g/kg vs lb/oz)
 - [x] releases GitHub Actions automatisées (bump un-clic → npm + artefacts)
 - [ ] habitations (`catalog/properties.json`), drogues, jobs

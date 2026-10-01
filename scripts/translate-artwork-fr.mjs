@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /**
- * Traduit en français les noms générés du thème artwork-gtav (import RAINMAD).
+ * Traduit en français les noms générés du thème gtav-artwork (import RAINMAD).
  *
  * Il transforme name.fr (actuellement identique à l'anglais) en français correct :
  *   - dictionnaire de tokens (armes, accessoires, drogues, objets courants) ;
  *   - surcharges phrase complète pour les composés qui changent d'ordre en français ;
  *   - les noms de marques/gammes GTA restent tels quels.
  *
- * Usage : node scripts/translate-artwork-fr.mjs    (modifie themes/artwork-gtav.json)
+ * Usage : node scripts/translate-artwork-fr.mjs    (modifie themes/gtav-artwork.json)
  */
 import { readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -15,7 +15,7 @@ import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(here, '..');
-const THEME = join(ROOT, 'themes', 'artwork-gtav.json');
+const THEME = join(ROOT, 'themes', 'gtav-artwork.json');
 const OVERRIDES = JSON.parse(readFileSync(join(ROOT, 'scripts', 'fr-overrides-artwork.json'), 'utf-8'));
 
 /* Surcharges de phrases complètes : anglais (minuscules) → français correct */
@@ -151,5 +151,5 @@ for (const item of theme.exclusiveItems) {
 }
 
 writeFileSync(THEME, `${JSON.stringify(theme, null, 2)}\n`, 'utf-8');
-console.log(`[translate-artwork-fr] ${changed} noms traduits → themes/artwork-gtav.json`);
+console.log(`[translate-artwork-fr] ${changed} noms traduits → themes/gtav-artwork.json`);
 console.log('⚠️  Les tokens inconnus (gammes GTA, marques) restent en anglais → revue affinée ensuite.');
