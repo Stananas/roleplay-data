@@ -1,5 +1,5 @@
 /**
- * Types publics du package @roleplay/data.
+ * Types publics du package roleplay-data.
  * Chaque type reflète fidèlement le schéma JSON correspondant (catalog/schemas/*).
  */
 export type Locale = 'fr' | 'en' | (string & {});

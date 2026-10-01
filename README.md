@@ -88,11 +88,11 @@ Règles des thèmes :
 ### npm
 
 ```bash
-npm install @roleplay/data
+npm install roleplay-data
 ```
 
 ```js
-import { getItems, getItem, getThemedItemName, getItemImage } from '@roleplay/data';
+import { getItems, getItem, getThemedItemName, getItemImage } from 'roleplay-data';
 
 getItems();                                  // 166 items canoniques
 getThemedItemName('burger', 'dayz', 'fr');   // "Conserve DayZ"
