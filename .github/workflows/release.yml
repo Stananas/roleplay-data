@@ -11,6 +11,12 @@ name: release
 on:
   push:
     tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version à déclencher si pas de tag (ex: 0.4.0)'
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -55,9 +61,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          VERSION="${GITHUB_REF_NAME#v}"
+          if [[ "$GITHUB_REF_NAME" == v* ]]; then
+            VERSION="${GITHUB_REF_NAME#v}"; TAG="$GITHUB_REF_NAME"
+          elif [ -n "${{ inputs.version }}" ]; then
+            VERSION="${{ inputs.version }}"; TAG="v${{ inputs.version }}"
+          else
+            VERSION=$(node -p "require('./package.json').version"); TAG="v${VERSION}"
+          fi
           NOTES=$(printf '## 📦 roleplay-data v%s\n\n- Archive ZIP des assets (tous les packs de thèmes)\n- Seed SQL (PostgreSQL) : rp_items, rp_vehicles, rp_themes, rp_theme_entries\n- Seeds MongoDB : items, vehicles, themes (mongoimport)\n- Tarball npm du package\n\nConsommation : npm install roleplay-data — voir README.md\n' "$VERSION")
-          gh release create "$GITHUB_REF_NAME" \
+          gh release create "$TAG" \
             dist/releases/roleplay-data-v${VERSION}.zip \
             dist/sql/roleplay-data.sql \
             dist/mongodb/seed.items.json \
