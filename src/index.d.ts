@@ -40,7 +40,7 @@ export type Item = {
   food: number;
   thirst: number;
   drug: DrugProperties | null;
-  stackable: boolean;
+  stackable: boolean | number;
   usable: boolean;
   tags: string[];
   metadata: ItemMetadata;
@@ -100,7 +100,7 @@ export type ThemeOverride = {
   food?: number;
   thirst?: number;
   drug?: DrugProperties | null;
-  stackable?: boolean;
+  stackable?: boolean | number;
   usable?: boolean;
   tags?: string[];
   metadata?: ItemMetadata;
@@ -140,6 +140,15 @@ export function listThemeIds(scope?: ThemeScope): string[];
 export function getTheme(themeId: string | null | undefined): Theme;
 /** Item résolu pour un thème (override + exclusif gérés), ou null. */
 export function getThemedItem(itemId: string, themeId?: string | null | undefined): Item | null;
+/**
+ * Personnalise des items à partir du catalogue : applique des surcharges
+ * « à la carte » (même format qu'un overrides de thème), crée les items
+ * complets inédits, et signale les ids inconnus incomplets via `missing`.
+ */
+export function applyOverrides(
+  baseItems: Item[],
+  overrides: ThemeOverride[]
+): { items: Item[]; missing: string[] };
 /** Nom localisé effectif d'un item pour un thème et une locale. */
 export function getThemedItemName(itemId: string, themeId: string, locale?: string): string;
 /** Meilleure image disponible : thème → gta-artwork → no_image. */

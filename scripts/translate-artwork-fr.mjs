@@ -15,8 +15,17 @@ import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(here, '..');
-const THEME = join(ROOT, 'themes', 'gtav-artwork.json');
-const OVERRIDES = JSON.parse(readFileSync(join(ROOT, 'scripts', 'fr-overrides-artwork.json'), 'utf-8'));
+
+function arg(name) {
+  const i = process.argv.indexOf(`--${name}`);
+  return i !== -1 ? process.argv[i + 1] : undefined;
+}
+
+const themeId = arg('theme') || 'gtav-artwork';
+const THEME = join(ROOT, 'themes', `${themeId}.json`);
+const OVERRIDES = JSON.parse(
+  readFileSync(join(ROOT, arg('overrides') || 'scripts/fr-overrides-artwork.json'), 'utf-8')
+);
 
 /* Surcharges de phrases complètes : anglais (minuscules) → français correct */
 const PHRASES = {
@@ -151,5 +160,5 @@ for (const item of theme.exclusiveItems) {
 }
 
 writeFileSync(THEME, `${JSON.stringify(theme, null, 2)}\n`, 'utf-8');
-console.log(`[translate-artwork-fr] ${changed} noms traduits → themes/gtav-artwork.json`);
+console.log(`[translate-artwork-fr] ${changed} noms traduits → themes/${themeId}.json`);
 console.log('⚠️  Les tokens inconnus (gammes GTA, marques) restent en anglais → revue affinée ensuite.');

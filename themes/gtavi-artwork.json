@@ -1,0 +1,1319 @@
+{
+  "$schema": "../catalog/schemas/theme.schema.json",
+  "$comment": "Thème généré depuis items.rainmad.com (82 images, sources : Artwork-GTAVI). Les valeurs de gameplay (weight…) sont à compléter par la communauté.",
+  "overrides": [],
+  "exclusiveItems": [
+    {
+      "id": "0_burger_prairiesandwich",
+      "name": {
+        "fr": "Burger PrairieSandwich",
+        "en": "0.burger PrairieSandwich"
+      },
+      "description": {
+        "fr": "Item d'inventaire « 0.burger PrairieSandwich » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"0.burger PrairieSandwich\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "0.burger_PrairieSandwich.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "amero",
+      "name": {
+        "fr": "Amero",
+        "en": "Amero"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Amero » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Amero\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Amero.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_chicken",
+      "name": {
+        "fr": "Chaceys Poulet",
+        "en": "Chaceys Chicken"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Chicken » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Chicken\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_Chicken.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_chicken2",
+      "name": {
+        "fr": "Chaceys Poulet 2",
+        "en": "Chaceys Chicken2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Chicken2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Chicken2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_Chicken2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_emptybox",
+      "name": {
+        "fr": "Chaceys Boîte vide",
+        "en": "Chaceys EmptyBox"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys EmptyBox » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys EmptyBox\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_EmptyBox.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_fish",
+      "name": {
+        "fr": "Chaceys Poisson",
+        "en": "Chaceys Fish"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Fish » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Fish\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_Fish.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_fish2",
+      "name": {
+        "fr": "Chaceys Poisson 2",
+        "en": "Chaceys Fish2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Fish2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Fish2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_Fish2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_heartstopper",
+      "name": {
+        "fr": "Chaceys Heartstopper",
+        "en": "Chaceys HEARTSTOPPER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys HEARTSTOPPER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys HEARTSTOPPER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_HEARTSTOPPER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_loadedfries",
+      "name": {
+        "fr": "Chaceys Frites garnies",
+        "en": "Chaceys LoadedFries"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys LoadedFries » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys LoadedFries\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_LoadedFries.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_meatsaver",
+      "name": {
+        "fr": "Chaceys MeatSaver",
+        "en": "Chaceys MeatSaver"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys MeatSaver » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys MeatSaver\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_MeatSaver.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_porkhole",
+      "name": {
+        "fr": "Chaceys PorkHole",
+        "en": "Chaceys PorkHole"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys PorkHole » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys PorkHole\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_PorkHole.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_prairiesandwich",
+      "name": {
+        "fr": "Chaceys Sandwiche Prairie",
+        "en": "Chaceys PrairieSandwich"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys PrairieSandwich » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys PrairieSandwich\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_PrairieSandwich.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_baconlov",
+      "name": {
+        "fr": "Chaceys Bacon",
+        "en": "Chaceys Baconlov"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Baconlov » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Baconlov\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_baconlov.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_bleeder",
+      "name": {
+        "fr": "Chaceys Bleeder",
+        "en": "Chaceys Bleeder"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Bleeder » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Bleeder\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_bleeder.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_cheese",
+      "name": {
+        "fr": "Chaceys Fromage",
+        "en": "Chaceys Cheese"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Cheese » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Cheese\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_cheese.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_cheese2",
+      "name": {
+        "fr": "Chaceys Fromage 2",
+        "en": "Chaceys Cheese2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Cheese2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Cheese2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_cheese2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_cheese3",
+      "name": {
+        "fr": "Chaceys Fromage 3",
+        "en": "Chaceys Cheese3"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Cheese3 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Cheese3\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_cheese3.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_chickenstick",
+      "name": {
+        "fr": "Chaceys Guitou",
+        "en": "Chaceys ChickenStick"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys ChickenStick » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys ChickenStick\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_chickenStick.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_frites",
+      "name": {
+        "fr": "Chaceys Frites",
+        "en": "Chaceys Frites"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Frites » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Frites\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_frites.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_kebab",
+      "name": {
+        "fr": "Chaceys Kebab",
+        "en": "Chaceys Kebab"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Kebab » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Kebab\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_kebab.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_natchos",
+      "name": {
+        "fr": "Chaceys Nachos",
+        "en": "Chaceys Natchos"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Natchos » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Natchos\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_natchos.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_nuggets",
+      "name": {
+        "fr": "Chaceys Nuggets",
+        "en": "Chaceys Nuggets"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Nuggets » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Nuggets\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_nuggets.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_tacos",
+      "name": {
+        "fr": "Chaceys Tacos",
+        "en": "Chaceys Tacos"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Tacos » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Tacos\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_tacos.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "chaceys_vegan",
+      "name": {
+        "fr": "Chaceys Végétarien",
+        "en": "Chaceys Vegan"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Chaceys Vegan » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Chaceys Vegan\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Chaceys_vegan.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "community_service_kit",
+      "name": {
+        "fr": "Kit de service communautaire",
+        "en": "Community Service Kit"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Community Service Kit » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Community Service Kit\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Community_service_kit.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "flamingo_classic",
+      "name": {
+        "fr": "FLAMINGO Classic",
+        "en": "FLAMINGO Classic"
+      },
+      "description": {
+        "fr": "Item d'inventaire « FLAMINGO Classic » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"FLAMINGO Classic\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "FLAMINGO_Classic.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "flamingo_hot",
+      "name": {
+        "fr": "FLAMINGO Piment",
+        "en": "FLAMINGO Hot"
+      },
+      "description": {
+        "fr": "Item d'inventaire « FLAMINGO Hot » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"FLAMINGO Hot\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "FLAMINGO_hot.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "jesters_hot",
+      "name": {
+        "fr": "Jesters Piment",
+        "en": "Jesters Hot"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Jesters Hot » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Jesters Hot\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Jesters_Hot.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "jesters_beef",
+      "name": {
+        "fr": "Jesters Bœuf",
+        "en": "Jesters Beef"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Jesters Beef » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Jesters Beef\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Jesters_beef.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "jesters_original",
+      "name": {
+        "fr": "Jesters Original",
+        "en": "Jesters Original"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Jesters Original » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Jesters Original\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Jesters_original.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "med_angstipan",
+      "name": {
+        "fr": "Médicament Angstipan",
+        "en": "Med Angstipan"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Med Angstipan » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Med Angstipan\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Med_angstipan.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "modern_phone",
+      "name": {
+        "fr": "Téléphone moderne",
+        "en": "Modern Phone"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Modern Phone » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Modern Phone\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Modern_phone.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_portgellhorn",
+      "name": {
+        "fr": "Carte postale Port Gellhorn",
+        "en": "PostalCard PortGellhorn"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard PortGellhorn » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard PortGellhorn\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_PortGellhorn.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_vicecity",
+      "name": {
+        "fr": "Carte postale Vice City",
+        "en": "PostalCard VICECITY"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard VICECITY » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard VICECITY\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_VICECITY.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_ambrosia",
+      "name": {
+        "fr": "Carte postale Ambrosia",
+        "en": "PostalCard Ambrosia"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard Ambrosia » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard Ambrosia\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_ambrosia.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_grassrivers",
+      "name": {
+        "fr": "Carte postale Grass Rivers",
+        "en": "PostalCard Grassrivers"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard Grassrivers » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard Grassrivers\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_grassrivers.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_leonidakeys",
+      "name": {
+        "fr": "Carte postale Leonida Keys",
+        "en": "PostalCard LeonidaKeys"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard LeonidaKeys » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard LeonidaKeys\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_leonidaKeys.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "postalcard_mountkalaga",
+      "name": {
+        "fr": "Carte postale Mont Kalaga",
+        "en": "PostalCard MountKalaga"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PostalCard MountKalaga » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PostalCard MountKalaga\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "PostalCard_mountKalaga.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "ricadillos_tortilla",
+      "name": {
+        "fr": "Ricadillos Tortilla",
+        "en": "Ricadillos Tortilla"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Ricadillos Tortilla » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Ricadillos Tortilla\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Ricadillos_Tortilla.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "sanitizing_gel",
+      "name": {
+        "fr": "Gel désinfectant",
+        "en": "Sanitizing Gel"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Sanitizing Gel » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Sanitizing Gel\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Sanitizing_Gel.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "soda_fizzazz",
+      "name": {
+        "fr": "Soda FIZZAZZ",
+        "en": "Soda FIZZAZZ"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Soda FIZZAZZ » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Soda FIZZAZZ\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Soda_FIZZAZZ.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "soda_ecola_guarana_new",
+      "name": {
+        "fr": "Soda Ecola Guarana",
+        "en": "Soda Ecola Guarana New"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Soda Ecola Guarana New » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Soda Ecola Guarana New\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Soda_ecola_guarana_new.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "soda_ecola_light_new",
+      "name": {
+        "fr": "Soda Ecola Light",
+        "en": "Soda Ecola Light New"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Soda Ecola Light New » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Soda Ecola Light New\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Soda_ecola_light_new.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "soda_ecola_new",
+      "name": {
+        "fr": "Soda Ecola",
+        "en": "Soda Ecola New"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Soda Ecola New » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Soda Ecola New\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Soda_ecola_new.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "toiletpaper_jacked",
+      "name": {
+        "fr": "Papier toilette Jacked",
+        "en": "ToiletPaper Jacked"
+      },
+      "description": {
+        "fr": "Item d'inventaire « ToiletPaper Jacked » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"ToiletPaper Jacked\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "ToiletPaper_Jacked.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "vermouth",
+      "name": {
+        "fr": "Vermouth",
+        "en": "Vermouth"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Vermouth » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Vermouth\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Vermouth.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "vermouth_dry",
+      "name": {
+        "fr": "Vermouth sec",
+        "en": "Vermouth Dry"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Vermouth Dry » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Vermouth Dry\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "Vermouth_dry.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_ipa",
+      "name": {
+        "fr": "Bière IPA",
+        "en": "Beer IPA"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer IPA » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer IPA\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_IPA.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_patriot_new",
+      "name": {
+        "fr": "Bière Patriot",
+        "en": "Beer Patriot New"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer Patriot New » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer Patriot New\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_Patriot_new.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_pissnein",
+      "name": {
+        "fr": "Bière PissNein",
+        "en": "Beer PissNein"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer PissNein » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer PissNein\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_PissNein.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_dignity",
+      "name": {
+        "fr": "Bière Dignity",
+        "en": "Beer Dignity"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer Dignity » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer Dignity\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_dignity.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_logger_new",
+      "name": {
+        "fr": "Bière Logger",
+        "en": "Beer Logger New"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer Logger New » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer Logger New\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_logger_new.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_pindayho",
+      "name": {
+        "fr": "Bière Pindayho",
+        "en": "Beer Pindayho"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer Pindayho » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer Pindayho\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_pindayho.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "beer_thaw",
+      "name": {
+        "fr": "Bière Thaw",
+        "en": "Beer Thaw"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Beer Thaw » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Beer Thaw\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "beer_thaw.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "break_fluid",
+      "name": {
+        "fr": "Liquide de frein",
+        "en": "Break Fluid"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Break Fluid » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Break Fluid\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "break_fluid.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "cedda_catfish",
+      "name": {
+        "fr": "Poisson-chat Cedda",
+        "en": "Cedda Catfish"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Cedda Catfish » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Cedda Catfish\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "cedda_catfish.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "cereal_sheriff",
+      "name": {
+        "fr": "Céréales Sheriff",
+        "en": "Cereal Sheriff"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Cereal Sheriff » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Cereal Sheriff\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "cereal_sheriff.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "console_toshitoplay_5",
+      "name": {
+        "fr": "Console ToshiToPlay 5",
+        "en": "Console ToshiToPlay 5"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Console ToshiToPlay 5 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Console ToshiToPlay 5\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "console_ToshiToPlay_5.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "coolant",
+      "name": {
+        "fr": "Liquide de refroidissement",
+        "en": "Coolant"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Coolant » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Coolant\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "coolant.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "licenseplate_1",
+      "name": {
+        "fr": "Plaque d'immatriculation 1",
+        "en": "Licenseplate 1"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Licenseplate 1 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Licenseplate 1\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "licenseplate_1.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "licenseplate_gloriana1",
+      "name": {
+        "fr": "Plaque Gloriana 1",
+        "en": "Licenseplate Gloriana1"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Licenseplate Gloriana1 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Licenseplate Gloriana1\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "licenseplate_gloriana1.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "licenseplate_gloriana2",
+      "name": {
+        "fr": "Plaque Gloriana 2",
+        "en": "Licenseplate Gloriana2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Licenseplate Gloriana2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Licenseplate Gloriana2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "licenseplate_gloriana2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "licenseplate_leonida1",
+      "name": {
+        "fr": "Plaque Leonida 1",
+        "en": "Licenseplate Leonida1"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Licenseplate Leonida1 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Licenseplate Leonida1\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "licenseplate_leonida1.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "licenseplate_leonida2",
+      "name": {
+        "fr": "Plaque Leonida 2",
+        "en": "Licenseplate Leonida2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Licenseplate Leonida2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Licenseplate Leonida2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "licenseplate_leonida2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "lighter_1",
+      "name": {
+        "fr": "Briquet 1",
+        "en": "Lighter 1"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Lighter 1 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Lighter 1\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "lighter_1.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "lighter_2",
+      "name": {
+        "fr": "Briquet 2",
+        "en": "Lighter 2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Lighter 2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Lighter 2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "lighter_2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "lighter_3",
+      "name": {
+        "fr": "Briquet 3",
+        "en": "Lighter 3"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Lighter 3 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Lighter 3\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "lighter_3.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "lighter_4",
+      "name": {
+        "fr": "Briquet 4",
+        "en": "Lighter 4"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Lighter 4 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Lighter 4\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "lighter_4.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_papaya",
+      "name": {
+        "fr": "Manman Papaye",
+        "en": "Manman PAPAYA"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman PAPAYA » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman PAPAYA\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_PAPAYA.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_coconut",
+      "name": {
+        "fr": "Manman Coco",
+        "en": "Manman Coconut"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Coconut » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Coconut\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_coconut.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_dragon_fruit",
+      "name": {
+        "fr": "Manman Fruit du dragon",
+        "en": "Manman Dragon Fruit"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Dragon Fruit » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Dragon Fruit\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_dragon_fruit.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_grenade",
+      "name": {
+        "fr": "Manman Grenade",
+        "en": "Manman Grenade"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Grenade » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Grenade\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_grenade.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_mango",
+      "name": {
+        "fr": "Manman Mangue",
+        "en": "Manman Mango"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Mango » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Mango\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_mango.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_pineapple",
+      "name": {
+        "fr": "Manman Ananas",
+        "en": "Manman Pineapple"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Pineapple » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Pineapple\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_pineapple.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "manman_strawberry",
+      "name": {
+        "fr": "Manman Fraise",
+        "en": "Manman Strawberry"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Manman Strawberry » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Manman Strawberry\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "manman_strawberry.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "oil",
+      "name": {
+        "fr": "Huile",
+        "en": "Oil"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Oil » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Oil\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "oil.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "prepaid_creditcard",
+      "name": {
+        "fr": "Carte prépayée",
+        "en": "PrePaid Creditcard"
+      },
+      "description": {
+        "fr": "Item d'inventaire « PrePaid Creditcard » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"PrePaid Creditcard\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "prePaid-creditcard.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "rustremovalliquid",
+      "name": {
+        "fr": "Décapant de rouille",
+        "en": "Rustremovalliquid"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Rustremovalliquid » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Rustremovalliquid\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "rustremovalliquid.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "tabaco_yukon",
+      "name": {
+        "fr": "Tabac Yukon",
+        "en": "Tabaco Yukon"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Tabaco Yukon » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Tabaco Yukon\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "tabaco_yukon.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "vcpd_badge",
+      "name": {
+        "fr": "Badge VCPD",
+        "en": "Vcpd Badge"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Vcpd Badge » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Vcpd Badge\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "vcpd_badge.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "zesta_green",
+      "name": {
+        "fr": "Zesta Vert",
+        "en": "Zesta Green"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Zesta Green » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Zesta Green\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "zesta_green.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    },
+    {
+      "id": "zesta_orange",
+      "name": {
+        "fr": "Zesta Orange",
+        "en": "Zesta Orange"
+      },
+      "description": {
+        "fr": "Item d'inventaire « Zesta Orange » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"Zesta Orange\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "zesta_orange.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": []
+    }
+  ]
+}

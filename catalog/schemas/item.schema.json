@@ -77,9 +77,11 @@
           "description": "Consommable structuré : satiété en % des barres (0-100), volume et fractions de consommation (boissons). À défaut, les champs food/thirst restent interprétés librement."
         },
         "stackable": {
-          "type": "boolean",
-          "default": true,
-          "description": "L'item peut-il être empilé dans l'inventaire ?"
+          "anyOf": [
+            { "type": "boolean" },
+            { "type": "number", "minimum": 1 }
+          ],
+          "description": "Empilable : nombre = taille maximale d'une pile (ex: 20), true = empilable sans limite, false = non empilable."
         },
         "usable": {
           "type": "boolean",

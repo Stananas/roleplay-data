@@ -248,6 +248,45 @@ Règles d'interprétation :
 - Catalogue : une série de bouteilles d'eau multi-tailles (25cl / 50cl / 1L /
   1,5L), sodas et alcools disposent déjà de `consumable` complets.
 
+## 🛠️ Personnaliser vos items (3 niveaux)
+
+Les projets ont déjà **trois moyens** de partir des données de base et d'adapter
+tout à leur sauce, sans jamais toucher au catalogue canonique :
+
+| Niveau | Mécanisme | Usage |
+|---|---|---|
+| 1. Extension par item | `customProperties` | vos champs métier libres (price, rarity, ilvl…) |
+| 2. Thèmes partagés | `themes/*.json` (overrides + exclusifs) | re-style/renommage visible par tous, contribution communautaire |
+| 3. **API projet** | `applyOverrides(items, vosOverrides)` | **surcouche locale à votre code**, illimitée et claire |
+
+```js
+import { getItems, applyOverrides } from 'roleplay-data';
+
+const myItems = applyOverrides(getItems(), [
+  // modifier un item existant
+  { id: 'burger', weight: 250, consumable: { kind: 'food', satiety: { food: 60, thirst: 0 } } },
+  // ajouter vos propres items (id inconnu + entrée complète)
+  { id: 'ma_meth', name: { fr: 'Meth Amity', en: 'Amity Meth' }, image: 'ma_meth.png', weight: 120, emoji: '❄️' },
+]);
+
+// myItems.items  → liste complète adaptée ;  myItems.missing → ids inconnus incomplets
+```
+
+La **stack fractionnée** (bloc `consumable`), les **tags**, `customProperties`,
+le `metadata.irl`, etc. sont tous overrideables de cette façon.
+
+## 🔢 `stackable` : booléen ou nombre
+
+`stackable` accepte désormais **deux formes** :
+- `true` / `false` — empilable sans limite / non empilable (comportement classique) ;
+- **nombre** — taille maximale d'une pile (ex: `cocaine_pack` → `10`).
+
+```json
+"stackable": 10     // pile jusqu'à 10 unités
+"stackable": false  // non empilable
+"stackable": true   // empilable illimité
+```
+
 ---
 
 ## Feuille de route

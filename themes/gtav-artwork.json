@@ -1,6 +1,6 @@
 {
   "$schema": "../catalog/schemas/theme.schema.json",
-  "$comment": "Thème généré depuis items.rainmad.com (517 images, sources : OX, QB, DrugsV, Robbery). Les valeurs de gameplay (weight…) sont à compléter par la communauté.",
+  "$comment": "Thème généré depuis items.rainmad.com (513 images, sources : OX, QB, DrugsV, Robbery). Les valeurs de gameplay (weight…) sont à compléter par la communauté.",
   "overrides": [
     {
       "id": "coke_packed",
@@ -9,6 +9,34 @@
     {
       "id": "empty_pack",
       "image": "empty_pack.png"
+    },
+    {
+      "id": "cigarette",
+      "image": "Cigarette.png"
+    },
+    {
+      "id": "weapon_appistol",
+      "image": "WEAPON_APPISTOL.png"
+    },
+    {
+      "id": "weapon_grenade",
+      "image": "WEAPON_GRENADE.png"
+    },
+    {
+      "id": "weapon_gusenberg",
+      "image": "WEAPON_GUSENBERG.png"
+    },
+    {
+      "id": "weapon_license",
+      "image": "WEAPON_LICENSE.PNG"
+    },
+    {
+      "id": "weapon_pistol",
+      "image": "WEAPON_PISTOL.png"
+    },
+    {
+      "id": "weapon_rpg",
+      "image": "WEAPON_RPG.png"
     },
     {
       "id": "bandage",
@@ -137,30 +165,6 @@
     {
       "id": "vodka",
       "image": "vodka.png"
-    },
-    {
-      "id": "weapon_appistol",
-      "image": "weapon_appistol.png"
-    },
-    {
-      "id": "weapon_grenade",
-      "image": "weapon_grenade.png"
-    },
-    {
-      "id": "weapon_gusenberg",
-      "image": "weapon_gusenberg.png"
-    },
-    {
-      "id": "weapon_license",
-      "image": "weapon_license.png"
-    },
-    {
-      "id": "weapon_pistol",
-      "image": "weapon_pistol.png"
-    },
-    {
-      "id": "weapon_rpg",
-      "image": "weapon_rpg.PNG"
     },
     {
       "id": "bag",
@@ -1473,39 +1477,241 @@
       "tags": []
     },
     {
-      "id": "igarette",
+      "id": "weapon_acidpackage",
       "name": {
-        "fr": "Cigarette",
-        "en": "Cigarette"
+        "fr": "Arme Acidpackage",
+        "en": "WEAPON ACIDPACKAGE"
       },
       "description": {
-        "fr": "Item d'inventaire « Cigarette » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Cigarette\" — GTA V artwork (RAINMAD gallery)."
+        "fr": "Item d'inventaire « WEAPON ACIDPACKAGE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ACIDPACKAGE\" — GTA V artwork (RAINMAD gallery)."
       },
-      "image": "Cigarette.png",
+      "image": "WEAPON_ACIDPACKAGE.PNG",
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [
+        "weapon"
+      ]
     },
     {
-      "id": "2",
+      "id": "weapon_advancedrifle",
       "name": {
-        "fr": "Carabine spéciale MK2",
-        "en": "WEAPON SPECIALCARBINE MK2"
+        "fr": "Arme Advancedrifle",
+        "en": "WEAPON ADVANCEDRIFLE"
       },
       "description": {
-        "fr": "Item d'inventaire « WEAPON SPECIALCARBINE MK2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"WEAPON SPECIALCARBINE MK2\" — GTA V artwork (RAINMAD gallery)."
+        "fr": "Item d'inventaire « WEAPON ADVANCEDRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ADVANCEDRIFLE\" — GTA V artwork (RAINMAD gallery)."
       },
-      "image": "WEAPON_SPECIALCARBINE_MK2.png",
+      "image": "WEAPON_ADVANCEDRIFLE.png",
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [
+        "weapon"
+      ]
     },
     {
-      "id": "02",
+      "id": "weapon_assaultrifle",
+      "name": {
+        "fr": "Arme Fusil d'assaut",
+        "en": "WEAPON ASSAULTRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON ASSAULTRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ASSAULTRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_ASSAULTRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_assaultrifle_mk2",
+      "name": {
+        "fr": "Arme Fusil d'assaut MK2",
+        "en": "WEAPON ASSAULTRIFLE MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON ASSAULTRIFLE MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ASSAULTRIFLE MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_ASSAULTRIFLE_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_assaultshotgun",
+      "name": {
+        "fr": "Arme Assaultshotgun",
+        "en": "WEAPON ASSAULTSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON ASSAULTSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ASSAULTSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_ASSAULTSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_assaultsmg",
+      "name": {
+        "fr": "Arme Assaultsmg",
+        "en": "WEAPON ASSAULTSMG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON ASSAULTSMG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON ASSAULTSMG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_ASSAULTSMG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_autoshotgun",
+      "name": {
+        "fr": "Arme Autoshotgun",
+        "en": "WEAPON AUTOSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON AUTOSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON AUTOSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_AUTOSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_ball",
+      "name": {
+        "fr": "Arme Ball",
+        "en": "WEAPON BALL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BALL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BALL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BALL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bat",
+      "name": {
+        "fr": "Arme Bat",
+        "en": "WEAPON BAT"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BAT » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BAT\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BAT.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_battleaxe",
+      "name": {
+        "fr": "Arme Battleaxe",
+        "en": "WEAPON BATTLEAXE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BATTLEAXE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BATTLEAXE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BATTLEAXE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bottle",
+      "name": {
+        "fr": "Arme Bouteille",
+        "en": "WEAPON BOTTLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BOTTLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BOTTLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BOTTLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bread",
+      "name": {
+        "fr": "Arme Pain",
+        "en": "WEAPON BREAD"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BREAD » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BREAD\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BREAD.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_briefcase",
+      "name": {
+        "fr": "Arme Mallette",
+        "en": "WEAPON BRIEFCASE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BRIEFCASE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BRIEFCASE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BRIEFCASE.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_briefcase_02",
       "name": {
         "fr": "Mallette II",
         "en": "WEAPON BRIEFCASE 02"
@@ -1518,10 +1724,1128 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [
+        "weapon"
+      ]
     },
     {
-      "id": "50",
+      "id": "weapon_bullpuprifle",
+      "name": {
+        "fr": "Arme Fusil bullpup",
+        "en": "WEAPON BULLPUPRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BULLPUPRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BULLPUPRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BULLPUPRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bullpuprifle_mk2",
+      "name": {
+        "fr": "Arme Fusil bullpup MK2",
+        "en": "WEAPON BULLPUPRIFLE MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BULLPUPRIFLE MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BULLPUPRIFLE MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BULLPUPRIFLE_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bullpupshotgun",
+      "name": {
+        "fr": "Arme Bullpupshotgun",
+        "en": "WEAPON BULLPUPSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BULLPUPSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BULLPUPSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BULLPUPSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bzgas",
+      "name": {
+        "fr": "Arme Bzgas",
+        "en": "WEAPON BZGAS"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON BZGAS » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON BZGAS\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_BZGAS.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_candycane",
+      "name": {
+        "fr": "Arme Candycane",
+        "en": "WEAPON CANDYCANE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON CANDYCANE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON CANDYCANE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_CANDYCANE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_carbinerifle",
+      "name": {
+        "fr": "Arme Carabine",
+        "en": "WEAPON CARBINERIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON CARBINERIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON CARBINERIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_CARBINERIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_carbinerifle_mk2",
+      "name": {
+        "fr": "Arme Carabine MK2",
+        "en": "WEAPON CARBINERIFLE MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON CARBINERIFLE MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON CARBINERIFLE MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_CARBINERIFLE_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_ceramicpistol",
+      "name": {
+        "fr": "Arme Ceramicpistol",
+        "en": "WEAPON CERAMICPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON CERAMICPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON CERAMICPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_CERAMICPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combatmg",
+      "name": {
+        "fr": "Arme Mitrailleuse de combat",
+        "en": "WEAPON COMBATMG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMBATMG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMBATMG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMBATMG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combatmg_mk2",
+      "name": {
+        "fr": "Arme Mitrailleuse de combat MK2",
+        "en": "WEAPON COMBATMG MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMBATMG MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMBATMG MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMBATMG_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combatpdw",
+      "name": {
+        "fr": "Arme Combatpdw",
+        "en": "WEAPON COMBATPDW"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMBATPDW » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMBATPDW\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMBATPDW.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combatpistol",
+      "name": {
+        "fr": "Arme Combatpistol",
+        "en": "WEAPON COMBATPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMBATPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMBATPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMBATPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combatshotgun",
+      "name": {
+        "fr": "Arme Combatshotgun",
+        "en": "WEAPON COMBATSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMBATSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMBATSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMBATSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_compactlauncher",
+      "name": {
+        "fr": "Arme Compactlauncher",
+        "en": "WEAPON COMPACTLAUNCHER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMPACTLAUNCHER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMPACTLAUNCHER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMPACTLAUNCHER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_compactrifle",
+      "name": {
+        "fr": "Arme Compactrifle",
+        "en": "WEAPON COMPACTRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON COMPACTRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON COMPACTRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_COMPACTRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_crowbar",
+      "name": {
+        "fr": "Arme Crowbar",
+        "en": "WEAPON CROWBAR"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON CROWBAR » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON CROWBAR\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_CROWBAR.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_dagger",
+      "name": {
+        "fr": "Arme Dagger",
+        "en": "WEAPON DAGGER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON DAGGER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON DAGGER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_DAGGER.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_dbshotgun",
+      "name": {
+        "fr": "Arme Dbshotgun",
+        "en": "WEAPON DBSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON DBSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON DBSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_DBSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_digiscanner",
+      "name": {
+        "fr": "Arme Digiscanner",
+        "en": "WEAPON DIGISCANNER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON DIGISCANNER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON DIGISCANNER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_DIGISCANNER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_doubleaction",
+      "name": {
+        "fr": "Arme Doubleaction",
+        "en": "WEAPON DOUBLEACTION"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON DOUBLEACTION » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON DOUBLEACTION\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_DOUBLEACTION.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_emplauncher",
+      "name": {
+        "fr": "Arme Emplauncher",
+        "en": "WEAPON EMPLAUNCHER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON EMPLAUNCHER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON EMPLAUNCHER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_EMPLAUNCHER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_fertilizercan",
+      "name": {
+        "fr": "Arme Fertilizercan",
+        "en": "WEAPON FERTILIZERCAN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FERTILIZERCAN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FERTILIZERCAN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FERTILIZERCAN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_fireextinguisher",
+      "name": {
+        "fr": "Arme Fireextinguisher",
+        "en": "WEAPON FIREEXTINGUISHER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FIREEXTINGUISHER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FIREEXTINGUISHER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FIREEXTINGUISHER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_firework",
+      "name": {
+        "fr": "Arme Feu d'artifice",
+        "en": "WEAPON FIREWORK"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FIREWORK » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FIREWORK\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FIREWORK.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_flare",
+      "name": {
+        "fr": "Arme Flare",
+        "en": "WEAPON FLARE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FLARE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FLARE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FLARE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_flaregun",
+      "name": {
+        "fr": "Arme Flaregun",
+        "en": "WEAPON FLAREGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FLAREGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FLAREGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FLAREGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_flashlight",
+      "name": {
+        "fr": "Arme Lampe torche",
+        "en": "WEAPON FLASHLIGHT"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON FLASHLIGHT » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON FLASHLIGHT\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_FLASHLIGHT.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_gadgetpistol",
+      "name": {
+        "fr": "Arme Gadgetpistol",
+        "en": "WEAPON GADGETPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GADGETPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GADGETPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GADGETPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_garbagebag",
+      "name": {
+        "fr": "Arme Garbagebag",
+        "en": "WEAPON GARBAGEBAG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GARBAGEBAG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GARBAGEBAG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GARBAGEBAG.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_gas",
+      "name": {
+        "fr": "Arme Gaz",
+        "en": "WEAPON GAS"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GAS » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GAS\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GAS.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_golfclub",
+      "name": {
+        "fr": "Arme Golfclub",
+        "en": "WEAPON GOLFCLUB"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GOLFCLUB » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GOLFCLUB\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GOLFCLUB.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_grenadelauncher",
+      "name": {
+        "fr": "Arme Lance-grenades",
+        "en": "WEAPON GRENADELAUNCHER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GRENADELAUNCHER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GRENADELAUNCHER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GRENADELAUNCHER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_grenadelauncher_smoke",
+      "name": {
+        "fr": "Arme Lance-grenades Smoke",
+        "en": "WEAPON GRENADELAUNCHER SMOKE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON GRENADELAUNCHER SMOKE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON GRENADELAUNCHER SMOKE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_GRENADELAUNCHER_SMOKE.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_hammer",
+      "name": {
+        "fr": "Arme Marteau",
+        "en": "WEAPON HAMMER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HAMMER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HAMMER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HAMMER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_handcuffs",
+      "name": {
+        "fr": "Arme Handcuffs",
+        "en": "WEAPON HANDCUFFS"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HANDCUFFS » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HANDCUFFS\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HANDCUFFS.PNG",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_hatchet",
+      "name": {
+        "fr": "Arme Hachette",
+        "en": "WEAPON HATCHET"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HATCHET » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HATCHET\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HATCHET.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_hazardcan",
+      "name": {
+        "fr": "Arme Hazardcan",
+        "en": "WEAPON HAZARDCAN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HAZARDCAN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HAZARDCAN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HAZARDCAN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavypistol",
+      "name": {
+        "fr": "Arme Heavypistol",
+        "en": "WEAPON HEAVYPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HEAVYPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HEAVYPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HEAVYPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavyrifle",
+      "name": {
+        "fr": "Arme Heavyrifle",
+        "en": "WEAPON HEAVYRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HEAVYRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HEAVYRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HEAVYRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavyshotgun",
+      "name": {
+        "fr": "Arme Heavyshotgun",
+        "en": "WEAPON HEAVYSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HEAVYSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HEAVYSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HEAVYSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavysniper",
+      "name": {
+        "fr": "Arme Sniper lourd",
+        "en": "WEAPON HEAVYSNIPER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HEAVYSNIPER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HEAVYSNIPER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HEAVYSNIPER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavysniper_mk2",
+      "name": {
+        "fr": "Arme Sniper lourd MK2",
+        "en": "WEAPON HEAVYSNIPER MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HEAVYSNIPER MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HEAVYSNIPER MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HEAVYSNIPER_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_hominglauncher",
+      "name": {
+        "fr": "Arme Hominglauncher",
+        "en": "WEAPON HOMINGLAUNCHER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON HOMINGLAUNCHER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON HOMINGLAUNCHER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_HOMINGLAUNCHER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_knife",
+      "name": {
+        "fr": "Arme Knife",
+        "en": "WEAPON KNIFE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON KNIFE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON KNIFE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_KNIFE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_knuckle",
+      "name": {
+        "fr": "Arme Knuckle",
+        "en": "WEAPON KNUCKLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON KNUCKLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON KNUCKLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_KNUCKLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_machete",
+      "name": {
+        "fr": "Arme Machete",
+        "en": "WEAPON MACHETE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MACHETE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MACHETE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MACHETE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_machinepistol",
+      "name": {
+        "fr": "Arme Machinepistol",
+        "en": "WEAPON MACHINEPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MACHINEPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MACHINEPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MACHINEPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_marksmanpistol",
+      "name": {
+        "fr": "Arme Marksmanpistol",
+        "en": "WEAPON MARKSMANPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MARKSMANPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MARKSMANPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MARKSMANPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_marksmanrifle",
+      "name": {
+        "fr": "Arme Fusil de précision",
+        "en": "WEAPON MARKSMANRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MARKSMANRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MARKSMANRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MARKSMANRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_marksmanrifle_mk2",
+      "name": {
+        "fr": "Arme Fusil de précision MK2",
+        "en": "WEAPON MARKSMANRIFLE MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MARKSMANRIFLE MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MARKSMANRIFLE MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MARKSMANRIFLE_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_metaldetector",
+      "name": {
+        "fr": "Arme Metaldetector",
+        "en": "WEAPON METALDETECTOR"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON METALDETECTOR » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON METALDETECTOR\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_METALDETECTOR.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_mg",
+      "name": {
+        "fr": "Arme Mitrailleuse",
+        "en": "WEAPON MG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_microsmg",
+      "name": {
+        "fr": "Arme Microsmg",
+        "en": "WEAPON MICROSMG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MICROSMG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MICROSMG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MICROSMG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_militaryrifle",
+      "name": {
+        "fr": "Arme Militaryrifle",
+        "en": "WEAPON MILITARYRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MILITARYRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MILITARYRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MILITARYRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_minigun",
+      "name": {
+        "fr": "Arme Minigun",
+        "en": "WEAPON MINIGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MINIGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MINIGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MINIGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_minismg",
+      "name": {
+        "fr": "Arme Minismg",
+        "en": "WEAPON MINISMG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MINISMG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MINISMG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MINISMG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_molotov",
+      "name": {
+        "fr": "Arme Molotov",
+        "en": "WEAPON MOLOTOV"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MOLOTOV » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MOLOTOV\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MOLOTOV.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_musket",
+      "name": {
+        "fr": "Arme Mousquet",
+        "en": "WEAPON MUSKET"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON MUSKET » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON MUSKET\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_MUSKET.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_navyrevolver",
+      "name": {
+        "fr": "Arme Navyrevolver",
+        "en": "WEAPON NAVYREVOLVER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON NAVYREVOLVER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON NAVYREVOLVER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_NAVYREVOLVER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_nightstick",
+      "name": {
+        "fr": "Arme Nightstick",
+        "en": "WEAPON NIGHTSTICK"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON NIGHTSTICK » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON NIGHTSTICK\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_NIGHTSTICK.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_petrolcan",
+      "name": {
+        "fr": "Arme Petrolcan",
+        "en": "WEAPON PETROLCAN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PETROLCAN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PETROLCAN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PETROLCAN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pipebomb",
+      "name": {
+        "fr": "Arme Pipebomb",
+        "en": "WEAPON PIPEBOMB"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PIPEBOMB » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PIPEBOMB\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PIPEBOMB.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pistol50",
       "name": {
         "fr": "Pistolet .50",
         "en": "WEAPON PISTOL50"
@@ -1534,10 +2858,156 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [
+        "weapon"
+      ]
     },
     {
-      "id": "3",
+      "id": "weapon_pistolxm3",
+      "name": {
+        "fr": "Arme Pistolxm3",
+        "en": "WEAPON PISTOLXM3"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PISTOLXM3 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PISTOLXM3\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PISTOLXM3.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pistol_mk2",
+      "name": {
+        "fr": "Arme Pistolet MK2",
+        "en": "WEAPON PISTOL MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PISTOL MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PISTOL MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PISTOL_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_poolcue",
+      "name": {
+        "fr": "Arme Poolcue",
+        "en": "WEAPON POOLCUE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON POOLCUE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON POOLCUE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_POOLCUE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_precisionrifle",
+      "name": {
+        "fr": "Arme Precisionrifle",
+        "en": "WEAPON PRECISIONRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PRECISIONRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PRECISIONRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PRECISIONRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_proxmine",
+      "name": {
+        "fr": "Arme Proxmine",
+        "en": "WEAPON PROXMINE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PROXMINE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PROXMINE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PROXMINE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pumpshotgun",
+      "name": {
+        "fr": "Arme Fusil à pompe",
+        "en": "WEAPON PUMPSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PUMPSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PUMPSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PUMPSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pumpshotgun_mk2",
+      "name": {
+        "fr": "Arme Fusil à pompe MK2",
+        "en": "WEAPON PUMPSHOTGUN MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON PUMPSHOTGUN MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON PUMPSHOTGUN MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_PUMPSHOTGUN_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_railgun",
+      "name": {
+        "fr": "Arme Railgun",
+        "en": "WEAPON RAILGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON RAILGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON RAILGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_RAILGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_railgunxm3",
       "name": {
         "fr": "Railgun XM3",
         "en": "WEAPON RAILGUNXM3"
@@ -1550,7 +3020,405 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_raycarbine",
+      "name": {
+        "fr": "Arme Raycarbine",
+        "en": "WEAPON RAYCARBINE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON RAYCARBINE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON RAYCARBINE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_RAYCARBINE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_rayminigun",
+      "name": {
+        "fr": "Arme Rayminigun",
+        "en": "WEAPON RAYMINIGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON RAYMINIGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON RAYMINIGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_RAYMINIGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_raypistol",
+      "name": {
+        "fr": "Arme Raypistol",
+        "en": "WEAPON RAYPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON RAYPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON RAYPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_RAYPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_revolver",
+      "name": {
+        "fr": "Arme Revolver",
+        "en": "WEAPON REVOLVER"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON REVOLVER » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON REVOLVER\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_REVOLVER.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_revolver_mk2",
+      "name": {
+        "fr": "Arme Revolver MK2",
+        "en": "WEAPON REVOLVER MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON REVOLVER MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON REVOLVER MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_REVOLVER_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_sawnoffshotgun",
+      "name": {
+        "fr": "Arme Sawnoffshotgun",
+        "en": "WEAPON SAWNOFFSHOTGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SAWNOFFSHOTGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SAWNOFFSHOTGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SAWNOFFSHOTGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_smg",
+      "name": {
+        "fr": "Arme Mitraillette",
+        "en": "WEAPON SMG"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SMG » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SMG\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SMG.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_smg_mk2",
+      "name": {
+        "fr": "Arme Mitraillette MK2",
+        "en": "WEAPON SMG MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SMG MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SMG MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SMG_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_smokegrenade",
+      "name": {
+        "fr": "Arme Smokegrenade",
+        "en": "WEAPON SMOKEGRENADE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SMOKEGRENADE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SMOKEGRENADE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SMOKEGRENADE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_sniperrifle",
+      "name": {
+        "fr": "Arme Sniperrifle",
+        "en": "WEAPON SNIPERRIFLE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SNIPERRIFLE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SNIPERRIFLE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SNIPERRIFLE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_snowball",
+      "name": {
+        "fr": "Arme Snowball",
+        "en": "WEAPON SNOWBALL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SNOWBALL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SNOWBALL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SNOWBALL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_snspistol",
+      "name": {
+        "fr": "Arme Pistolet SNS",
+        "en": "WEAPON SNSPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SNSPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SNSPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SNSPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_snspistol_mk2",
+      "name": {
+        "fr": "Arme Pistolet SNS MK2",
+        "en": "WEAPON SNSPISTOL MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SNSPISTOL MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SNSPISTOL MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SNSPISTOL_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_specialcarbine",
+      "name": {
+        "fr": "Arme Carabine spéciale",
+        "en": "WEAPON SPECIALCARBINE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SPECIALCARBINE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SPECIALCARBINE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SPECIALCARBINE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_specialcarbine_mk2",
+      "name": {
+        "fr": "Carabine spéciale MK2",
+        "en": "WEAPON SPECIALCARBINE MK2"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SPECIALCARBINE MK2 » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SPECIALCARBINE MK2\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SPECIALCARBINE_MK2.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_stickybomb",
+      "name": {
+        "fr": "Arme Bombe collante",
+        "en": "WEAPON STICKYBOMB"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON STICKYBOMB » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON STICKYBOMB\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_STICKYBOMB.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_stone_hatchet",
+      "name": {
+        "fr": "Arme Stone Hachette",
+        "en": "WEAPON STONE HATCHET"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON STONE HATCHET » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON STONE HATCHET\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_STONE_HATCHET.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_stungun",
+      "name": {
+        "fr": "Arme Stungun",
+        "en": "WEAPON STUNGUN"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON STUNGUN » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON STUNGUN\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_STUNGUN.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_switchblade",
+      "name": {
+        "fr": "Arme Couteau à cran d'arrêt",
+        "en": "WEAPON SWITCHBLADE"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON SWITCHBLADE » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON SWITCHBLADE\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_SWITCHBLADE.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_tecpistol",
+      "name": {
+        "fr": "Arme Pistol TEC",
+        "en": "WEAPON TECPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON TECPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON TECPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_TECPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_vintagepistol",
+      "name": {
+        "fr": "Arme Pistolet vintage",
+        "en": "WEAPON VINTAGEPISTOL"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON VINTAGEPISTOL » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON VINTAGEPISTOL\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_VINTAGEPISTOL.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_wrench",
+      "name": {
+        "fr": "Arme Wrench",
+        "en": "WEAPON WRENCH"
+      },
+      "description": {
+        "fr": "Item d'inventaire « WEAPON WRENCH » — artwork GTA V (galerie RAINMAD).",
+        "en": "Inventory item \"WEAPON WRENCH\" — GTA V artwork (RAINMAD gallery)."
+      },
+      "image": "WEAPON_WRENCH.png",
+      "weight": 0,
+      "stackable": true,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
     },
     {
       "id": "advancedkit",
@@ -4673,1950 +6541,6 @@
       "tags": []
     },
     {
-      "id": "weapon_acidpackage",
-      "name": {
-        "fr": "Arme Acidpackage",
-        "en": "Weapon Acidpackage"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Acidpackage » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Acidpackage\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_acidpackage.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_advancedrifle",
-      "name": {
-        "fr": "Arme Advancedrifle",
-        "en": "Weapon Advancedrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Advancedrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Advancedrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_advancedrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_assaultrifle",
-      "name": {
-        "fr": "Arme Fusil d'assaut",
-        "en": "Weapon Assaultrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Assaultrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Assaultrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_assaultrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_assaultrifle_mk2",
-      "name": {
-        "fr": "Arme Fusil d'assaut MK2",
-        "en": "Weapon Assaultrifle Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Assaultrifle Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Assaultrifle Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_assaultrifle_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_assaultshotgun",
-      "name": {
-        "fr": "Arme Assaultshotgun",
-        "en": "Weapon Assaultshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Assaultshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Assaultshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_assaultshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_assaultsmg",
-      "name": {
-        "fr": "Arme Assaultsmg",
-        "en": "Weapon Assaultsmg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Assaultsmg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Assaultsmg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_assaultsmg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_autoshotgun",
-      "name": {
-        "fr": "Arme Autoshotgun",
-        "en": "Weapon Autoshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Autoshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Autoshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_autoshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_ball",
-      "name": {
-        "fr": "Arme Ball",
-        "en": "Weapon Ball"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Ball » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Ball\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_ball.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bat",
-      "name": {
-        "fr": "Arme Bat",
-        "en": "Weapon Bat"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bat » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bat\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bat.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_battleaxe",
-      "name": {
-        "fr": "Arme Battleaxe",
-        "en": "Weapon Battleaxe"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Battleaxe » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Battleaxe\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_battleaxe.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bottle",
-      "name": {
-        "fr": "Arme Bouteille",
-        "en": "Weapon Bottle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bottle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bottle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bottle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bread",
-      "name": {
-        "fr": "Arme Pain",
-        "en": "Weapon Bread"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bread » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bread\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bread.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_briefcase",
-      "name": {
-        "fr": "Arme Mallette",
-        "en": "Weapon Briefcase"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Briefcase » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Briefcase\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_briefcase.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_briefcase_02",
-      "name": {
-        "fr": "Arme Mallette II",
-        "en": "Weapon Briefcase 02"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Briefcase 02 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Briefcase 02\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_briefcase_02.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bullpuprifle",
-      "name": {
-        "fr": "Arme Fusil bullpup",
-        "en": "Weapon Bullpuprifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bullpuprifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bullpuprifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bullpuprifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bullpuprifle_mk2",
-      "name": {
-        "fr": "Arme Fusil bullpup MK2",
-        "en": "Weapon Bullpuprifle Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bullpuprifle Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bullpuprifle Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bullpuprifle_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bullpupshotgun",
-      "name": {
-        "fr": "Arme Bullpupshotgun",
-        "en": "Weapon Bullpupshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bullpupshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bullpupshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bullpupshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_bzgas",
-      "name": {
-        "fr": "Arme Bzgas",
-        "en": "Weapon Bzgas"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Bzgas » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Bzgas\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_bzgas.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_candycane",
-      "name": {
-        "fr": "Arme Candycane",
-        "en": "Weapon Candycane"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Candycane » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Candycane\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_candycane.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_carbinerifle",
-      "name": {
-        "fr": "Arme Carabine",
-        "en": "Weapon Carbinerifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Carbinerifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Carbinerifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_carbinerifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_carbinerifle_mk2",
-      "name": {
-        "fr": "Arme Carabine MK2",
-        "en": "Weapon Carbinerifle Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Carbinerifle Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Carbinerifle Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_carbinerifle_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_ceramicpistol",
-      "name": {
-        "fr": "Arme Ceramicpistol",
-        "en": "Weapon Ceramicpistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Ceramicpistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Ceramicpistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_ceramicpistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_combatmg",
-      "name": {
-        "fr": "Arme Mitrailleuse de combat",
-        "en": "Weapon Combatmg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Combatmg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Combatmg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_combatmg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_combatmg_mk2",
-      "name": {
-        "fr": "Arme Mitrailleuse de combat MK2",
-        "en": "Weapon Combatmg Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Combatmg Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Combatmg Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_combatmg_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_combatpdw",
-      "name": {
-        "fr": "Arme Combatpdw",
-        "en": "Weapon Combatpdw"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Combatpdw » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Combatpdw\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_combatpdw.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_combatpistol",
-      "name": {
-        "fr": "Arme Combatpistol",
-        "en": "Weapon Combatpistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Combatpistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Combatpistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_combatpistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_combatshotgun",
-      "name": {
-        "fr": "Arme Combatshotgun",
-        "en": "Weapon Combatshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Combatshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Combatshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_combatshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_compactlauncher",
-      "name": {
-        "fr": "Arme Compactlauncher",
-        "en": "Weapon Compactlauncher"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Compactlauncher » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Compactlauncher\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_compactlauncher.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_compactrifle",
-      "name": {
-        "fr": "Arme Compactrifle",
-        "en": "Weapon Compactrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Compactrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Compactrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_compactrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_crowbar",
-      "name": {
-        "fr": "Arme Crowbar",
-        "en": "Weapon Crowbar"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Crowbar » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Crowbar\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_crowbar.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_dagger",
-      "name": {
-        "fr": "Arme Dagger",
-        "en": "Weapon Dagger"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Dagger » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Dagger\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_dagger.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_dbshotgun",
-      "name": {
-        "fr": "Arme Dbshotgun",
-        "en": "Weapon Dbshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Dbshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Dbshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_dbshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_digiscanner",
-      "name": {
-        "fr": "Arme Digiscanner",
-        "en": "Weapon Digiscanner"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Digiscanner » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Digiscanner\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_digiscanner.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_doubleaction",
-      "name": {
-        "fr": "Arme Doubleaction",
-        "en": "Weapon Doubleaction"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Doubleaction » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Doubleaction\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_doubleaction.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_emplauncher",
-      "name": {
-        "fr": "Arme Emplauncher",
-        "en": "Weapon Emplauncher"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Emplauncher » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Emplauncher\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_emplauncher.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_fertilizercan",
-      "name": {
-        "fr": "Arme Fertilizercan",
-        "en": "Weapon Fertilizercan"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Fertilizercan » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Fertilizercan\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_fertilizercan.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_fireextinguisher",
-      "name": {
-        "fr": "Arme Fireextinguisher",
-        "en": "Weapon Fireextinguisher"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Fireextinguisher » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Fireextinguisher\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_fireextinguisher.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_firework",
-      "name": {
-        "fr": "Arme Feu d'artifice",
-        "en": "Weapon Firework"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Firework » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Firework\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_firework.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_flare",
-      "name": {
-        "fr": "Arme Flare",
-        "en": "Weapon Flare"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Flare » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Flare\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_flare.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_flaregun",
-      "name": {
-        "fr": "Arme Flaregun",
-        "en": "Weapon Flaregun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Flaregun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Flaregun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_flaregun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_flashlight",
-      "name": {
-        "fr": "Arme Lampe torche",
-        "en": "Weapon Flashlight"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Flashlight » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Flashlight\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_flashlight.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_gadgetpistol",
-      "name": {
-        "fr": "Arme Gadgetpistol",
-        "en": "Weapon Gadgetpistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Gadgetpistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Gadgetpistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_gadgetpistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_garbagebag",
-      "name": {
-        "fr": "Arme Garbagebag",
-        "en": "Weapon Garbagebag"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Garbagebag » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Garbagebag\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_garbagebag.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_gas",
-      "name": {
-        "fr": "Arme Gaz",
-        "en": "Weapon Gas"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Gas » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Gas\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_gas.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_golfclub",
-      "name": {
-        "fr": "Arme Golfclub",
-        "en": "Weapon Golfclub"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Golfclub » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Golfclub\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_golfclub.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_grenadelauncher",
-      "name": {
-        "fr": "Arme Lance-grenades",
-        "en": "Weapon Grenadelauncher"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Grenadelauncher » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Grenadelauncher\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_grenadelauncher.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_grenadelauncher_smoke",
-      "name": {
-        "fr": "Arme Lance-grenades Smoke",
-        "en": "Weapon Grenadelauncher Smoke"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Grenadelauncher Smoke » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Grenadelauncher Smoke\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_grenadelauncher_smoke.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_hammer",
-      "name": {
-        "fr": "Arme Marteau",
-        "en": "Weapon Hammer"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Hammer » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Hammer\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_hammer.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_handcuffs",
-      "name": {
-        "fr": "Arme Handcuffs",
-        "en": "Weapon Handcuffs"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Handcuffs » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Handcuffs\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_handcuffs.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_hatchet",
-      "name": {
-        "fr": "Arme Hachette",
-        "en": "Weapon Hatchet"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Hatchet » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Hatchet\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_hatchet.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_hazardcan",
-      "name": {
-        "fr": "Arme Hazardcan",
-        "en": "Weapon Hazardcan"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Hazardcan » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Hazardcan\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_hazardcan.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_heavypistol",
-      "name": {
-        "fr": "Arme Heavypistol",
-        "en": "Weapon Heavypistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Heavypistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Heavypistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_heavypistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_heavyrifle",
-      "name": {
-        "fr": "Arme Heavyrifle",
-        "en": "Weapon Heavyrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Heavyrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Heavyrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_heavyrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_heavyshotgun",
-      "name": {
-        "fr": "Arme Heavyshotgun",
-        "en": "Weapon Heavyshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Heavyshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Heavyshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_heavyshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_heavysniper",
-      "name": {
-        "fr": "Arme Sniper lourd",
-        "en": "Weapon Heavysniper"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Heavysniper » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Heavysniper\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_heavysniper.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_heavysniper_mk2",
-      "name": {
-        "fr": "Arme Sniper lourd MK2",
-        "en": "Weapon Heavysniper Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Heavysniper Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Heavysniper Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_heavysniper_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_hominglauncher",
-      "name": {
-        "fr": "Arme Hominglauncher",
-        "en": "Weapon Hominglauncher"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Hominglauncher » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Hominglauncher\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_hominglauncher.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_knife",
-      "name": {
-        "fr": "Arme Knife",
-        "en": "Weapon Knife"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Knife » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Knife\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_knife.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_knuckle",
-      "name": {
-        "fr": "Arme Knuckle",
-        "en": "Weapon Knuckle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Knuckle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Knuckle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_knuckle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_machete",
-      "name": {
-        "fr": "Arme Machete",
-        "en": "Weapon Machete"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Machete » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Machete\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_machete.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_machinepistol",
-      "name": {
-        "fr": "Arme Machinepistol",
-        "en": "Weapon Machinepistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Machinepistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Machinepistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_machinepistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_marksmanpistol",
-      "name": {
-        "fr": "Arme Marksmanpistol",
-        "en": "Weapon Marksmanpistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Marksmanpistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Marksmanpistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_marksmanpistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_marksmanrifle",
-      "name": {
-        "fr": "Arme Fusil de précision",
-        "en": "Weapon Marksmanrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Marksmanrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Marksmanrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_marksmanrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_marksmanrifle_mk2",
-      "name": {
-        "fr": "Arme Fusil de précision MK2",
-        "en": "Weapon Marksmanrifle Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Marksmanrifle Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Marksmanrifle Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_marksmanrifle_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_metaldetector",
-      "name": {
-        "fr": "Arme Metaldetector",
-        "en": "Weapon Metaldetector"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Metaldetector » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Metaldetector\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_metaldetector.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_mg",
-      "name": {
-        "fr": "Arme Mitrailleuse",
-        "en": "Weapon Mg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Mg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Mg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_mg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_microsmg",
-      "name": {
-        "fr": "Arme Microsmg",
-        "en": "Weapon Microsmg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Microsmg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Microsmg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_microsmg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_militaryrifle",
-      "name": {
-        "fr": "Arme Militaryrifle",
-        "en": "Weapon Militaryrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Militaryrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Militaryrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_militaryrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_minigun",
-      "name": {
-        "fr": "Arme Minigun",
-        "en": "Weapon Minigun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Minigun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Minigun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_minigun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_minismg",
-      "name": {
-        "fr": "Arme Minismg",
-        "en": "Weapon Minismg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Minismg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Minismg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_minismg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_molotov",
-      "name": {
-        "fr": "Arme Molotov",
-        "en": "Weapon Molotov"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Molotov » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Molotov\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_molotov.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_musket",
-      "name": {
-        "fr": "Arme Mousquet",
-        "en": "Weapon Musket"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Musket » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Musket\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_musket.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_navyrevolver",
-      "name": {
-        "fr": "Arme Navyrevolver",
-        "en": "Weapon Navyrevolver"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Navyrevolver » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Navyrevolver\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_navyrevolver.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_nightstick",
-      "name": {
-        "fr": "Arme Nightstick",
-        "en": "Weapon Nightstick"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Nightstick » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Nightstick\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_nightstick.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_petrolcan",
-      "name": {
-        "fr": "Arme Petrolcan",
-        "en": "Weapon Petrolcan"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Petrolcan » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Petrolcan\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_petrolcan.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pipebomb",
-      "name": {
-        "fr": "Arme Pipebomb",
-        "en": "Weapon Pipebomb"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pipebomb » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pipebomb\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pipebomb.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pistol50",
-      "name": {
-        "fr": "Arme Pistolet .50",
-        "en": "Weapon Pistol50"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pistol50 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pistol50\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pistol50.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pistol_mk2",
-      "name": {
-        "fr": "Arme Pistolet MK2",
-        "en": "Weapon Pistol Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pistol Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pistol Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pistol_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pistolxm3",
-      "name": {
-        "fr": "Arme Pistolxm3",
-        "en": "Weapon Pistolxm3"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pistolxm3 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pistolxm3\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pistolxm3.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_poolcue",
-      "name": {
-        "fr": "Arme Poolcue",
-        "en": "Weapon Poolcue"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Poolcue » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Poolcue\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_poolcue.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_precisionrifle",
-      "name": {
-        "fr": "Arme Precisionrifle",
-        "en": "Weapon Precisionrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Precisionrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Precisionrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_precisionrifle.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_proxmine",
-      "name": {
-        "fr": "Arme Proxmine",
-        "en": "Weapon Proxmine"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Proxmine » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Proxmine\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_proxmine.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pumpshotgun",
-      "name": {
-        "fr": "Arme Fusil à pompe",
-        "en": "Weapon Pumpshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pumpshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pumpshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pumpshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_pumpshotgun_mk2",
-      "name": {
-        "fr": "Arme Fusil à pompe MK2",
-        "en": "Weapon Pumpshotgun Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Pumpshotgun Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Pumpshotgun Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_pumpshotgun_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_railgun",
-      "name": {
-        "fr": "Arme Railgun",
-        "en": "Weapon Railgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Railgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Railgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_railgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_railgunxm3",
-      "name": {
-        "fr": "Arme Railgun XM3",
-        "en": "Weapon Railgunxm3"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Railgunxm3 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Railgunxm3\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_railgunxm3.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_raycarbine",
-      "name": {
-        "fr": "Arme Raycarbine",
-        "en": "Weapon Raycarbine"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Raycarbine » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Raycarbine\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_raycarbine.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_rayminigun",
-      "name": {
-        "fr": "Arme Rayminigun",
-        "en": "Weapon Rayminigun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Rayminigun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Rayminigun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_rayminigun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_raypistol",
-      "name": {
-        "fr": "Arme Raypistol",
-        "en": "Weapon Raypistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Raypistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Raypistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_raypistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_revolver",
-      "name": {
-        "fr": "Arme Revolver",
-        "en": "Weapon Revolver"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Revolver » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Revolver\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_revolver.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_revolver_mk2",
-      "name": {
-        "fr": "Arme Revolver MK2",
-        "en": "Weapon Revolver Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Revolver Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Revolver Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_revolver_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_sawnoffshotgun",
-      "name": {
-        "fr": "Arme Sawnoffshotgun",
-        "en": "Weapon Sawnoffshotgun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Sawnoffshotgun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Sawnoffshotgun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_sawnoffshotgun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_smg",
-      "name": {
-        "fr": "Arme Mitraillette",
-        "en": "Weapon Smg"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Smg » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Smg\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_smg.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_smg_mk2",
-      "name": {
-        "fr": "Arme Mitraillette MK2",
-        "en": "Weapon Smg Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Smg Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Smg Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_smg_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_smokegrenade",
-      "name": {
-        "fr": "Arme Smokegrenade",
-        "en": "Weapon Smokegrenade"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Smokegrenade » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Smokegrenade\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_smokegrenade.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_sniperrifle",
-      "name": {
-        "fr": "Arme Sniperrifle",
-        "en": "Weapon Sniperrifle"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Sniperrifle » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Sniperrifle\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_sniperrifle.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_snowball",
-      "name": {
-        "fr": "Arme Snowball",
-        "en": "Weapon Snowball"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Snowball » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Snowball\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_snowball.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_snspistol",
-      "name": {
-        "fr": "Arme Pistolet SNS",
-        "en": "Weapon Snspistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Snspistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Snspistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_snspistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_snspistol_mk2",
-      "name": {
-        "fr": "Arme Pistolet SNS MK2",
-        "en": "Weapon Snspistol Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Snspistol Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Snspistol Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_snspistol_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_specialcarbine",
-      "name": {
-        "fr": "Arme Carabine spéciale",
-        "en": "Weapon Specialcarbine"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Specialcarbine » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Specialcarbine\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_specialcarbine.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_specialcarbine_mk2",
-      "name": {
-        "fr": "Arme Carabine spéciale MK2",
-        "en": "Weapon Specialcarbine Mk2"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Specialcarbine Mk2 » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Specialcarbine Mk2\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_specialcarbine_mk2.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_stickybomb",
-      "name": {
-        "fr": "Arme Bombe collante",
-        "en": "Weapon Stickybomb"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Stickybomb » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Stickybomb\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_stickybomb.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_stone_hatchet",
-      "name": {
-        "fr": "Arme Stone Hachette",
-        "en": "Weapon Stone Hatchet"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Stone Hatchet » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Stone Hatchet\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_stone_hatchet.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_stungun",
-      "name": {
-        "fr": "Arme Stungun",
-        "en": "Weapon Stungun"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Stungun » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Stungun\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_stungun.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_switchblade",
-      "name": {
-        "fr": "Arme Couteau à cran d'arrêt",
-        "en": "Weapon Switchblade"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Switchblade » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Switchblade\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_switchblade.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_tecpistol",
-      "name": {
-        "fr": "Arme Pistol TEC",
-        "en": "Weapon Tecpistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Tecpistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Tecpistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_tecpistol.PNG",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_vintagepistol",
-      "name": {
-        "fr": "Arme Pistolet vintage",
-        "en": "Weapon Vintagepistol"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Vintagepistol » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Vintagepistol\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_vintagepistol.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
-      "id": "weapon_wrench",
-      "name": {
-        "fr": "Arme Wrench",
-        "en": "Weapon Wrench"
-      },
-      "description": {
-        "fr": "Item d'inventaire « Weapon Wrench » — artwork GTA V (galerie RAINMAD).",
-        "en": "Inventory item \"Weapon Wrench\" — GTA V artwork (RAINMAD gallery)."
-      },
-      "image": "weapon_wrench.png",
-      "weight": 0,
-      "stackable": true,
-      "usable": false,
-      "tags": [
-        "weapon"
-      ]
-    },
-    {
       "id": "weapontint_army",
       "name": {
         "fr": "Teinte d'arme — army",
@@ -6905,7 +6829,7 @@
       "tags": []
     },
     {
-      "id": "ig_iamond",
+      "id": "big_diamond",
       "name": {
         "fr": "gros diamant",
         "en": "Big Diamond"

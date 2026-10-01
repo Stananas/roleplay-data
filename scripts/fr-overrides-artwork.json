@@ -167,8 +167,8 @@
   "weed_kush_pack": "Paquet d'herbe kush",
   "weed_pool": "Bac d'herbe",
   "weed_pot": "Pot d'herbe",
-  "2": "Carabine spéciale MK2",
-  "02": "Mallette II",
-  "50": "Pistolet .50",
-  "3": "Railgun XM3"
+  "weapon_specialcarbine_mk2": "Carabine spéciale MK2",
+  "weapon_briefcase_02": "Mallette II",
+  "weapon_pistol50": "Pistolet .50",
+  "weapon_railgunxm3": "Railgun XM3"
 }

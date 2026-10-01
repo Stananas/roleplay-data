@@ -30,6 +30,16 @@
       "scope": ["items"],
       "license": "Images © RAINMAD (items.rainmad.com) — redistribuées avec crédit ; vérifier les CGU RAINMAD avant usage commercial.",
       "attribution": "RAINMAD — items.rainmad.com"
+    },
+    "gtavi-artwork": {
+      "label": { "fr": "Artwork GTAVI", "en": "GTAVI Artwork" },
+      "description": {
+        "fr": "Pack d'images d'inventaire GTA VI en avance, importé depuis la galerie RAINMAD (catégorie Artwork-GTAVI). 82 items exclusifs — marques GTA VI (Chaceys, Pisswasser, Manman…).",
+        "en": "Early GTA VI inventory artwork, imported from the RAINMAD gallery (Artwork-GTAVI category). 82 exclusive items — GTA VI brands (Chaceys, Pisswasser, Manman…)."
+      },
+      "scope": ["items"],
+      "license": "Images © RAINMAD (items.rainmad.com) — redistribuées avec crédit ; vérifier les CGU RAINMAD avant usage commercial.",
+      "attribution": "RAINMAD — items.rainmad.com"
     }
   }
 }

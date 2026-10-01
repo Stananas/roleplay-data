@@ -133,3 +133,12 @@ export function clearCache() {
   cache.themes.clear();
   if (typeof resolver._clearExistsCache === 'function') resolver._clearExistsCache();
 }
+
+/**
+ * Personnalise son propre catalogue à partir des données de base :
+ * fusion des surcharges sur les items existants + ajout d'items complets inédits.
+ * Retourne { items, missing }.
+ */
+export function applyOverrides(items, overrides) {
+  return resolver.applyOverrides(items, overrides);
+}

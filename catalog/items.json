@@ -1223,7 +1223,8 @@
         "type": "cocaine",
         "duration": 300
       },
-      "usable": true
+      "usable": true,
+      "stackable": 10
     },
     {
       "id": "crack_pack",
@@ -1244,7 +1245,8 @@
         "type": "crack",
         "duration": 300
       },
-      "usable": true
+      "usable": true,
+      "stackable": 10
     },
     {
       "id": "coffee",
@@ -1318,7 +1320,8 @@
         "type": "mdma",
         "duration": 300
       },
-      "usable": true
+      "usable": true,
+      "stackable": 10
     },
     {
       "id": "pack_weed_seed",

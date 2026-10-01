@@ -97,6 +97,7 @@ export function buildExclusiveItem(entry) {
     food: entry.food ?? 0,
     thirst: entry.thirst ?? 0,
     drug: entry.drug ?? null,
+    consumable: entry.consumable ?? null,
     stackable: entry.stackable ?? true,
     usable: entry.usable ?? false,
     tags: entry.tags || [],
@@ -112,7 +113,7 @@ export function applyOverride(baseItem, override) {
 
   for (const field of [
     'name', 'description', 'image', 'emoji', 'weight', 'food', 'thirst',
-    'drug', 'stackable', 'usable', 'tags', 'customProperties',
+    'drug', 'consumable', 'stackable', 'usable', 'tags', 'customProperties',
   ]) {
     if (override[field] !== undefined) merged[field] = override[field];
   }
@@ -159,4 +160,35 @@ export function listThemeItemIds(theme) {
     ids.add(e?.id);
   }
   return Array.from(ids);
+}
+
+/**
+ * Applique des surcharges « à la carte » sur un catalogue, pour personnaliser
+ * ses propres items : même format que les overrides d'un thème, sans passer
+ * par un thème partagé.
+ *
+ *   - id trouvé → fusion des champs fournis sur l'item existant ;
+ *   - id inconnu ET entrée complète (name+image+weight) → item créé (comme un
+ *     exclusif de thème, mais local au projet) ;
+ *   - id inconnu incomplet → listé dans `missing`, ignoré.
+ *
+ * Retour : { items, missing }.
+ */
+export function applyOverrides(items, overrides) {
+  const base = Array.isArray(items) ? items.slice() : [];
+  const byId = new Map(base.map((i) => [i?.id, i]).filter(([k]) => k));
+  const missing = [];
+
+  for (const o of overrides || []) {
+    if (!o || typeof o.id !== 'string') continue;
+    if (byId.has(o.id)) {
+      byId.set(o.id, applyOverride(byId.get(o.id), o));
+    } else {
+      const ex = buildExclusiveItem(o);
+      if (ex) byId.set(ex.id, ex);
+      else missing.push(o.id);
+    }
+  }
+
+  return { items: Array.from(byId.values()), missing };
 }

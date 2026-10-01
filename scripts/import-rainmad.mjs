@@ -39,7 +39,11 @@ const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog', 'items.json'), 'ut
 const catalogIds = new Set(catalog.items.map((i) => i.id.toLowerCase()));
 
 function norm(name) {
-  return name.replace(/[^a-z0-9]+/g, '_').replace(/_+/g, '_').replace(/^_|_$/g, '').toLowerCase();
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '_')
+    .replace(/_+/g, '_')
+    .replace(/^_|_$/g, '');
 }
 
 function titleCase(stem) {
