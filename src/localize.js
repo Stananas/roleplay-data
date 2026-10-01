@@ -81,3 +81,19 @@ export function formatVehicleMass(kg, locale, opts = {}) {
   }
   return `${fmt(k)} kg`;
 }
+
+const ML_PER_FL_OZ = 29.5735296;
+
+/**
+ * Formate un volume (ml, canonique SI) selon la locale :
+ * métrique → « 250 ml » / « 25 cl » / « 1,5 l » ; impérial → « 8,5 fl oz ».
+ */
+export function formatVolume(ml, locale, opts = {}) {
+  const v = Number(ml) || 0;
+  if (unitsForLocale(locale, opts) === 'imperial') {
+    return `${fmt(v / ML_PER_FL_OZ)} fl oz`;
+  }
+  if (v < 100) return `${fmt(v)} ml`;
+  if (v < 1000) return `${fmt(v / 10)} cl`;
+  return `${fmt(v / 1000)} l`;
+}

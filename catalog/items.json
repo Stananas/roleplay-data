@@ -56,7 +56,14 @@
       "food": 10,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 10,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "small_water_bottle",
@@ -74,7 +81,39 @@
       "food": 0,
       "thirst": 10,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 10
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 5
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 10
+            }
+          }
+        ]
+      }
     },
     {
       "id": "weapon_pistol",
@@ -113,7 +152,14 @@
       "food": 30,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 30,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "id_card",
@@ -187,7 +233,15 @@
       "food": 0,
       "thirst": 10,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 10
+        },
+        "volumeMl": 330
+      }
     },
     {
       "id": "radio",
@@ -277,7 +331,14 @@
       "food": 10,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 10,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "key",
@@ -385,7 +446,14 @@
       "food": 4,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 4,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "chips",
@@ -403,7 +471,14 @@
       "food": 8,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 8,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "chocolate_eclair",
@@ -421,7 +496,14 @@
       "food": 10,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 10,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "bulletproof_vest",
@@ -475,7 +557,15 @@
       "food": 0,
       "thirst": 15,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 15
+        },
+        "volumeMl": 330
+      }
     },
     {
       "id": "robbery_bag",
@@ -800,7 +890,14 @@
       "food": 10,
       "thirst": 5,
       "drug": null,
-      "usable": false
+      "usable": false,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 10,
+          "thirst": 5
+        }
+      }
     },
     {
       "id": "grapejuice",
@@ -818,7 +915,15 @@
       "food": 0,
       "thirst": 15,
       "drug": null,
-      "usable": false
+      "usable": false,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 15
+        },
+        "volumeMl": 330
+      }
     },
     {
       "id": "weapon_rpg",
@@ -1160,7 +1265,39 @@
         "type": "caffeine",
         "duration": 300
       },
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 10
+        },
+        "volumeMl": 250,
+        "portions": [
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 5
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 10
+            }
+          }
+        ]
+      }
     },
     {
       "id": "xtc_pack",
@@ -1505,7 +1642,14 @@
       "food": 20,
       "thirst": 0,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 20,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "energy_drink",
@@ -1523,7 +1667,15 @@
       "food": 0,
       "thirst": 20,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 20
+        },
+        "volumeMl": 250
+      }
     },
     {
       "id": "cigarillo_pack_10",
@@ -1577,7 +1729,39 @@
       "food": 0,
       "thirst": 12,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 12
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 6
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 12
+            }
+          }
+        ]
+      }
     },
     {
       "id": "vodka",
@@ -1595,7 +1779,50 @@
       "food": 0,
       "thirst": 8,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 8
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 2
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 4
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 8
+            }
+          }
+        ]
+      }
     },
     {
       "id": "get_27",
@@ -1613,7 +1840,15 @@
       "food": 0,
       "thirst": 8,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 8
+        },
+        "volumeMl": 250
+      }
     },
     {
       "id": "whisky",
@@ -1631,7 +1866,50 @@
       "food": 0,
       "thirst": 8,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 8
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 2
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 4
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 8
+            }
+          }
+        ]
+      }
     },
     {
       "id": "rhum",
@@ -1649,7 +1927,50 @@
       "food": 0,
       "thirst": 8,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 8
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 2
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 4
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 8
+            }
+          }
+        ]
+      }
     },
     {
       "id": "jager",
@@ -1667,7 +1988,50 @@
       "food": 0,
       "thirst": 8,
       "drug": null,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 8
+        },
+        "volumeMl": 500,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 2
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 4
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 8
+            }
+          }
+        ]
+      }
     },
     {
       "id": "full_gas_tank",
@@ -2772,7 +3136,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 15,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "poisson_rare",
@@ -2791,7 +3162,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 25,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "poisson_propre",
@@ -2810,7 +3188,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 20,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "pioche",
@@ -3000,7 +3385,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 15,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "bonitosfish",
@@ -3019,7 +3411,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 20,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "clean_fish",
@@ -3038,7 +3437,14 @@
       "thirst": 0,
       "drug": null,
       "stackable": true,
-      "usable": true
+      "usable": true,
+      "consumable": {
+        "kind": "food",
+        "satiety": {
+          "food": 25,
+          "thirst": 0
+        }
+      }
     },
     {
       "id": "pickaxe",
@@ -3172,6 +3578,200 @@
       "drug": null,
       "stackable": true,
       "usable": false
+    },
+    {
+      "id": "water_bottle_25cl",
+      "name": {
+        "fr": "Eau 25cl",
+        "en": "Water 25cl"
+      },
+      "description": {
+        "fr": "Petite bouteille d'eau de 25 cl, à boire en deux fois.",
+        "en": "Small 25cl water bottle, drinkable in two sips."
+      },
+      "image": "small_water_bottle.png",
+      "emoji": "🫗",
+      "weight": 250,
+      "food": 0,
+      "thirst": 5,
+      "stackable": false,
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 5
+        },
+        "volumeMl": 250,
+        "portions": [
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 3
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "water_bottle_1l",
+      "name": {
+        "fr": "Eau 1L",
+        "en": "Water 1L"
+      },
+      "description": {
+        "fr": "Grande bouteille d'eau d'un litre : quart, tiers, moitié ou entière.",
+        "en": "One-liter water bottle: quarter, third, half or whole."
+      },
+      "image": "small_water_bottle.png",
+      "emoji": "🫗",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 20,
+      "stackable": false,
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 20
+        },
+        "volumeMl": 1000,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 5
+            }
+          },
+          {
+            "fraction": 0.3333,
+            "label": {
+              "fr": "tiers",
+              "en": "third"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 7
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 10
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 20
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "water_bottle_1_5l",
+      "name": {
+        "fr": "Eau 1,5L",
+        "en": "Water 1.5L"
+      },
+      "description": {
+        "fr": "Bouteille d'eau d'1,5 litre : quart, tiers, moitié ou entière.",
+        "en": "1.5-liter water bottle: quarter, third, half or whole."
+      },
+      "image": "small_water_bottle.png",
+      "emoji": "🫗",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 25,
+      "stackable": false,
+      "usable": true,
+      "consumable": {
+        "kind": "drink",
+        "satiety": {
+          "food": 0,
+          "thirst": 25
+        },
+        "volumeMl": 1500,
+        "portions": [
+          {
+            "fraction": 0.25,
+            "label": {
+              "fr": "quart",
+              "en": "quarter"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 6
+            }
+          },
+          {
+            "fraction": 0.3333,
+            "label": {
+              "fr": "tiers",
+              "en": "third"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 8
+            }
+          },
+          {
+            "fraction": 0.5,
+            "label": {
+              "fr": "moitié",
+              "en": "half"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 12
+            }
+          },
+          {
+            "fraction": 1,
+            "label": {
+              "fr": "entière",
+              "en": "whole"
+            },
+            "satiety": {
+              "food": 0,
+              "thirst": 25
+            }
+          }
+        ]
+      }
     }
   ]
 }

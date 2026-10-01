@@ -94,16 +94,19 @@ vers les systèmes locaux (lb/oz…) se fait **à l'affichage**, pas dans les do
 |---|---|---|
 | `item.weight` | grammes | `formatItemWeight(weight, locale)` |
 | `vehicle.massKg` | kg | `formatVehicleMass(massKg, locale)` |
+| `consumable.volumeMl` | millilitres | `formatVolume(volumeMl, locale)` |
 | `vehicle.fuelCapacity` | litres | à convertir par le consommateur |
 | `vehicle.maxSpeed` | km/h | à convertir par le consommateur |
 | `cargo.maxWeightKg` | kg | à convertir par le consommateur |
 
 ```js
-import { formatItemWeight, formatVehicleMass } from 'roleplay-data';
+import { formatItemWeight, formatVehicleMass, formatVolume } from 'roleplay-data';
 
 formatItemWeight(950, 'fr');            // "950 g"     (métrique)
 formatItemWeight(950, 'en');            // "2 lb 2 oz" (impérial)
 formatItemWeight(950, 'en', { unit: 'metric' }); // "950 g" (forcé)
+formatVolume(250, 'fr');                // "25 cl"
+formatVolume(1000, 'en');               // "33,8 fl oz"
 formatVehicleMass(1480, 'en');          // "3 263 lb"
 ```
 
@@ -205,6 +208,45 @@ npm version minor && git push --tags
 ### Prérequis pour la publication npm automatique
 - **Secret GitHub `NPM_TOKEN`** : npmjs.org → *Access Tokens* → *Granular* (scope `roleplay-data`, permission *publish*) → ajouter dans `Settings → Secrets and variables → Actions`.
 - **2FA npm en mode « Authorization only »** (npmjs.com → *Settings → Two-Factor Authentication*) : avec « Authorization & writes », la publication depuis CI exige un OTP qu'aucun robot ne peut saisir — le mode « only » permet aux tokens de publier sans OTP. *(La provenance npm demandera en plus d'activer l'option dans les settings npm.)*
+
+---
+
+## 🥤 Consommables (système)
+
+Le bloc optionnel **`consumable`** propose une structure propre et prête à
+l'emploi pour les objets comestibles/buvables : **satiété en % des barres**
+(faim/soif, 0-100), **volume** pour les boissons, et **portions fractionnées**
+(une bouteille se boit en quart, tiers, moitié ou entière selon sa taille).
+
+```json
+{
+  "id": "water_bottle_1l",
+  "name": { "fr": "Eau 1L", "en": "Water 1L" },
+  "consumable": {
+    "kind": "drink",
+    "satiety": { "food": 0, "thirst": 20 },
+    "volumeMl": 1000,
+    "portions": [
+      { "fraction": 0.25, "label": { "fr": "quart", "en": "quarter" }, "satiety": { "food": 0, "thirst": 5 } },
+      { "fraction": 0.5,  "label": { "fr": "moitié", "en": "half"  }, "satiety": { "food": 0, "thirst": 10 } },
+      { "fraction": 1,    "label": { "fr": "entière", "en": "whole" }, "satiety": { "food": 0, "thirst": 20 } }
+    ]
+  }
+}
+```
+
+Règles d'interprétation :
+- **`satiety`** = restauration en pourcentage pour une **portion entière** (ex :
+  burger → 30 % de faim, peanuts → 4 %, donut → 10 % — le burger « remplit » bien plus).
+- **`portions`** = les fractions de consommation possibles, chacune avec sa
+  **satiété propre** (pas besoin de recalculer). `portions` vide = se consomme
+  en une fois.
+- **`volumeMl`** = volume total du contenant (canonique SI, affichable via
+  `formatVolume` selon la locale : « 25 cl » en fr, « 8,5 fl oz » en en).
+- La façon d'appliquer (une gorgée par portion, mise à jour de la barre, etc.)
+  reste **au choix du projet consommateur** — les données sont prêtes.
+- Catalogue : une série de bouteilles d'eau multi-tailles (25cl / 50cl / 1L /
+  1,5L), sodas et alcools disposent déjà de `consumable` complets.
 
 ---
 

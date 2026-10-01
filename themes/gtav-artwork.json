@@ -173,6 +173,22 @@
     {
       "id": "glass_cutter",
       "image": "glass_cutter.png"
+    },
+    {
+      "id": "water_bottle_25cl",
+      "image": "water_bottle_small.png"
+    },
+    {
+      "id": "small_water_bottle",
+      "image": "water_bottle_small.png"
+    },
+    {
+      "id": "water_bottle_1l",
+      "image": "water_bottle_big.png"
+    },
+    {
+      "id": "water_bottle_1_5l",
+      "image": "water_bottle_big.png"
     }
   ],
   "exclusiveItems": [

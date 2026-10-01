@@ -72,6 +72,10 @@
           "default": null,
           "description": "Propriétés de drogue si l'item en est une."
         },
+        "consumable": {
+          "$ref": "#/definitions/consumable",
+          "description": "Consommable structuré : satiété en % des barres (0-100), volume et fractions de consommation (boissons). À défaut, les champs food/thirst restent interprétés librement."
+        },
         "stackable": {
           "type": "boolean",
           "default": true,
@@ -128,6 +132,74 @@
           "description": "Durée d'effet en secondes (unités de gameplay définies par le projet consommateur)."
         }
       }
+    },
+    "satiety": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["food", "thirst"],
+      "properties": {
+        "food": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Restauration de la barre de faim, en pourcentage (0-100)."
+        },
+        "thirst": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Restauration de la barre de soif, en pourcentage (0-100)."
+        }
+      },
+      "description": "Satiété en % des barres, pour une portion complète (entière)."
+    },
+    "portion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fraction", "label"],
+      "properties": {
+        "fraction": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "description": "Fraction du conditionnement consommée (0<f≤1)."
+        },
+        "label": {
+          "$ref": "#/definitions/localized",
+          "description": "Nom localisé de la portion (ex: moitié, quart, tiers, entière)."
+        },
+        "satiety": {
+          "$ref": "#/definitions/satiety",
+          "description": "Satiété spécifique de cette portion (par défaut : satiety × fraction)."
+        }
+      },
+      "description": "Une fraction de consommation possible d'une boisson (ex: moitié d'une bouteille)."
+    },
+    "consumable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "satiety"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["food", "drink"],
+          "description": "Nature du consommable : nourriture ou boisson."
+        },
+        "satiety": { "$ref": "#/definitions/satiety" },
+        "volumeMl": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Volume total du conditionnement, en millilitres (canonique SI). Réservé aux boissons."
+        },
+        "portions": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/portion" },
+          "default": [],
+          "description": "Fractions de consommation possibles. Vide = objet consommable en une fois (entière). Exemples fournis dans les items du catalogue (bouteilles d'eau multi-tailles)."
+        }
+      },
+      "description": "Consommable structuré : satiété en % (0-100) sur les barres faim/soif, volume en ml (canonical SI), portions fractionnelles pour les boissons. Les projets implémentent l'application comme ils veulent (une gorgée par portion, etc.)."
     }
   }
 }

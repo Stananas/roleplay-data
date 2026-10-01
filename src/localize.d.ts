@@ -42,3 +42,6 @@ export function formatItemWeight(grams: number, locale?: string, opts?: UnitOpti
 
 /** Formate une masse de véhicule (kg, canonique) selon la locale : kg ou lb. */
 export function formatVehicleMass(kg: number, locale?: string, opts?: UnitOptions): string;
+
+/** Formate un volume (ml, canonique SI) selon la locale : ml/cl/l ou fl oz. */
+export function formatVolume(ml: number, locale?: string, opts?: UnitOptions): string;
