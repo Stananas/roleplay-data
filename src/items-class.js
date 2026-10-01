@@ -23,6 +23,22 @@ import {
   formatVolume,
   formatVehicleMass,
 } from './localize.js';
+import { readFileSync } from 'node:fs';
+import { dirname, join, resolve as pathResolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const _here = dirname(fileURLToPath(import.meta.url));
+const CATEGORIES_FILE = pathResolve(_here, '..', 'catalog', 'categories.json');
+let _categoriesCache = null;
+function getCategories() {
+  if (_categoriesCache) return _categoriesCache;
+  try {
+    _categoriesCache = JSON.parse(readFileSync(CATEGORIES_FILE, 'utf-8')).categories ?? [];
+  } catch {
+    _categoriesCache = [];
+  }
+  return _categoriesCache;
+}
 
 /** Réglages globaux par défaut — partagés par toutes les instances. */
 export class ItemsDefaults {
@@ -115,6 +131,9 @@ export class Item {
 
   consumable() {
     return this._item?.consumable ?? null;
+  }
+  category() {
+    return this._item?.category ?? 'misc';
   }
 
   stackable() {
@@ -263,12 +282,28 @@ export class Items {
     return this.all().filter((it) => it.tags().includes(tag));
   }
 
-  /** Recherche par nom (locale courante + en), id ou tags. */
+  /** Liste des catégories (registre localisé). */
+  categories() {
+    return getCategories().map((c) => ({
+      id: c.id,
+      name: localize(c.name, this._ctx.locale),
+      emoji: c.emoji ?? null,
+      parent: c.parent ?? null,
+    }));
+  }
+
+  /** Items d'une catégorie (id du registre categories.json). */
+  byCategory(categoryId) {
+    return this.all().filter((it) => it.category() === categoryId);
+  }
+
+  /** Recherche par nom (locale courante + en), id, tags ou catégorie. */
   search(query) {
     const q = String(query ?? '').trim().toLowerCase();
     if (!q) return this.all();
     return this.all().filter((it) => {
-      const hay = `${it.id} ${it.name()} ${it._item?.name?.en ?? ''} ${it.tags().join(' ')}`.toLowerCase();
+      const hay =
+        `${it.id} ${it.name()} ${it._item?.name?.en ?? ''} ${it.tags().join(' ')} ${it.category()}`.toLowerCase();
       return hay.includes(q);
     });
   }

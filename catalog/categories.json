@@ -1,0 +1,18 @@
+{
+  "$schema": "../catalog/schemas/category.schema.json",
+  "categories": [
+    { "id": "weapons",   "emoji": "🔫", "name": { "fr": "Armes",         "en": "Weapons" } },
+    { "id": "food",      "emoji": "🍔", "name": { "fr": "Nourriture",    "en": "Food" } },
+    { "id": "drinks",    "emoji": "🥤", "name": { "fr": "Boissons",      "en": "Drinks" } },
+    { "id": "drugs",     "emoji": "💊", "name": { "fr": "Drogues",       "en": "Drugs" } },
+    { "id": "medical",   "emoji": "🩹", "name": { "fr": "Médical",       "en": "Medical" } },
+    { "id": "materials", "emoji": "🧱", "name": { "fr": "Matériaux",     "en": "Materials" } },
+    { "id": "tools",     "emoji": "🛠️", "name": { "fr": "Outils",        "en": "Tools" } },
+    { "id": "documents", "emoji": "📄", "name": { "fr": "Documents",     "en": "Documents" } },
+    { "id": "electronics","emoji": "📱", "name": { "fr": "Électronique", "en": "Electronics" } },
+    { "id": "jewelry",   "emoji": "💍", "name": { "fr": "Bijoux",        "en": "Jewelry" } },
+    { "id": "clothing",  "emoji": "🧥", "name": { "fr": "Vêtements",     "en": "Clothing" } },
+    { "id": "money",     "emoji": "💵", "name": { "fr": "Argent",        "en": "Money" } },
+    { "id": "misc",      "emoji": "📦", "name": { "fr": "Divers",        "en": "Misc" } }
+  ]
+}

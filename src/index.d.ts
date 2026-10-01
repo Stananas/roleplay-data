@@ -43,6 +43,7 @@ export type Item = {
   stackable: boolean | number;
   usable: boolean;
   tags: string[];
+  category?: string;
   metadata: ItemMetadata;
   customProperties: CustomProperties;
 };
@@ -203,6 +204,7 @@ export class Item {
   volumeLabel(): string | null;
   satiety(): { food: number; thirst: number } | null;
   consumable(): NonNullable<Item['consumable']> | null;
+  category(): string;
   stackable(): boolean | number;
   usable(): boolean;
   tags(): string[];
@@ -228,6 +230,8 @@ export class Items {
   has(id: string): boolean;
   all(): Item[];
   byTag(tag: string): Item[];
+  byCategory(categoryId: string): Item[];
+  categories(): { id: string; name: string; emoji: string | null; parent: string | null }[];
   search(query: string): Item[];
 }
 

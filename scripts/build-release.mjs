@@ -87,7 +87,9 @@ const sqlLines = [
   '  food NUMERIC NOT NULL DEFAULT 0,',
   '  thirst NUMERIC NOT NULL DEFAULT 0,',
   '  drug JSONB,',
-  '  stackable BOOLEAN NOT NULL DEFAULT TRUE,',
+  '  consumable JSONB,',
+  '  category TEXT,',
+  '  stackable JSONB NOT NULL DEFAULT \'true\'::jsonb,',
   '  usable BOOLEAN NOT NULL DEFAULT FALSE,',
   '  tags TEXT[] NOT NULL DEFAULT \'{}\',',
   '  metadata JSONB NOT NULL DEFAULT \'{}\',',
@@ -127,7 +129,7 @@ for (const item of items) {
     ? `'{${item.tags.map((t) => `"${t.replace(/"/g, '""')}"`).join(',')}}'`
     : "'{}'";
   sqlLines.push(
-    `INSERT INTO rp_items (id, name, description, image, emoji, weight, food, thirst, drug, stackable, usable, tags, metadata, custom_properties) VALUES (${sqlStr(item.id)}, ${sqlLocalized(item.name)}, ${sqlLocalized(item.description)}, ${sqlStr(item.image)}, ${sqlStr(item.emoji ?? null)}, ${sqlStr(item.weight)}, ${sqlStr(item.food ?? 0)}, ${sqlStr(item.thirst ?? 0)}, ${sqlLocalized(item.drug ?? null)}, ${sqlStr(item.stackable ?? true)}, ${sqlStr(item.usable ?? false)}, ${tags}, ${sqlLocalized(item.metadata ?? {})}, ${sqlLocalized(item.customProperties ?? {})});`
+    `INSERT INTO rp_items (id, name, description, image, emoji, weight, food, thirst, drug, consumable, category, stackable, usable, tags, metadata, custom_properties) VALUES (${sqlStr(item.id)}, ${sqlLocalized(item.name)}, ${sqlLocalized(item.description)}, ${sqlStr(item.image)}, ${sqlStr(item.emoji ?? null)}, ${sqlStr(item.weight)}, ${sqlStr(item.food ?? 0)}, ${sqlStr(item.thirst ?? 0)}, ${sqlLocalized(item.drug ?? null)}, ${sqlLocalized(item.consumable ?? null)}, ${sqlStr(item.category ?? null)}, ${sqlLocalized(item.stackable ?? true)}, ${sqlStr(item.usable ?? false)}, ${tags}, ${sqlLocalized(item.metadata ?? {})}, ${sqlLocalized(item.customProperties ?? {})});`
   );
 }
 for (const v of vehicles) {

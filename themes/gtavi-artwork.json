@@ -17,7 +17,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "amero",
@@ -33,7 +34,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "chaceys_chicken",
@@ -49,7 +51,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_chicken2",
@@ -65,7 +68,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_emptybox",
@@ -81,7 +85,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_fish",
@@ -97,7 +102,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_fish2",
@@ -113,7 +119,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_heartstopper",
@@ -129,7 +136,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_loadedfries",
@@ -145,7 +153,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_meatsaver",
@@ -161,7 +170,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_porkhole",
@@ -177,7 +187,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_prairiesandwich",
@@ -193,7 +204,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_baconlov",
@@ -209,7 +221,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_bleeder",
@@ -225,7 +238,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_cheese",
@@ -241,7 +255,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_cheese2",
@@ -257,7 +272,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_cheese3",
@@ -273,7 +289,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_chickenstick",
@@ -289,7 +306,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_frites",
@@ -305,7 +323,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_kebab",
@@ -321,7 +340,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_natchos",
@@ -337,7 +357,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_nuggets",
@@ -353,7 +374,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_tacos",
@@ -369,7 +391,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "chaceys_vegan",
@@ -385,7 +408,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "community_service_kit",
@@ -401,7 +425,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "tools"
     },
     {
       "id": "flamingo_classic",
@@ -417,7 +442,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "flamingo_hot",
@@ -433,7 +459,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "jesters_hot",
@@ -449,7 +476,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "jesters_beef",
@@ -465,7 +493,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "jesters_original",
@@ -481,7 +510,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "med_angstipan",
@@ -497,7 +527,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "medical"
     },
     {
       "id": "modern_phone",
@@ -513,7 +544,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "electronics"
     },
     {
       "id": "postalcard_portgellhorn",
@@ -529,7 +561,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "postalcard_vicecity",
@@ -545,7 +578,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "postalcard_ambrosia",
@@ -561,7 +595,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "postalcard_grassrivers",
@@ -577,7 +612,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "postalcard_leonidakeys",
@@ -593,7 +629,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "postalcard_mountkalaga",
@@ -609,7 +646,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "ricadillos_tortilla",
@@ -625,7 +663,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "sanitizing_gel",
@@ -641,7 +680,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "medical"
     },
     {
       "id": "soda_fizzazz",
@@ -657,7 +697,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "soda_ecola_guarana_new",
@@ -673,7 +714,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "soda_ecola_light_new",
@@ -689,7 +731,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "soda_ecola_new",
@@ -705,7 +748,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "toiletpaper_jacked",
@@ -721,7 +765,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "materials"
     },
     {
       "id": "vermouth",
@@ -737,7 +782,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "vermouth_dry",
@@ -753,7 +799,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_ipa",
@@ -769,7 +816,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_patriot_new",
@@ -785,7 +833,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_pissnein",
@@ -801,7 +850,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_dignity",
@@ -817,7 +867,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_logger_new",
@@ -833,7 +884,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_pindayho",
@@ -849,7 +901,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "beer_thaw",
@@ -865,7 +918,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "break_fluid",
@@ -881,7 +935,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "materials"
     },
     {
       "id": "cedda_catfish",
@@ -897,7 +952,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "cereal_sheriff",
@@ -913,7 +969,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "console_toshitoplay_5",
@@ -929,7 +986,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "electronics"
     },
     {
       "id": "coolant",
@@ -945,7 +1003,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "materials"
     },
     {
       "id": "licenseplate_1",
@@ -961,7 +1020,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "licenseplate_gloriana1",
@@ -977,7 +1037,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "licenseplate_gloriana2",
@@ -993,7 +1054,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "licenseplate_leonida1",
@@ -1009,7 +1071,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "licenseplate_leonida2",
@@ -1025,7 +1088,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "lighter_1",
@@ -1041,7 +1105,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "tools"
     },
     {
       "id": "lighter_2",
@@ -1057,7 +1122,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "tools"
     },
     {
       "id": "lighter_3",
@@ -1073,7 +1139,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "tools"
     },
     {
       "id": "lighter_4",
@@ -1089,7 +1156,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "tools"
     },
     {
       "id": "manman_papaya",
@@ -1105,7 +1173,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "manman_coconut",
@@ -1121,7 +1190,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "manman_dragon_fruit",
@@ -1137,7 +1207,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "manman_grenade",
@@ -1153,7 +1224,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "weapons"
     },
     {
       "id": "manman_mango",
@@ -1169,7 +1241,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "manman_pineapple",
@@ -1185,7 +1258,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "manman_strawberry",
@@ -1201,7 +1275,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "food"
     },
     {
       "id": "oil",
@@ -1217,7 +1292,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "materials"
     },
     {
       "id": "prepaid_creditcard",
@@ -1233,7 +1309,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "rustremovalliquid",
@@ -1249,7 +1326,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "materials"
     },
     {
       "id": "tabaco_yukon",
@@ -1265,7 +1343,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drugs"
     },
     {
       "id": "vcpd_badge",
@@ -1281,7 +1360,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "documents"
     },
     {
       "id": "zesta_green",
@@ -1297,7 +1377,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     },
     {
       "id": "zesta_orange",
@@ -1313,7 +1394,8 @@
       "weight": 0,
       "stackable": true,
       "usable": false,
-      "tags": []
+      "tags": [],
+      "category": "drinks"
     }
   ]
 }

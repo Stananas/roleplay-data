@@ -352,6 +352,28 @@ water.image();    // no_image.png
 
 ---
 
+## 🗂️ Catégories & recherche
+
+Le registre **`catalog/categories.json`** définit une taxonomie de haut niveau
+(13 catégories localisées : weapons, food, drinks, drugs, medical, materials,
+tools, documents, electronics, jewelry, clothing, money, misc). Les items
+portent `category` ; les **tags** décrivent les détails fins.
+
+```js
+const items = new Items().theme('gta-artwork').locale('fr');
+
+items.categories();               // [{ id, name, emoji, parent }]
+items.byCategory('food');         // → Item[] (nourriture)
+items.byTag('weapon');            // → Item[] (tags)
+items.search('eau');              // nom (locale+en), id, tags, catégorie
+items.get('burger').category();   // 'food'
+```
+
+> La catégorie est aussi portée par les **items exclusifs des thèmes**
+> (ex: `drugs` pour les labos gtav-artwork), et la recherche l'indexe.
+
+---
+
 ## Feuille de route
 
 - [x] v0.1 — items + véhicules + thèmes + i18n + validation + builds multi-produits

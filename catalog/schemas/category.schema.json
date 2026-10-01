@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "category.schema.json",
+  "title": "Catégories d'items",
+  "description": "Taxonomie de haut niveau des items (Armes, Nourriture, Boissons…). Les items référencent une catégorie par id ; les tags décrivent les détails fins.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["categories"],
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/category" }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "category": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Identifiant canonique de la catégorie (ex: weapons, food)."
+        },
+        "name": { "$ref": "#/definitions/localized" },
+        "emoji": { "type": "string", "description": "Vignette d'illustration." },
+        "parent": {
+          "type": "string",
+          "description": "Catégorie parente (hiérarchie optionnelle), ex: drinks.parent = food."
+        }
+      }
+    }
+  }
+}

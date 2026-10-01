@@ -233,6 +233,36 @@ for (const id of registryIds) {
   if (!existsSync(f)) err(`thème « ${id} » déclaré dans le registre mais themes/${id}.json absent`);
 }
 
+/* ------------------- Cohérence des catégories ------------------- */
+let categoryIds = new Set();
+try {
+  const cats = loadJson('catalog/categories.json');
+  validate(
+    cats,
+    schemaFor('catalog/schemas/category.schema.json'),
+    'catalog/categories.json',
+    schemaFor('catalog/schemas/category.schema.json')
+  );
+  categoryIds = new Set((cats.categories || []).map((c) => c.id));
+} catch {
+  err('catalog/categories.json illisible');
+}
+const categoryRefs = new Map();
+function checkCategory(obj, where) {
+  const cat = obj?.category;
+  if (cat && !categoryIds.has(cat)) categoryRefs.set(cat, where);
+}
+for (const item of items) checkCategory(item, `catalog/items.json:${item.id}`);
+for (const file of themeFiles) {
+  const theme = loadJson(`themes/${file}.json`);
+  for (const e of [...(theme.overrides || []), ...(theme.exclusiveItems || [])]) {
+    checkCategory(e, `themes/${file}.json:${e.id}`);
+  }
+}
+for (const [cat, where] of categoryRefs) {
+  err(`catégorie inconnue « ${cat} » (réf: ${where}) — voir catalog/categories.json`);
+}
+
 /* -------------------------------- Bilan -------------------------------- */
 console.log('');
 console.log(`roleplay-data : ${items.length} items, ${vehicles.length} véhicules, ${themeFiles.length} thèmes`);

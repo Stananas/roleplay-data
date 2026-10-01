@@ -98,6 +98,7 @@ export function buildExclusiveItem(entry) {
     thirst: entry.thirst ?? 0,
     drug: entry.drug ?? null,
     consumable: entry.consumable ?? null,
+    category: entry.category ?? 'misc',
     stackable: entry.stackable ?? true,
     usable: entry.usable ?? false,
     tags: entry.tags || [],
@@ -113,7 +114,7 @@ export function applyOverride(baseItem, override) {
 
   for (const field of [
     'name', 'description', 'image', 'emoji', 'weight', 'food', 'thirst',
-    'drug', 'consumable', 'stackable', 'usable', 'tags', 'customProperties',
+    'drug', 'consumable', 'category', 'stackable', 'usable', 'tags', 'customProperties',
   ]) {
     if (override[field] !== undefined) merged[field] = override[field];
   }

@@ -76,6 +76,10 @@
           "$ref": "#/definitions/consumable",
           "description": "Consommable structuré : satiété en % des barres (0-100), volume et fractions de consommation (boissons). À défaut, les champs food/thirst restent interprétés librement."
         },
+        "category": {
+          "type": "string",
+          "description": "Catégorie de l'item (id de catalog/categories.json), ex: weapons, food. Les tags décrivent les détails fins."
+        },
         "stackable": {
           "anyOf": [
             { "type": "boolean" },
