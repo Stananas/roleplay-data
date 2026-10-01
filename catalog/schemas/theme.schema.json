@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "theme.schema.json",
+  "title": "Thème (overrides + items exclusifs)",
+  "description": "Description d'un thème : renommages (name/description), remplacements d'images/emoji/valeurs, et items exclusifs au thème. Un thème ne touche jamais au catalogue canonique : il s'y greffe.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["overrides"],
+  "properties": {
+    "overrides": {
+      "type": "array",
+      "description": "Ajustements appliqués sur des items existants du catalogue (seuls les champs présents remplacent).",
+      "items": { "$ref": "#/definitions/entry" }
+    },
+    "exclusiveItems": {
+      "type": "array",
+      "description": "Items qui n'existent QUE dans ce thème (ex: AKS-74U en DayZ).",
+      "items": { "$ref": "#/definitions/exclusive" }
+    },
+    "virtualIds": {
+      "type": "array",
+      "description": "Ids d'items gérés par le code consommateur (non présents dans le catalogue) auxquels ce thème applique des overrides — ex: money_clean (argent propre, créé en runtime).",
+      "items": { "type": "string", "pattern": "^[a-z0-9_-]+$" }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Id de l'item du catalogue concerné (ou id virtuel, ex: money_clean)."
+        },
+        "name": { "$ref": "#/definitions/localized" },
+        "description": { "$ref": "#/definitions/localized" },
+        "image": { "type": "string" },
+        "emoji": { "type": "string" },
+        "weight": { "type": "number", "minimum": 0 },
+        "food": { "type": "number", "minimum": -100, "maximum": 100 },
+        "thirst": { "type": "number", "minimum": -100, "maximum": 100 },
+        "drug": { "anyOf": [{ "type": "null" }, { "type": "object", "additionalProperties": true }] },
+        "stackable": { "type": "boolean" },
+        "usable": { "type": "boolean" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "metadata": { "type": "object", "additionalProperties": true },
+        "customProperties": { "type": "object", "additionalProperties": true }
+      }
+    },
+    "exclusive": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "image", "weight"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+        "name": { "$ref": "#/definitions/localized" },
+        "description": { "$ref": "#/definitions/localized" },
+        "image": { "type": "string" },
+        "emoji": { "type": "string" },
+        "weight": { "type": "number", "minimum": 0 },
+        "food": { "type": "number", "minimum": -100, "maximum": 100 },
+        "thirst": { "type": "number", "minimum": -100, "maximum": 100 },
+        "drug": { "anyOf": [{ "type": "null" }, { "type": "object", "additionalProperties": true }] },
+        "stackable": { "type": "boolean" },
+        "usable": { "type": "boolean" },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "metadata": { "type": "object", "additionalProperties": true },
+        "customProperties": { "type": "object", "additionalProperties": true }
+      }
+    }
+  }
+}

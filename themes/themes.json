@@ -1,0 +1,25 @@
+{
+  "$schema": "../catalog/schemas/theme-registry.schema.json",
+  "themes": {
+    "gta-artwork": {
+      "label": { "fr": "GTA V Artwork", "en": "GTA V Artwork" },
+      "description": {
+        "fr": "Pack d'images par défaut (visuels inspirés de GTA V) + renommages du monde GTA V (les armes portent leur nom GTA).",
+        "en": "Default image pack (GTA V-inspired artwork) + GTA V world renaming (weapons carry their GTA name)."
+      },
+      "scope": ["items"],
+      "license": "Visuels inspirés de GTA V © Rockstar Games — usage non commercial, crédits appréciés.",
+      "attribution": "Rockstar Games (GTA V) / communauté Amity Studio"
+    },
+    "dayz": {
+      "label": { "fr": "DayZ", "en": "DayZ" },
+      "description": {
+        "fr": "Renommages et images post-apo inspirés de DayZ, avec items exclusifs.",
+        "en": "Post-apocalyptic DayZ-inspired renames, images and exclusive items."
+      },
+      "scope": ["items"],
+      "license": "Visuels générés par la communauté Amity Studio (MIT).",
+      "attribution": "Communauté Amity Studio"
+    }
+  }
+}

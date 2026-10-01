@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "item.schema.json",
+  "title": "Catalogue d'items",
+  "description": "Source de vérité des items du jeu. Les items sont identifiés par un id canonique snake_case, nommés par objet localisé, et peuvent être étendus via customProperties (point d'extension libre par projet).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/item" }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "description", "image", "weight"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Identifiant canonique (ex: weapon_pistol). Ne change jamais entre deux versions."
+        },
+        "name": {
+          "$ref": "#/definitions/localized",
+          "description": "Nom de l'item dans chaque locale."
+        },
+        "description": {
+          "$ref": "#/definitions/localized",
+          "description": "Description de l'item dans chaque locale."
+        },
+        "image": {
+          "type": "string",
+          "description": "Nom du fichier dans le pack d'images par défaut (themes/gta-artwork)."
+        },
+        "emoji": {
+          "type": "string",
+          "description": "Emoji associé (affichage Discord/UI)."
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Poids en grammes."
+        },
+        "food": {
+          "type": "number",
+          "minimum": -100,
+          "maximum": 100,
+          "default": 0,
+          "description": "Valeur de nourriture apportée."
+        },
+        "thirst": {
+          "type": "number",
+          "minimum": -100,
+          "maximum": 100,
+          "default": 0,
+          "description": "Valeur de soif apportée."
+        },
+        "drug": {
+          "anyOf": [{ "type": "null" }, { "$ref": "#/definitions/drug" }],
+          "default": null,
+          "description": "Propriétés de drogue si l'item en est une."
+        },
+        "stackable": {
+          "type": "boolean",
+          "default": true,
+          "description": "L'item peut-il être empilé dans l'inventaire ?"
+        },
+        "usable": {
+          "type": "boolean",
+          "default": false,
+          "description": "L'item est-il utilisable (interaction) ?"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": [],
+          "description": "Tags utiles (weapon, bag, document…)."
+        },
+        "metadata": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": true,
+          "description": "Identité réelle de l'objet (ex: model IRL d'une arme). Utilisé pour les renommages par thème (ex: monde GTA).",
+          "properties": {
+            "irl": {
+              "type": "object",
+              "additionalProperties": true,
+              "description": "Informations du monde réel (modèle, calibre, fabricant…)."
+            },
+            "source": {
+              "type": "string",
+              "description": "Provenance de l'item (jeu, média, création)."
+            }
+          }
+        },
+        "customProperties": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {},
+          "description": "Point d'extension libre : chaque projet peut ajouter ses propres champs ici sans toucher au catalogue."
+        }
+      }
+    },
+    "drug": {
+      "type": "object",
+      "required": ["type", "duration"],
+      "additionalProperties": true,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Type de drogue (cocaine, crack, mdma, caffeine…)."
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Durée d'effet en secondes (unités de gameplay définies par le projet consommateur)."
+        }
+      }
+    }
+  }
+}

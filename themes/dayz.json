@@ -1,0 +1,56 @@
+{
+  "$schema": "../catalog/schemas/theme.schema.json",
+  "$comment": "Thème DayZ (post-apo). Migré depuis item-themes/dayz.json du bot + names.json. Les ids money_* sont des items virtuels (argent propre/sale/faux) gérés en code — déclarés dans virtualIds. Les images non présentes dans assets/items/dayz/ retombent automatiquement sur le pack gta-artwork.",
+  "virtualIds": ["money_clean", "money_dirty", "money_fake"],
+  "overrides": [
+    {
+      "id": "burger",
+      "name": { "fr": "Conserve DayZ", "en": "DayZ Canned Food" },
+      "image": "burger.png"
+    },
+    {
+      "id": "small_water_bottle",
+      "name": { "fr": "Gourde usée", "en": "Worn Canteen" },
+      "image": "small_water_bottle.png"
+    },
+    {
+      "id": "money_clean",
+      "name": { "fr": "Billets", "en": "Bills" },
+      "image": "money.png"
+    },
+    {
+      "id": "money_dirty",
+      "name": { "fr": "Argent contaminé", "en": "Contaminated Cash" },
+      "image": "dirty_money.png"
+    },
+    {
+      "id": "money_fake",
+      "name": { "fr": "Billets contrefaits", "en": "Counterfeit Bills" },
+      "image": "fake_money.png"
+    }
+  ],
+  "exclusiveItems": [
+    {
+      "id": "aks74u",
+      "name": { "fr": "AKS-74U", "en": "AKS-74U" },
+      "description": { "fr": "Un fusil d'assaut soviétique compact.", "en": "A compact Soviet assault rifle." },
+      "image": "AKS74U.png",
+      "emoji": "🔫",
+      "weight": 3500,
+      "usable": true,
+      "stackable": false,
+      "metadata": { "irl": { "model": "Krinkov AKS-74U", "caliber": "5,45 × 39 mm" } },
+      "tags": ["weapon"]
+    },
+    {
+      "id": "dayz_bandage",
+      "name": { "fr": "Bandage improvisé", "en": "Improvised Bandage" },
+      "description": { "fr": "Une bande de tissu pour soigner les blessures.", "en": "A strip of cloth to treat wounds." },
+      "image": "bandage.png",
+      "emoji": "🩹",
+      "weight": 60,
+      "usable": true,
+      "stackable": true
+    }
+  ]
+}

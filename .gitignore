@@ -1,0 +1,12 @@
+# Dépendances / build
+node_modules/
+dist/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
+
+# Journalisation
+*.log

@@ -1,0 +1,53 @@
+{
+  "name": "@roleplay/data",
+  "version": "0.1.0",
+  "description": "Base de données RP open source : items, véhicules, thèmes (images + renommages) et i18n (fr/en requis). Source de vérité unique, consommable en package npm, seed SQL/MongoDB ou archive d'assets.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./items.json": "./catalog/items.json",
+    "./vehicles.json": "./catalog/vehicles.json",
+    "./themes": "./themes/themes.json",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "catalog",
+    "themes",
+    "src",
+    "assets/README.md",
+    "README.md",
+    "CREDITS.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build-release.mjs",
+    "build:assets": "node scripts/build-release.mjs --with-assets",
+    "migrate:items": "node scripts/migrate-items.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "roleplay",
+    "rp",
+    "items",
+    "vehicles",
+    "gta",
+    "discord-bot",
+    "fivem",
+    "database",
+    "i18n",
+    "themes"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}

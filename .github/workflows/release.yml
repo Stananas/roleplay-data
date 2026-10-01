@@ -1,0 +1,49 @@
+name: release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+  id-token: write   # requis pour npm publish --provenance
+
+jobs:
+  release:
+    name: Build & release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Validation
+        run: node scripts/validate.mjs
+
+      - name: Génération des produits
+        run: node scripts/build-release.mjs --with-assets
+
+      - name: Publication npm
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -n "$NODE_AUTH_TOKEN" ]; then npm publish; else echo "NPM_TOKEN absent — publication npm ignorée"; fi
+
+      - name: Pause des produits dans la release GitHub
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          gh release create "$GITHUB_REF_NAME" \
+            dist/releases/roleplay-data-v${VERSION}.zip \
+            dist/sql/roleplay-data.sql \
+            dist/mongodb/seed.items.json \
+            dist/mongodb/seed.vehicles.json \
+            dist/mongodb/seed.themes.json \
+            --title "roleplay-data v${VERSION}" \
+            --notes "Assets, données et seeds — voir README.md"

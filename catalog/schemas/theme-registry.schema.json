@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "theme-registry.schema.json",
+  "title": "Registre des thèmes",
+  "description": "Liste déclarative des thèmes disponibles (packs d'images + renommages). Les consommateurs (bot, sites, docs) lisent ce fichier pour générer les menus de configuration — fini les listes en dur.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["themes"],
+  "properties": {
+    "themes": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/definitions/themeEntry" }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "themeEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "scope"],
+      "properties": {
+        "label": { "$ref": "#/definitions/localized" },
+        "description": { "$ref": "#/definitions/localized" },
+        "scope": {
+          "type": "array",
+          "items": { "enum": ["items", "vehicles"] },
+          "description": "Domaines couverts par ce thème."
+        },
+        "image": {
+          "type": "string",
+          "description": "Aperçu / vignette du thème dans assets/themes/."
+        },
+        "license": {
+          "type": "string",
+          "description": "Licence / mention des assets du thème."
+        },
+        "attribution": {
+          "type": "string",
+          "description": "Auteur·rice·s ou source des visuels."
+        }
+      }
+    }
+  }
+}

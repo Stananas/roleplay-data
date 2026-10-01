@@ -1,0 +1,3177 @@
+{
+  "$schema": "../catalog/schemas/item.schema.json",
+  "$comment": "Catalogue canonique des items. Contributeurs : merci de respecter le schéma — la validation CI le vérifie.",
+  "items": [
+    {
+      "id": "phone",
+      "name": {
+        "fr": "Téléphone",
+        "en": "Phone"
+      },
+      "description": {
+        "en": "A phone",
+        "fr": "Un téléphone"
+      },
+      "image": "Modern_phone.png",
+      "emoji": "📱",
+      "weight": 250,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "sim",
+      "name": {
+        "fr": "Carte SIM",
+        "en": "SIM Card"
+      },
+      "description": {
+        "en": "A SIM card for your phone",
+        "fr": "Une carte SIM pour votre téléphone"
+      },
+      "image": "simcard.png",
+      "emoji": "📶",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "tosti",
+      "name": {
+        "fr": "Croque-Monsieur",
+        "en": "Croque-Monsieur"
+      },
+      "description": {
+        "en": "A Croque-Monsieur",
+        "fr": "Un Croque-Monsieur"
+      },
+      "image": "tosti.png",
+      "emoji": "🍞",
+      "weight": 100,
+      "food": 10,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "small_water_bottle",
+      "name": {
+        "fr": "Eau 50cl",
+        "en": "Water 50cl"
+      },
+      "description": {
+        "en": "A 50cl bottle of water",
+        "fr": "Une petite bouteille d'eau de 50cl"
+      },
+      "image": "small_water_bottle.png",
+      "emoji": "🫗",
+      "weight": 80,
+      "food": 0,
+      "thirst": 10,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "weapon_pistol",
+      "name": {
+        "fr": "Pistolet",
+        "en": "Pistol"
+      },
+      "description": {
+        "en": "A pistol",
+        "fr": "Un pistolet"
+      },
+      "image": "weapon_pistol.png",
+      "emoji": "🔫",
+      "weight": 950,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "burger",
+      "name": {
+        "fr": "Burger",
+        "en": "Burger"
+      },
+      "description": {
+        "en": "A burger",
+        "fr": "Un burger"
+      },
+      "image": "burger.png",
+      "emoji": "🍔",
+      "weight": 100,
+      "food": 30,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "id_card",
+      "name": {
+        "fr": "Carte d'identité",
+        "en": "ID Card"
+      },
+      "description": {
+        "en": "An ID card",
+        "fr": "Une carte d'identité"
+      },
+      "image": "id_card.png",
+      "emoji": "🪪",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "card_bank",
+      "name": {
+        "fr": "Carte bancaire",
+        "en": "Card Bank"
+      },
+      "description": {
+        "en": "A bank card",
+        "fr": "Une carte bancaire"
+      },
+      "image": "card_bank.png",
+      "emoji": "💳",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "offshore_key",
+      "name": {
+        "fr": "Clé offshore",
+        "en": "Offshore key"
+      },
+      "description": {
+        "en": "A key giving access to an offshore account",
+        "fr": "Une clé donnant accès à un compte offshore"
+      },
+      "image": "usb_black.png",
+      "emoji": "🔐",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "sprunk",
+      "name": {
+        "fr": "Sprunk",
+        "en": "Sprunk"
+      },
+      "description": {
+        "en": "A sprunk",
+        "fr": "Un sprunk"
+      },
+      "image": "sprunk.png",
+      "emoji": "🥤",
+      "weight": 100,
+      "food": 0,
+      "thirst": 10,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "radio",
+      "name": {
+        "fr": "Radio",
+        "en": "Radio"
+      },
+      "description": {
+        "en": "A radio",
+        "fr": "Une radio"
+      },
+      "image": "radio.png",
+      "emoji": "📻",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "usb_black",
+      "name": {
+        "fr": "Clé USB noire",
+        "en": "Black USB Key"
+      },
+      "description": {
+        "en": "A black USB key",
+        "fr": "Une clé USB noire"
+      },
+      "image": "usb_black.png",
+      "emoji": "💾",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cigarette",
+      "name": {
+        "fr": "Cigarette",
+        "en": "Cigarette"
+      },
+      "description": {
+        "en": "A cigarette",
+        "fr": "Une cigarette"
+      },
+      "image": "cigarette.png",
+      "emoji": "🚬",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "cigarette_box",
+      "name": {
+        "fr": "Paquet de 20 cigarettes",
+        "en": "Pack of 20 cigarettes"
+      },
+      "description": {
+        "en": "A pack of 20 cigarettes",
+        "fr": "Un paquet de 20 cigarettes"
+      },
+      "image": "cigarettes_box.png",
+      "emoji": "🚬",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "donut",
+      "name": {
+        "fr": "Donut",
+        "en": "Donut"
+      },
+      "description": {
+        "en": "A donut",
+        "fr": "Un donut"
+      },
+      "image": "donut.png",
+      "emoji": "🍩",
+      "weight": 100,
+      "food": 10,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "key",
+      "name": {
+        "fr": "Clé",
+        "en": "Key"
+      },
+      "description": {
+        "en": "A key",
+        "fr": "Une clé"
+      },
+      "image": "key.png",
+      "emoji": "🔑",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "carkey",
+      "name": {
+        "fr": "Clé de voiture",
+        "en": "Car Key"
+      },
+      "description": {
+        "en": "A car key",
+        "fr": "Une clé de voiture"
+      },
+      "image": "carkey.png",
+      "emoji": "🚗",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "goldbar",
+      "name": {
+        "fr": "Lingot en or",
+        "en": "Gold Bar"
+      },
+      "description": {
+        "en": "A gold bar",
+        "fr": "Une Lingot en or"
+      },
+      "image": "goldbar.png",
+      "emoji": "💰",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "diamond",
+      "name": {
+        "fr": "Diamant",
+        "en": "Diamond"
+      },
+      "description": {
+        "en": "A diamond",
+        "fr": "Un diamant"
+      },
+      "image": "diamond.png",
+      "emoji": "💎",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "diamond_ring",
+      "name": {
+        "fr": "Bague de diamant",
+        "en": "Diamond Ring"
+      },
+      "description": {
+        "en": "A diamond ring",
+        "fr": "Une bague de diamant"
+      },
+      "image": "diamond_ring.png",
+      "emoji": "💎",
+      "weight": 30,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "peanuts",
+      "name": {
+        "fr": "Cacahuètes",
+        "en": "Peanuts"
+      },
+      "description": {
+        "en": "A peanuts",
+        "fr": "Une cacahuète"
+      },
+      "image": "peanuts.png",
+      "emoji": "🥜",
+      "weight": 25,
+      "food": 4,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "chips",
+      "name": {
+        "fr": "Paquet de chips",
+        "en": "Packet of chips"
+      },
+      "description": {
+        "en": "A packet of chips",
+        "fr": "Un paquet de chips"
+      },
+      "image": "chips.png",
+      "emoji": "🥔",
+      "weight": 25,
+      "food": 8,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "chocolate_eclair",
+      "name": {
+        "fr": "Éclair au chocolat",
+        "en": "Chocolate éclair"
+      },
+      "description": {
+        "en": "A chocolate éclair",
+        "fr": "Un éclair au chocolat"
+      },
+      "image": "chocolate_eclair.png",
+      "emoji": "🍫",
+      "weight": 25,
+      "food": 10,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "bulletproof_vest",
+      "name": {
+        "fr": "Gilet par balle",
+        "en": "Bulletproof Vest"
+      },
+      "description": {
+        "en": "A bulletproof vest",
+        "fr": "Un gilet par balle"
+      },
+      "image": "bulletproof_vest.png",
+      "emoji": "🛡️",
+      "weight": 2500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "balaclava",
+      "name": {
+        "fr": "Cagoule",
+        "en": "Balaclava"
+      },
+      "description": {
+        "en": "A balaclava",
+        "fr": "Une cagoule"
+      },
+      "image": "balaclava.png",
+      "emoji": "🧣",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cola",
+      "name": {
+        "fr": "eCola",
+        "en": "eCola"
+      },
+      "description": {
+        "en": "A can of eCola",
+        "fr": "Une canette d'eCola"
+      },
+      "image": "cola.png",
+      "emoji": "🥤",
+      "weight": 360,
+      "food": 0,
+      "thirst": 15,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "robbery_bag",
+      "name": {
+        "fr": "Sac de braquage",
+        "en": "Robbery Bag"
+      },
+      "description": {
+        "en": "A robbery bag",
+        "fr": "Un sac de braquage"
+      },
+      "image": "robbery_bag.png",
+      "emoji": "🧳",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "bag"
+      ],
+      "customProperties": {
+        "bagCapacity": 25000
+      }
+    },
+    {
+      "id": "empty_pack",
+      "name": {
+        "fr": "Pochon vide",
+        "en": "Empty Pack"
+      },
+      "description": {
+        "en": "An empty pack",
+        "fr": "Un Pochon vide"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🗑️",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "driver_license",
+      "name": {
+        "fr": "Permis de conduire",
+        "en": "Driver License"
+      },
+      "description": {
+        "en": "A driver license",
+        "fr": "Un permis de conduire"
+      },
+      "image": "driver_license.png",
+      "emoji": "🪪",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "gold_chain",
+      "name": {
+        "fr": "Chaîne en or",
+        "en": "Gold Chain"
+      },
+      "description": {
+        "en": "A gold chain",
+        "fr": "Une chaîne en or"
+      },
+      "image": "gold_chain.png",
+      "emoji": "💎",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "rolex",
+      "name": {
+        "fr": "Montre Rolex",
+        "en": "Rolex Watch"
+      },
+      "description": {
+        "en": "A Rolex watch",
+        "fr": "Une montre Rolex"
+      },
+      "image": "rolex.png",
+      "emoji": "⌚",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "pistolet_combat",
+      "name": {
+        "fr": "Pistolet de combat",
+        "en": "Combat Pistol"
+      },
+      "description": {
+        "en": "A combat pistol",
+        "fr": "Un pistolet de combat"
+      },
+      "image": "combat_pistol.png",
+      "emoji": "🔫",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "carbine_rifle",
+      "name": {
+        "fr": "Carabine",
+        "en": "Carbine Rifle"
+      },
+      "description": {
+        "en": "A carbine rifle",
+        "fr": "Une carabine"
+      },
+      "image": "carbine_rifle.png",
+      "emoji": "🔫",
+      "weight": 2000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "weapon_license",
+      "name": {
+        "fr": "Permis de port d'arme",
+        "en": "Weapon License"
+      },
+      "description": {
+        "en": "A weapon license",
+        "fr": "Un permis de port d'arme"
+      },
+      "image": "weapon_license.png",
+      "emoji": "🪪",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "molotov",
+      "name": {
+        "fr": "Cocktail Molotov",
+        "en": "Molotov Cocktail"
+      },
+      "description": {
+        "en": "A Molotov cocktail",
+        "fr": "Un cocktail Molotov"
+      },
+      "image": "weapon_molotov.png",
+      "emoji": "🔥",
+      "weight": 850,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "switchblade",
+      "name": {
+        "fr": "Cran d'arrêt",
+        "en": "Switchblade"
+      },
+      "description": {
+        "en": "A switchblade",
+        "fr": "Un cran d'arrêt"
+      },
+      "image": "switchblade.png",
+      "emoji": "🔪",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "glass_cutter",
+      "name": {
+        "fr": "Coupe-verre",
+        "en": "Glass Cutter"
+      },
+      "description": {
+        "en": "A glass cutter",
+        "fr": "Un coupe-verre"
+      },
+      "image": "glass_cutter.png",
+      "emoji": "🔪",
+      "weight": 2000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "c4_portable",
+      "name": {
+        "fr": "C4 explosif",
+        "en": "C4 Explosive"
+      },
+      "description": {
+        "en": "A C4 explosive",
+        "fr": "Un explosif C4"
+      },
+      "image": "c4_portable.png",
+      "emoji": "💣",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "gold_art_horse",
+      "name": {
+        "fr": "Cheval d'art en or",
+        "en": "Golden Art Horse"
+      },
+      "description": {
+        "en": "A golden art horse",
+        "fr": "Un cheval d'art en or"
+      },
+      "image": "arthorse.png",
+      "emoji": "🐎",
+      "weight": 1200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "golden_art_egg",
+      "name": {
+        "fr": "Oeuf d'art en or",
+        "en": "Golden Art Egg"
+      },
+      "description": {
+        "en": "A golden art egg",
+        "fr": "Un oeuf d'art en or"
+      },
+      "image": "artegg2.png",
+      "emoji": "🥚",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "weapon_appistol",
+      "name": {
+        "fr": "Pistolet Perforant",
+        "en": "App Pistol"
+      },
+      "description": {
+        "en": "An app pistol",
+        "fr": "Un pistolet perforant"
+      },
+      "image": "weapon_appistol.png",
+      "emoji": "🔫",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_ak47",
+      "name": {
+        "fr": "AK-47",
+        "en": "AK-47"
+      },
+      "description": {
+        "en": "An AK-47",
+        "fr": "Un AK-47"
+      },
+      "image": "weapon_assaultrifle.png",
+      "emoji": "🔫",
+      "weight": 4500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ],
+      "metadata": {
+        "irl": {
+          "model": "AKM",
+          "fabricant": "Kalachnikov",
+          "caliber": "7,62 × 39 mm"
+        }
+      }
+    },
+    {
+      "id": "grape",
+      "name": {
+        "fr": "Raisin",
+        "en": "Grape"
+      },
+      "description": {
+        "en": "A grape",
+        "fr": "Un raisin"
+      },
+      "image": "grape.png",
+      "emoji": "🍇",
+      "weight": 500,
+      "food": 10,
+      "thirst": 5,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "grapejuice",
+      "name": {
+        "fr": "Jus de raisin",
+        "en": "Grape Juice"
+      },
+      "description": {
+        "en": "A grape juice",
+        "fr": "Un jus de raisin"
+      },
+      "image": "grapejuice.png",
+      "emoji": "🍇",
+      "weight": 300,
+      "food": 0,
+      "thirst": 15,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "weapon_rpg",
+      "name": {
+        "fr": "Lance-roquettes",
+        "en": "RPG"
+      },
+      "description": {
+        "en": "A RPG",
+        "fr": "Un lance-roquettes"
+      },
+      "image": "weapon_RPG.png",
+      "emoji": "🔫",
+      "weight": 5000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "nightstick",
+      "name": {
+        "fr": "Matraque",
+        "en": "Nightstick"
+      },
+      "description": {
+        "en": "A nightstick",
+        "fr": "Une matraque"
+      },
+      "image": "weapon_nightstick.png",
+      "emoji": "🔫",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "knife",
+      "name": {
+        "fr": "Couteau de combat",
+        "en": "Combat Knife"
+      },
+      "description": {
+        "en": "A combat knife",
+        "fr": "Un couteau de combat"
+      },
+      "image": "weapon_knife.png",
+      "emoji": "🔪",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "crowbar",
+      "name": {
+        "fr": "Pied de biche",
+        "en": "Crowbar"
+      },
+      "description": {
+        "en": "A crowbar",
+        "fr": "Un pied de biche"
+      },
+      "image": "weapon_crowbar.png",
+      "emoji": "🔧",
+      "weight": 1200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "knuckle",
+      "name": {
+        "fr": "Poing américain",
+        "en": "Knuckle Duster"
+      },
+      "description": {
+        "en": "A knuckle duster",
+        "fr": "Un poing américain"
+      },
+      "image": "weapon_knuckle.png",
+      "emoji": "👊",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "g36k",
+      "name": {
+        "fr": "G36K",
+        "en": "G36K"
+      },
+      "description": {
+        "en": "A G36K",
+        "fr": "Un G36K"
+      },
+      "image": "G36K.png",
+      "emoji": "🔫",
+      "weight": 4000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "electronic_kit",
+      "name": {
+        "fr": "Kit électronique",
+        "en": "Electronic Kit"
+      },
+      "description": {
+        "en": "An electronic kit",
+        "fr": "Un kit électronique"
+      },
+      "image": "electronic_kit.png",
+      "emoji": "🧰",
+      "weight": 200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "coke_packed",
+      "name": {
+        "fr": "Pochon de Coke",
+        "en": "Coke Pack"
+      },
+      "description": {
+        "en": "A pack of coke",
+        "fr": "Un Pochon de Coke de coke"
+      },
+      "image": "coke_packed.png",
+      "emoji": "🧂",
+      "weight": 100,
+      "food": 0,
+      "thirst": 5,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "lighter",
+      "name": {
+        "fr": "Briquet",
+        "en": "Lighter"
+      },
+      "description": {
+        "en": "A lighter",
+        "fr": "Un briquet"
+      },
+      "image": "lighter.png",
+      "emoji": "🪔",
+      "weight": 50,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "carbine_mk2",
+      "name": {
+        "fr": "AR-15",
+        "en": "AR-15"
+      },
+      "description": {
+        "en": "An AR-15",
+        "fr": "Une AR-15"
+      },
+      "image": "carbine_mk2.png",
+      "emoji": "🔫",
+      "weight": 4000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "combatshotgun",
+      "name": {
+        "fr": "Fusil à pompe de combat",
+        "en": "Combat Shotgun"
+      },
+      "description": {
+        "en": "A combat shotgun",
+        "fr": "Un fusil à pompe de combat"
+      },
+      "image": "combatshotgun.png",
+      "emoji": "🔫",
+      "weight": 4000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "machete",
+      "name": {
+        "fr": "Machette",
+        "en": "Machete"
+      },
+      "description": {
+        "en": "A machete",
+        "fr": "Une machette"
+      },
+      "image": "weapon_machete.png",
+      "emoji": "🔪",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "alarm",
+      "name": {
+        "fr": "Alarme",
+        "en": "Alarm"
+      },
+      "description": {
+        "en": "An alarm",
+        "fr": "Une alarme"
+      },
+      "image": "alarm.png",
+      "emoji": "🚨",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "copper_cables",
+      "name": {
+        "fr": "Cables en cuivre",
+        "en": "Copper Cables"
+      },
+      "description": {
+        "en": "Copper Cables",
+        "fr": "Cables en cuivre"
+      },
+      "image": "copper_cables.png",
+      "emoji": "🧂",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "handcuffs",
+      "name": {
+        "fr": "Menottes",
+        "en": "Handcuffs"
+      },
+      "description": {
+        "en": "Handcuffs",
+        "fr": "Menottes"
+      },
+      "image": "handcuffs.png",
+      "emoji": "🔗",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cocaine_pack",
+      "name": {
+        "fr": "Pochon de Cocaïne",
+        "en": "Cocaine Pack"
+      },
+      "description": {
+        "en": "A pack of cocaine",
+        "fr": "Un Pochon de cocaïne"
+      },
+      "image": "cocaine_packed.png",
+      "emoji": "💊",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": {
+        "type": "cocaine",
+        "duration": 300
+      },
+      "usable": true
+    },
+    {
+      "id": "crack_pack",
+      "name": {
+        "fr": "Pochon de Crack",
+        "en": "Crack Pack"
+      },
+      "description": {
+        "en": "A pack of crack",
+        "fr": "Un Pochon de crack"
+      },
+      "image": "crack_packed.png",
+      "emoji": "💊",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": {
+        "type": "crack",
+        "duration": 300
+      },
+      "usable": true
+    },
+    {
+      "id": "coffee",
+      "name": {
+        "fr": "Café",
+        "en": "Coffee"
+      },
+      "description": {
+        "en": "A cup of coffee",
+        "fr": "Une tasse de café"
+      },
+      "image": "coffee.png",
+      "emoji": "☕",
+      "weight": 200,
+      "food": 0,
+      "thirst": 10,
+      "drug": {
+        "type": "caffeine",
+        "duration": 300
+      },
+      "usable": true
+    },
+    {
+      "id": "xtc_pack",
+      "name": {
+        "fr": "Pochonde XTC",
+        "en": "XTC Pack"
+      },
+      "description": {
+        "en": "A pack of XTC",
+        "fr": "Un Pochon d'XTC"
+      },
+      "image": "xtc_packed.png",
+      "emoji": "💊",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": {
+        "type": "mdma",
+        "duration": 300
+      },
+      "usable": true
+    },
+    {
+      "id": "pack_weed_seed",
+      "name": {
+        "fr": "Pack de graines de weed",
+        "en": "Weed Seed Pack"
+      },
+      "description": {
+        "en": "A pack of weed seeds",
+        "fr": "Un paquet de graines de weed"
+      },
+      "image": "weed_seed_pack.png",
+      "emoji": "🌱",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "seed_cannabis",
+      "name": {
+        "fr": "Graine de cannabis",
+        "en": "Cannabis seed"
+      },
+      "description": {
+        "en": "Drug system item: cannabis seed",
+        "fr": "Item du système drogue : graine de cannabis"
+      },
+      "image": "weed_seed_pack.png",
+      "emoji": "🌱",
+      "weight": 20,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "seed_heroine",
+      "name": {
+        "fr": "Graine d'héroïne",
+        "en": "Heroin seed"
+      },
+      "description": {
+        "en": "Drug system item: heroin seed",
+        "fr": "Item du système drogue : graine d'héroïne"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 20,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "chem_compound_a",
+      "name": {
+        "fr": "Composé chimique A",
+        "en": "Chemical compound A"
+      },
+      "description": {
+        "en": "Drug system item: chemical compound A",
+        "fr": "Item du système drogue : composé chimique A"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 50,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "chem_compound_b",
+      "name": {
+        "fr": "Composé chimique B",
+        "en": "Chemical compound B"
+      },
+      "description": {
+        "en": "Drug system item: chemical compound B",
+        "fr": "Item du système drogue : composé chimique B"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 50,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "chemical_kit",
+      "name": {
+        "fr": "Kit chimique",
+        "en": "Chemical kit"
+      },
+      "description": {
+        "en": "Drug system item: chemical kit",
+        "fr": "Item du système drogue : kit chimique"
+      },
+      "image": "chemical_table.png",
+      "emoji": "🧪",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cannabis_raw",
+      "name": {
+        "fr": "Cannabis brut",
+        "en": "Raw cannabis"
+      },
+      "description": {
+        "en": "Drug system item: raw cannabis",
+        "fr": "Item du système drogue : cannabis brut"
+      },
+      "image": "weed.png",
+      "emoji": "🌱",
+      "weight": 60,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cannabis_treated",
+      "name": {
+        "fr": "Cannabis traité",
+        "en": "Treated cannabis"
+      },
+      "description": {
+        "en": "Drug system item: treated cannabis",
+        "fr": "Item du système drogue : cannabis traité"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 45,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cannabis_sachet",
+      "name": {
+        "fr": "Sachet de cannabis",
+        "en": "Cannabis sachet"
+      },
+      "description": {
+        "en": "Drug system item: cannabis sachet",
+        "fr": "Item du système drogue : sachet de cannabis"
+      },
+      "image": "weed_packed.png",
+      "emoji": "🌱",
+      "weight": 35,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cannabis_brick_small",
+      "name": {
+        "fr": "Petite brique de cannabis",
+        "en": "Small cannabis brick"
+      },
+      "description": {
+        "en": "Drug system item: small cannabis brick",
+        "fr": "Item du système drogue : petite brique de cannabis"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 220,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "cannabis_brick_big",
+      "name": {
+        "fr": "Grande brique de cannabis",
+        "en": "Large cannabis brick"
+      },
+      "description": {
+        "en": "Drug system item: large cannabis brick",
+        "fr": "Item du système drogue : grande brique de cannabis"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 420,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "heroine_raw",
+      "name": {
+        "fr": "Héroïne brute",
+        "en": "Raw heroin"
+      },
+      "description": {
+        "en": "Drug system item: raw heroin",
+        "fr": "Item du système drogue : héroïne brute"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 60,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "heroine_treated",
+      "name": {
+        "fr": "Héroïne traitée",
+        "en": "Treated heroin"
+      },
+      "description": {
+        "en": "Drug system item: treated heroin",
+        "fr": "Item du système drogue : héroïne traitée"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 45,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "heroine_sachet",
+      "name": {
+        "fr": "Sachet d'héroïne",
+        "en": "Heroin sachet"
+      },
+      "description": {
+        "en": "Drug system item: heroin sachet",
+        "fr": "Item du système drogue : sachet d'héroïne"
+      },
+      "image": "empty_pack.png",
+      "emoji": "🌱",
+      "weight": 35,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "heroine_seringue",
+      "name": {
+        "fr": "Seringue d'héroïne",
+        "en": "Heroin syringe"
+      },
+      "description": {
+        "en": "Drug system item: heroin syringe",
+        "fr": "Item du système drogue : seringue d'héroïne"
+      },
+      "image": "empty_pack.png",
+      "emoji": "💉",
+      "weight": 40,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "mdma_treated",
+      "name": {
+        "fr": "MDMA traitée",
+        "en": "Treated MDMA"
+      },
+      "description": {
+        "en": "Drug system item: treated MDMA",
+        "fr": "Item du système drogue : MDMA traitée"
+      },
+      "image": "empty_pack.png",
+      "emoji": "💊",
+      "weight": 35,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "mdma_sachet",
+      "name": {
+        "fr": "Sachet de MDMA",
+        "en": "MDMA sachet"
+      },
+      "description": {
+        "en": "Drug system item: MDMA sachet",
+        "fr": "Item du système drogue : sachet de MDMA"
+      },
+      "image": "empty_pack.png",
+      "emoji": "💊",
+      "weight": 30,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "sandwich",
+      "name": {
+        "fr": "Sandwich",
+        "en": "Sandwich"
+      },
+      "description": {
+        "en": "A sandwich",
+        "fr": "Un sandwich"
+      },
+      "image": "sandwich.png",
+      "emoji": "🥪",
+      "weight": 100,
+      "food": 20,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "energy_drink",
+      "name": {
+        "fr": "Energy Drink",
+        "en": "Energy Drink"
+      },
+      "description": {
+        "en": "An energy drink",
+        "fr": "Une boisson énergisante"
+      },
+      "image": "sprunk.png",
+      "emoji": "⚡",
+      "weight": 330,
+      "food": 0,
+      "thirst": 20,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "cigarillo_pack_10",
+      "name": {
+        "fr": "Paquet de 10 cigarillos",
+        "en": "Pack of 10 cigarillos"
+      },
+      "description": {
+        "en": "A pack of 10 cigarillos",
+        "fr": "Un paquet de 10 cigarillos"
+      },
+      "image": "cigarettes_box.png",
+      "emoji": "🚬",
+      "weight": 80,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "cigar",
+      "name": {
+        "fr": "Cigare",
+        "en": "Cigar"
+      },
+      "description": {
+        "en": "A cigar",
+        "fr": "Un cigare"
+      },
+      "image": "cigar.png",
+      "emoji": "🚬",
+      "weight": 20,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "pisswasser",
+      "name": {
+        "fr": "Pisswasser",
+        "en": "Pisswasser"
+      },
+      "description": {
+        "en": "A beer bottle of Pisswasser",
+        "fr": "Une bière Pisswasser"
+      },
+      "image": "pisswasser.png",
+      "emoji": "🍺",
+      "weight": 350,
+      "food": 0,
+      "thirst": 12,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "vodka",
+      "name": {
+        "fr": "Vodka",
+        "en": "Vodka"
+      },
+      "description": {
+        "en": "A bottle of vodka",
+        "fr": "Une bouteille de vodka"
+      },
+      "image": "vodka.png",
+      "emoji": "🍸",
+      "weight": 500,
+      "food": 0,
+      "thirst": 8,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "get_27",
+      "name": {
+        "fr": "Get 27",
+        "en": "Get 27"
+      },
+      "description": {
+        "en": "A bottle of Get 27",
+        "fr": "Une bouteille de Get 27"
+      },
+      "image": "get_27.png",
+      "emoji": "🍸",
+      "weight": 500,
+      "food": 0,
+      "thirst": 8,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "whisky",
+      "name": {
+        "fr": "Whisky",
+        "en": "Whisky"
+      },
+      "description": {
+        "en": "A bottle of whisky",
+        "fr": "Une bouteille de whisky"
+      },
+      "image": "whisky.png",
+      "emoji": "🥃",
+      "weight": 500,
+      "food": 0,
+      "thirst": 8,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "rhum",
+      "name": {
+        "fr": "Rhum",
+        "en": "Rum"
+      },
+      "description": {
+        "en": "A bottle of rum",
+        "fr": "Une bouteille de rhum"
+      },
+      "image": "rhum.png",
+      "emoji": "🥃",
+      "weight": 500,
+      "food": 0,
+      "thirst": 8,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "jager",
+      "name": {
+        "fr": "Jager",
+        "en": "Jager"
+      },
+      "description": {
+        "en": "A bottle of Jager",
+        "fr": "Une bouteille de Jager"
+      },
+      "image": "jager.png",
+      "emoji": "🍸",
+      "weight": 500,
+      "food": 0,
+      "thirst": 8,
+      "drug": null,
+      "usable": true
+    },
+    {
+      "id": "full_gas_tank",
+      "name": {
+        "fr": "Plein d'essence",
+        "en": "Full tank of fuel"
+      },
+      "description": {
+        "en": "A full tank of fuel",
+        "fr": "Un plein d'essence"
+      },
+      "image": "default.png",
+      "emoji": "⛽",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "gas_can",
+      "name": {
+        "fr": "Bidon d'essence",
+        "en": "Gas can"
+      },
+      "description": {
+        "en": "A gas can",
+        "fr": "Un bidon d'essence"
+      },
+      "image": "jerrycan.png",
+      "emoji": "⛽",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "serflex",
+      "name": {
+        "fr": "Serflex",
+        "en": "Zip ties"
+      },
+      "description": {
+        "en": "A pack of zip ties",
+        "fr": "Un lot de serflex"
+      },
+      "image": "serflex.png",
+      "emoji": "🔗",
+      "weight": 50,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "bag",
+      "name": {
+        "fr": "Sac",
+        "en": "Bag"
+      },
+      "description": {
+        "en": "A bag",
+        "fr": "Un sac"
+      },
+      "image": "bag.png",
+      "emoji": "🎒",
+      "weight": 250,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "bag"
+      ],
+      "customProperties": {
+        "bagCapacity": 5000
+      }
+    },
+    {
+      "id": "gloves",
+      "name": {
+        "fr": "Gants",
+        "en": "Gloves"
+      },
+      "description": {
+        "en": "A pair of gloves",
+        "fr": "Une paire de gants"
+      },
+      "image": "gloves.png",
+      "emoji": "🧤",
+      "weight": 100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "condom",
+      "name": {
+        "fr": "Capote",
+        "en": "Condom"
+      },
+      "description": {
+        "en": "A condom",
+        "fr": "Une capote"
+      },
+      "image": "condom.png",
+      "emoji": "📦",
+      "weight": 5,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "pink_dildo",
+      "name": {
+        "fr": "God rose",
+        "en": "Pink dildo"
+      },
+      "description": {
+        "en": "A pink dildo",
+        "fr": "Un god rose"
+      },
+      "image": "default.png",
+      "emoji": "💗",
+      "weight": 150,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "weapon_petoire",
+      "name": {
+        "fr": "Pétoire",
+        "en": "Saturday Night Special"
+      },
+      "description": {
+        "en": "A cheap pistol",
+        "fr": "Une pétoire"
+      },
+      "image": "weapon_snspistol.png",
+      "emoji": "🔫",
+      "weight": 900,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_beretta",
+      "name": {
+        "fr": "Beretta",
+        "en": "Beretta"
+      },
+      "description": {
+        "en": "A Beretta pistol",
+        "fr": "Un Beretta"
+      },
+      "image": "weapon_pistol_mk2.png",
+      "emoji": "🔫",
+      "weight": 1100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ],
+      "metadata": {
+        "irl": {
+          "model": "Beretta 92FS",
+          "fabricant": "Beretta",
+          "caliber": "9×19 mm Parabellum"
+        }
+      }
+    },
+    {
+      "id": "weapon_vintage_pistol",
+      "name": {
+        "fr": "Pistolet vintage",
+        "en": "Vintage Pistol"
+      },
+      "description": {
+        "en": "A vintage pistol",
+        "fr": "Un pistolet vintage"
+      },
+      "image": "weapon_vintagepistol.png",
+      "emoji": "🔫",
+      "weight": 1200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_ceramic_pistol",
+      "name": {
+        "fr": "Pistolet céramique",
+        "en": "Ceramic Pistol"
+      },
+      "description": {
+        "en": "A ceramic pistol",
+        "fr": "Un pistolet céramique"
+      },
+      "image": "weapon_ceramicpistol.png",
+      "emoji": "🔫",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavy_pistol",
+      "name": {
+        "fr": "Pistolet lourd",
+        "en": "Heavy Pistol"
+      },
+      "description": {
+        "en": "A heavy pistol",
+        "fr": "Un pistolet lourd"
+      },
+      "image": "weapon_heavypistol.png",
+      "emoji": "🔫",
+      "weight": 1600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pistol_50",
+      "name": {
+        "fr": "Cal 50",
+        "en": ".50 Pistol"
+      },
+      "description": {
+        "en": "A .50 caliber pistol",
+        "fr": "Un pistolet calibre 50"
+      },
+      "image": "weapon_pistol50.png",
+      "emoji": "🔫",
+      "weight": 1800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_double_action_revolver",
+      "name": {
+        "fr": "Revolver double action",
+        "en": "Double Action Revolver"
+      },
+      "description": {
+        "en": "A double action revolver",
+        "fr": "Un revolver double action"
+      },
+      "image": "weapon_doubleaction.png",
+      "emoji": "🔫",
+      "weight": 1700,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavy_revolver",
+      "name": {
+        "fr": "Revolver lourd",
+        "en": "Heavy Revolver"
+      },
+      "description": {
+        "en": "A heavy revolver",
+        "fr": "Un revolver lourd"
+      },
+      "image": "weapon_revolver.png",
+      "emoji": "🔫",
+      "weight": 1900,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_cayo_pistol",
+      "name": {
+        "fr": "Pistolet cayo",
+        "en": "Perico Pistol"
+      },
+      "description": {
+        "en": "A Perico pistol",
+        "fr": "Un pistolet cayo"
+      },
+      "image": "weapon_pistolxm3.png",
+      "emoji": "🔫",
+      "weight": 1200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_machine_pistol",
+      "name": {
+        "fr": "Pistolet mitrailleur",
+        "en": "Machine Pistol"
+      },
+      "description": {
+        "en": "A machine pistol",
+        "fr": "Un pistolet mitrailleur"
+      },
+      "image": "weapon_machinepistol.png",
+      "emoji": "🔫",
+      "weight": 2100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_automatic_pistol",
+      "name": {
+        "fr": "Pistolet automatique",
+        "en": "Automatic Pistol"
+      },
+      "description": {
+        "en": "An automatic pistol",
+        "fr": "Un pistolet automatique"
+      },
+      "image": "weapon_tecpistol.png",
+      "emoji": "🔫",
+      "weight": 2200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_light_smg",
+      "name": {
+        "fr": "Mitraillette légère",
+        "en": "Light SMG"
+      },
+      "description": {
+        "en": "A light SMG",
+        "fr": "Une mitraillette légère"
+      },
+      "image": "weapon_microsmg.png",
+      "emoji": "🔫",
+      "weight": 2400,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_assault_smg",
+      "name": {
+        "fr": "Mitraillette d’assaut",
+        "en": "Assault SMG"
+      },
+      "description": {
+        "en": "An assault SMG",
+        "fr": "Une mitraillette d’assaut"
+      },
+      "image": "weapon_assaultsmg.png",
+      "emoji": "🔫",
+      "weight": 2600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_gusenberg",
+      "name": {
+        "fr": "Sulfateuse Gusenberg",
+        "en": "Gusenberg Sweeper"
+      },
+      "description": {
+        "en": "A Gusenberg sweeper",
+        "fr": "Une sulfateuse Gusenberg"
+      },
+      "image": "weapon_gusenberg.png",
+      "emoji": "🔫",
+      "weight": 3200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_combat_pdw",
+      "name": {
+        "fr": "ADP de combat",
+        "en": "Combat PDW"
+      },
+      "description": {
+        "en": "A combat PDW",
+        "fr": "Une ADP de combat"
+      },
+      "image": "weapon_combatpdw.png",
+      "emoji": "🔫",
+      "weight": 2800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pump_shotgun",
+      "name": {
+        "fr": "Fusil à pompe",
+        "en": "Pump Shotgun"
+      },
+      "description": {
+        "en": "A pump shotgun",
+        "fr": "Un fusil à pompe"
+      },
+      "image": "weapon_pumpshotgun.png",
+      "emoji": "🔫",
+      "weight": 3600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_sawed_off_shotgun",
+      "name": {
+        "fr": "Fusil à canon scié",
+        "en": "Sawed-Off Shotgun"
+      },
+      "description": {
+        "en": "A sawed-off shotgun",
+        "fr": "Un fusil à canon scié"
+      },
+      "image": "weapon_sawnoffshotgun.png",
+      "emoji": "🔫",
+      "weight": 3200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bullpup_shotgun",
+      "name": {
+        "fr": "Fusil à pompe bullpup",
+        "en": "Bullpup Shotgun"
+      },
+      "description": {
+        "en": "A bullpup shotgun",
+        "fr": "Un fusil à pompe bullpup"
+      },
+      "image": "weapon_bullpupshotgun.png",
+      "emoji": "🔫",
+      "weight": 3800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_double_barrel_shotgun",
+      "name": {
+        "fr": "Fusil à double canon",
+        "en": "Double Barrel Shotgun"
+      },
+      "description": {
+        "en": "A double barrel shotgun",
+        "fr": "Un fusil à double canon"
+      },
+      "image": "weapon_dbshotgun.png",
+      "emoji": "🔫",
+      "weight": 3400,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_assault_rifle",
+      "name": {
+        "fr": "Fusil d’assaut",
+        "en": "Assault Rifle"
+      },
+      "description": {
+        "en": "An assault rifle",
+        "fr": "Un fusil d’assaut"
+      },
+      "image": "weapon_assaultrifle.png",
+      "emoji": "🔫",
+      "weight": 3500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_advanced_rifle",
+      "name": {
+        "fr": "Fusil amélioré",
+        "en": "Advanced Rifle"
+      },
+      "description": {
+        "en": "An advanced rifle",
+        "fr": "Un fusil amélioré"
+      },
+      "image": "weapon_advancedrifle.png",
+      "emoji": "🔫",
+      "weight": 3400,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_bullpup_rifle",
+      "name": {
+        "fr": "Fusil bullpup",
+        "en": "Bullpup Rifle"
+      },
+      "description": {
+        "en": "A bullpup rifle",
+        "fr": "Un fusil bullpup"
+      },
+      "image": "weapon_bullpuprifle.png",
+      "emoji": "🔫",
+      "weight": 3600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_compact_rifle",
+      "name": {
+        "fr": "Fusil compact",
+        "en": "Compact Rifle"
+      },
+      "description": {
+        "en": "A compact rifle",
+        "fr": "Un fusil compact"
+      },
+      "image": "weapon_compactrifle.png",
+      "emoji": "🔫",
+      "weight": 3000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_military_rifle",
+      "name": {
+        "fr": "Fusil militaire",
+        "en": "Military Rifle"
+      },
+      "description": {
+        "en": "A military rifle",
+        "fr": "Un fusil militaire"
+      },
+      "image": "weapon_militaryrifle.png",
+      "emoji": "🔫",
+      "weight": 3900,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavy_rifle",
+      "name": {
+        "fr": "Fusil lourd",
+        "en": "Heavy Rifle"
+      },
+      "description": {
+        "en": "A heavy rifle",
+        "fr": "Un fusil lourd"
+      },
+      "image": "weapon_heavyrifle.png",
+      "emoji": "🔫",
+      "weight": 4100,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_sniper_rifle",
+      "name": {
+        "fr": "Fusil de précision",
+        "en": "Sniper Rifle"
+      },
+      "description": {
+        "en": "A sniper rifle",
+        "fr": "Un fusil de précision"
+      },
+      "image": "weapon_sniperrifle.png",
+      "emoji": "🔫",
+      "weight": 5500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_heavy_sniper",
+      "name": {
+        "fr": "Fusil de précision lourd",
+        "en": "Heavy Sniper"
+      },
+      "description": {
+        "en": "A heavy sniper rifle",
+        "fr": "Un fusil de précision lourd"
+      },
+      "image": "weapon_heavysniper.png",
+      "emoji": "🔫",
+      "weight": 7000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_tear_gas",
+      "name": {
+        "fr": "Lacrymogènes",
+        "en": "Tear Gas"
+      },
+      "description": {
+        "en": "A tear gas grenade",
+        "fr": "Une grenade lacrymogène"
+      },
+      "image": "weapon_bzgas.png",
+      "emoji": "💣",
+      "weight": 400,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_grenade",
+      "name": {
+        "fr": "Grenades",
+        "en": "Grenades"
+      },
+      "description": {
+        "en": "A grenade",
+        "fr": "Une grenade"
+      },
+      "image": "molotov.png",
+      "emoji": "💣",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_pipe_bomb",
+      "name": {
+        "fr": "Bombe artisanale",
+        "en": "Pipe Bomb"
+      },
+      "description": {
+        "en": "A pipe bomb",
+        "fr": "Une bombe artisanale"
+      },
+      "image": "weapon_pipebomb.png",
+      "emoji": "💣",
+      "weight": 600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "weapon_grenade_launcher",
+      "name": {
+        "fr": "Lance-grenade",
+        "en": "Grenade Launcher"
+      },
+      "description": {
+        "en": "A grenade launcher",
+        "fr": "Un lance-grenade"
+      },
+      "image": "weapon_grenadelauncher.png",
+      "emoji": "💣",
+      "weight": 6200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false,
+      "tags": [
+        "weapon"
+      ]
+    },
+    {
+      "id": "titanium_alloy",
+      "name": {
+        "fr": "Alliage en titan",
+        "en": "Titanium alloy"
+      },
+      "description": {
+        "en": "A titanium alloy ingot",
+        "fr": "Un alliage en titan"
+      },
+      "image": "titanium_alloy.png",
+      "emoji": "🔩",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "iron_plate",
+      "name": {
+        "fr": "Plaque de fer",
+        "en": "Iron plate"
+      },
+      "description": {
+        "en": "An iron plate",
+        "fr": "Une plaque de fer"
+      },
+      "image": "iron_plate.png",
+      "emoji": "🔩",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "steel_plate",
+      "name": {
+        "fr": "Plaque d’acier",
+        "en": "Steel plate"
+      },
+      "description": {
+        "en": "A steel plate",
+        "fr": "Une plaque d’acier"
+      },
+      "image": "steel_plate.png",
+      "emoji": "🔩",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "aluminum",
+      "name": {
+        "fr": "Aluminium",
+        "en": "Aluminum"
+      },
+      "description": {
+        "en": "A block of aluminum",
+        "fr": "Un bloc d'aluminium"
+      },
+      "image": "aluminum.png",
+      "emoji": "🔩",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "rubber_roll",
+      "name": {
+        "fr": "Rouleau de caoutchouc",
+        "en": "Rubber roll"
+      },
+      "description": {
+        "en": "A roll of rubber",
+        "fr": "Un rouleau de caoutchouc"
+      },
+      "image": "rubber_roll.png",
+      "emoji": "🔩",
+      "weight": 700,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "carbon",
+      "name": {
+        "fr": "Carbone",
+        "en": "Carbon"
+      },
+      "description": {
+        "en": "A carbon material",
+        "fr": "Un matériau en carbone"
+      },
+      "image": "carbon.png",
+      "emoji": "🔩",
+      "weight": 400,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "brass",
+      "name": {
+        "fr": "Laiton",
+        "en": "Brass"
+      },
+      "description": {
+        "en": "A brass piece",
+        "fr": "Une pièce de laiton"
+      },
+      "image": "default.png",
+      "emoji": "🔩",
+      "weight": 600,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "lockpick",
+      "name": {
+        "fr": "Kit de crochetage",
+        "en": "Lockpick"
+      },
+      "description": {
+        "en": "A lockpick set",
+        "fr": "Un kit de crochetage"
+      },
+      "image": "lockpick.png",
+      "emoji": "🔧",
+      "weight": 200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "usable": false
+    },
+    {
+      "id": "paper_sheet",
+      "name": {
+        "fr": "Feuille de papier",
+        "en": "Paper sheet"
+      },
+      "description": {
+        "en": "A blank sheet of paper",
+        "fr": "Une feuille de papier vierge"
+      },
+      "image": "paper.png",
+      "emoji": "📄",
+      "weight": 5,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "plastic",
+      "name": {
+        "fr": "Plastique",
+        "en": "Plastic"
+      },
+      "description": {
+        "en": "A piece of plastic for document lamination",
+        "fr": "Un morceau de plastique pour plastifier les documents"
+      },
+      "image": "default.png",
+      "emoji": "🪪",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "medikit",
+      "name": {
+        "fr": "Trousse de soins",
+        "en": "Medikit"
+      },
+      "description": {
+        "en": "A basic medical kit for treating minor wounds.",
+        "fr": "Une trousse de soins basique pour traiter les blessures légères."
+      },
+      "image": "medikit.png",
+      "emoji": "🩹",
+      "weight": 200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "bandage",
+      "name": {
+        "fr": "Bandage",
+        "en": "Bandage"
+      },
+      "description": {
+        "en": "A sterile bandage for dressing wounds.",
+        "fr": "Un bandage stérile pour panser les plaies."
+      },
+      "image": "bandage.png",
+      "emoji": "🩹",
+      "weight": 30,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "painkillers",
+      "name": {
+        "fr": "Antidouleurs",
+        "en": "Painkillers"
+      },
+      "description": {
+        "en": "Strong painkillers for relieving pain.",
+        "fr": "Antidouleurs puissants pour soulager la douleur."
+      },
+      "image": "pills.png",
+      "emoji": "💊",
+      "weight": 20,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "antibiotics",
+      "name": {
+        "fr": "Antibiotiques",
+        "en": "Antibiotics"
+      },
+      "description": {
+        "en": "Antibiotics to treat bacterial infections.",
+        "fr": "Antibiotiques pour traiter les infections bactériennes."
+      },
+      "image": "antibiotics.png",
+      "emoji": "💊",
+      "weight": 20,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "canne_peche",
+      "name": {
+        "fr": "Canne à pêche",
+        "en": "Fishing Rod"
+      },
+      "description": {
+        "en": "A fishing rod for catching fish.",
+        "fr": "Une canne à pêche pour attraper des poissons."
+      },
+      "image": "canne_peche.png",
+      "emoji": "🎣",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "appat",
+      "name": {
+        "fr": "Appât",
+        "en": "Bait"
+      },
+      "description": {
+        "en": "Bait used to attract fish.",
+        "fr": "Appât utilisé pour attirer les poissons."
+      },
+      "image": "appat.png",
+      "emoji": "🪱",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "poisson_commun",
+      "name": {
+        "fr": "Poisson commun",
+        "en": "Common Fish"
+      },
+      "description": {
+        "en": "A common fish, freshly caught.",
+        "fr": "Un poisson commun, fraîchement pêché."
+      },
+      "image": "poisson_commun.png",
+      "emoji": "🐟",
+      "weight": 500,
+      "food": 15,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "poisson_rare",
+      "name": {
+        "fr": "Poisson rare",
+        "en": "Rare Fish"
+      },
+      "description": {
+        "en": "A rare and valuable fish.",
+        "fr": "Un poisson rare et précieux."
+      },
+      "image": "poisson_rare.png",
+      "emoji": "🐠",
+      "weight": 600,
+      "food": 25,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "poisson_propre",
+      "name": {
+        "fr": "Poisson nettoyé",
+        "en": "Cleaned Fish"
+      },
+      "description": {
+        "en": "A fish cleaned and ready to sell.",
+        "fr": "Un poisson nettoyé et prêt à vendre."
+      },
+      "image": "poisson_propre.png",
+      "emoji": "🐡",
+      "weight": 400,
+      "food": 20,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "pioche",
+      "name": {
+        "fr": "Pioche",
+        "en": "Pickaxe"
+      },
+      "description": {
+        "en": "A pickaxe for mining ores.",
+        "fr": "Une pioche pour miner des minerais."
+      },
+      "image": "pioche.png",
+      "emoji": "⛏️",
+      "weight": 1200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "lanterne_mini",
+      "name": {
+        "fr": "Mini lanterne",
+        "en": "Mini Lantern"
+      },
+      "description": {
+        "en": "A small lantern to light dark mines.",
+        "fr": "Une petite lanterne pour éclairer les mines sombres."
+      },
+      "image": "lanterne_mini.png",
+      "emoji": "🔦",
+      "weight": 200,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "minerai",
+      "name": {
+        "fr": "Minerai",
+        "en": "Ore"
+      },
+      "description": {
+        "en": "Raw ore extracted from the mine.",
+        "fr": "Minerai brut extrait de la mine."
+      },
+      "image": "minerai.png",
+      "emoji": "🪨",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "minerai_rare",
+      "name": {
+        "fr": "Minerai rare",
+        "en": "Rare Ore"
+      },
+      "description": {
+        "en": "A rare and valuable ore.",
+        "fr": "Un minerai rare et précieux."
+      },
+      "image": "minerai_rare.png",
+      "emoji": "💎",
+      "weight": 2000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "lingot",
+      "name": {
+        "fr": "Lingot",
+        "en": "Ingot"
+      },
+      "description": {
+        "en": "A refined metal ingot.",
+        "fr": "Un lingot de métal raffiné."
+      },
+      "image": "lingot.png",
+      "emoji": "🪙",
+      "weight": 2000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "hache",
+      "name": {
+        "fr": "Hache",
+        "en": "Axe"
+      },
+      "description": {
+        "en": "An axe for chopping wood.",
+        "fr": "Une hache pour couper du bois."
+      },
+      "image": "hache.png",
+      "emoji": "🪓",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "bois",
+      "name": {
+        "fr": "Bois",
+        "en": "Wood"
+      },
+      "description": {
+        "en": "Raw wood, freshly cut.",
+        "fr": "Bois brut, fraîchement coupé."
+      },
+      "image": "bois.png",
+      "emoji": "🪵",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "fishingrod",
+      "name": {
+        "fr": "Canne à pêche",
+        "en": "Fishing Rod"
+      },
+      "description": {
+        "en": "A fishing rod for catching fish.",
+        "fr": "Une canne à pêche pour attraper des poissons."
+      },
+      "image": "fishingrod.png",
+      "emoji": "🎣",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "fishbait",
+      "name": {
+        "fr": "Appât à poissons",
+        "en": "Fish Bait"
+      },
+      "description": {
+        "en": "Bait used to attract fish.",
+        "fr": "Appât utilisé pour attirer les poissons."
+      },
+      "image": "fishbait.png",
+      "emoji": "🪱",
+      "weight": 10,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "fish",
+      "name": {
+        "fr": "Poisson",
+        "en": "Fish"
+      },
+      "description": {
+        "en": "A common fish, freshly caught.",
+        "fr": "Un poisson commun, fraîchement pêché."
+      },
+      "image": "fish.png",
+      "emoji": "🐟",
+      "weight": 500,
+      "food": 15,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "bonitosfish",
+      "name": {
+        "fr": "Poisson bonite",
+        "en": "Bonitos Fish"
+      },
+      "description": {
+        "en": "A rare fish, prized by fishermen.",
+        "fr": "Un poisson rare, prisé des pêcheurs."
+      },
+      "image": "bonitosfish.png",
+      "emoji": "🐠",
+      "weight": 600,
+      "food": 20,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "clean_fish",
+      "name": {
+        "fr": "Poisson nettoyé",
+        "en": "Clean Fish"
+      },
+      "description": {
+        "en": "A cleaned, ready-to-sell fish.",
+        "fr": "Un poisson nettoyé, prêt à être vendu."
+      },
+      "image": "fish_fillet.png",
+      "emoji": "🐟",
+      "weight": 400,
+      "food": 25,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": true
+    },
+    {
+      "id": "pickaxe",
+      "name": {
+        "fr": "Pioche",
+        "en": "Pickaxe"
+      },
+      "description": {
+        "en": "A pickaxe for mining ores.",
+        "fr": "Une pioche pour extraire des minerais."
+      },
+      "image": "pickaxe.png",
+      "emoji": "⛏️",
+      "weight": 1500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "lantern",
+      "name": {
+        "fr": "Lanterne",
+        "en": "Lantern"
+      },
+      "description": {
+        "en": "A small lantern to light the mine.",
+        "fr": "Une petite lanterne pour éclairer la mine."
+      },
+      "image": "lantern.png",
+      "emoji": "🏮",
+      "weight": 500,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "iron_ore",
+      "name": {
+        "fr": "Minerai de fer",
+        "en": "Iron Ore"
+      },
+      "description": {
+        "en": "Raw iron ore, freshly mined.",
+        "fr": "Du minerai de fer brut, fraîchement extrait."
+      },
+      "image": "titanium_ore.png",
+      "emoji": "🪨",
+      "weight": 700,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "gold_ore",
+      "name": {
+        "fr": "Minerai d'or",
+        "en": "Gold Ore"
+      },
+      "description": {
+        "en": "A rare gold ore, highly valuable.",
+        "fr": "Un minerai d'or rare, très prisé."
+      },
+      "image": "gold-nugget.png",
+      "emoji": "🪨",
+      "weight": 700,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "ingot",
+      "name": {
+        "fr": "Lingot de métal",
+        "en": "Metal Ingot"
+      },
+      "description": {
+        "en": "A refined metal ingot.",
+        "fr": "Un lingot de métal raffiné."
+      },
+      "image": "goldbar.png",
+      "emoji": "🪙",
+      "weight": 900,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    },
+    {
+      "id": "wood_axe",
+      "name": {
+        "fr": "Hache à bois",
+        "en": "Wood Axe"
+      },
+      "description": {
+        "en": "An axe for chopping wood.",
+        "fr": "Une hache pour couper du bois."
+      },
+      "image": "tool_lumber_axe.png",
+      "emoji": "🪓",
+      "weight": 1000,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": false,
+      "usable": false
+    },
+    {
+      "id": "wood",
+      "name": {
+        "fr": "Bois",
+        "en": "Wood"
+      },
+      "description": {
+        "en": "Raw wood, freshly cut.",
+        "fr": "Bois brut, fraîchement coupé."
+      },
+      "image": "lumber_cedar_wood_logs.png",
+      "emoji": "🪵",
+      "weight": 800,
+      "food": 0,
+      "thirst": 0,
+      "drug": null,
+      "stackable": true,
+      "usable": false
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "$schema": "../catalog/schemas/vehicle.schema.json",
+  "$comment": "Catalogue de démarrage : modèles d'exemple illustrant le schéma. Les images (assets/vehicles/*.png) sont à contribuer — voir README. Le registre est extensible librement.",
+  "vehicles": [
+    {
+      "id": "sultan",
+      "brand": {
+        "fr": "Karin",
+        "en": "Karin"
+      },
+      "model": {
+        "fr": "Sultan",
+        "en": "Sultan"
+      },
+      "category": "car",
+      "image": "vehicles/sultan.png",
+      "seats": 4,
+      "fuelCapacity": 60,
+      "maxSpeed": 175,
+      "cargo": {
+        "maxSlots": 6,
+        "maxWeightKg": 60
+      },
+      "metadata": {
+        "irl": {
+          "model": "Subaru Impreza WRX",
+          "bodyStyle": "Berline sport"
+        }
+      },
+      "massKg": 1480
+    },
+    {
+      "id": "banshee",
+      "brand": {
+        "fr": "Bravado",
+        "en": "Bravado"
+      },
+      "model": {
+        "fr": "Banshee",
+        "en": "Banshee"
+      },
+      "category": "car",
+      "image": "vehicles/banshee.png",
+      "seats": 2,
+      "fuelCapacity": 55,
+      "maxSpeed": 210,
+      "cargo": {
+        "maxSlots": 2,
+        "maxWeightKg": 20
+      },
+      "metadata": {
+        "irl": {
+          "model": "Dodge Viper GTS",
+          "bodyStyle": "Supercar"
+        }
+      },
+      "massKg": 1290
+    },
+    {
+      "id": "comet",
+      "brand": {
+        "fr": "Pfister",
+        "en": "Pfister"
+      },
+      "model": {
+        "fr": "Comet",
+        "en": "Comet"
+      },
+      "category": "car",
+      "image": "vehicles/comet.png",
+      "seats": 2,
+      "fuelCapacity": 60,
+      "maxSpeed": 200,
+      "cargo": {
+        "maxSlots": 2,
+        "maxWeightKg": 15
+      },
+      "metadata": {
+        "irl": {
+          "model": "Porsche 911",
+          "bodyStyle": "Coupé sport"
+        }
+      },
+      "massKg": 1440
+    },
+    {
+      "id": "tailgater",
+      "brand": {
+        "fr": "Obey",
+        "en": "Obey"
+      },
+      "model": {
+        "fr": "Tailgater",
+        "en": "Tailgater"
+      },
+      "category": "car",
+      "image": "vehicles/tailgater.png",
+      "seats": 5,
+      "fuelCapacity": 65,
+      "maxSpeed": 165,
+      "cargo": {
+        "maxSlots": 8,
+        "maxWeightKg": 80
+      },
+      "metadata": {
+        "irl": {
+          "model": "Audi A6 / S6",
+          "bodyStyle": "Berline"
+        }
+      },
+      "massKg": 1620
+    },
+    {
+      "id": "dominator",
+      "brand": {
+        "fr": "Vapid",
+        "en": "Vapid"
+      },
+      "model": {
+        "fr": "Dominator",
+        "en": "Dominator"
+      },
+      "category": "car",
+      "image": "vehicles/dominator.png",
+      "seats": 2,
+      "fuelCapacity": 70,
+      "maxSpeed": 195,
+      "cargo": {
+        "maxSlots": 2,
+        "maxWeightKg": 25
+      },
+      "metadata": {
+        "irl": {
+          "model": "Ford Mustang GT",
+          "bodyStyle": "Muscle car"
+        }
+      },
+      "massKg": 1680
+    },
+    {
+      "id": "bagger",
+      "brand": {
+        "fr": "Western",
+        "en": "Western"
+      },
+      "model": {
+        "fr": "Bagger",
+        "en": "Bagger"
+      },
+      "category": "bike",
+      "image": "vehicles/bagger.png",
+      "seats": 2,
+      "fuelCapacity": 18,
+      "maxSpeed": 155,
+      "cargo": {
+        "maxSlots": 1,
+        "maxWeightKg": 10
+      },
+      "metadata": {
+        "irl": {
+          "model": "Harley-Davidson Touring",
+          "bodyStyle": "Cruiser"
+        }
+      },
+      "massKg": 340
+    },
+    {
+      "id": "packer",
+      "brand": {
+        "fr": "MTL",
+        "en": "MTL"
+      },
+      "model": {
+        "fr": "Packer",
+        "en": "Packer"
+      },
+      "category": "truck",
+      "image": "vehicles/packer.png",
+      "seats": 2,
+      "fuelCapacity": 150,
+      "maxSpeed": 120,
+      "cargo": {
+        "maxSlots": 30,
+        "maxWeightKg": 500
+      },
+      "metadata": {
+        "irl": {
+          "model": "Mack Granite",
+          "bodyStyle": "Poids lourd"
+        }
+      },
+      "massKg": 7800
+    },
+    {
+      "id": "garbage_truck",
+      "brand": {
+        "fr": "Brute",
+        "en": "Brute"
+      },
+      "model": {
+        "fr": "Camion poubelle",
+        "en": "Trashmaster"
+      },
+      "category": "truck",
+      "image": "vehicles/garbage_truck.png",
+      "seats": 2,
+      "fuelCapacity": 130,
+      "maxSpeed": 95,
+      "cargo": {
+        "maxSlots": 20,
+        "maxWeightKg": 400
+      },
+      "metadata": {
+        "irl": {
+          "model": "Camion benne municipal",
+          "bodyStyle": "Utilitaire"
+        }
+      },
+      "massKg": 6500
+    },
+    {
+      "id": "ambulance",
+      "brand": {
+        "fr": "Brute",
+        "en": "Brute"
+      },
+      "model": {
+        "fr": "Ambulance",
+        "en": "Ambulance"
+      },
+      "category": "special",
+      "image": "vehicles/ambulance.png",
+      "seats": 4,
+      "fuelCapacity": 90,
+      "maxSpeed": 130,
+      "cargo": {
+        "maxSlots": 12,
+        "maxWeightKg": 150
+      },
+      "metadata": {
+        "source": "Véhicule d'urgence (fleet)"
+      },
+      "massKg": 3500
+    },
+    {
+      "id": "police_cruiser",
+      "brand": {
+        "fr": "Vapid",
+        "en": "Vapid"
+      },
+      "model": {
+        "fr": "Interceptor",
+        "en": "Interceptor"
+      },
+      "category": "special",
+      "image": "vehicles/police_cruiser.png",
+      "seats": 4,
+      "fuelCapacity": 75,
+      "maxSpeed": 190,
+      "cargo": {
+        "maxSlots": 4,
+        "maxWeightKg": 40
+      },
+      "metadata": {
+        "irl": {
+          "model": "Ford Crown Victoria",
+          "bodyStyle": "Berline police"
+        }
+      },
+      "massKg": 1800
+    }
+  ]
+}

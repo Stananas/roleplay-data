@@ -1,0 +1,16 @@
+{
+  "$schema": "../catalog/schemas/theme.schema.json",
+  "$comment": "Thème GTA V Artwork : pack d'images de référence. EXEMPLE DE RENOMMAGE — le catalogue porte le nom canonique/IRL (metadata.irl donne l'identité réelle), ce thème applique le nom que GTA V donne à l'objet. Chaque item du catalogue dont metadata.irl est rempli peut être renommé ici.",
+  "overrides": [
+    {
+      "id": "weapon_beretta",
+      "name": { "fr": "Pistol", "en": "Pistol" },
+      "description": { "fr": "Un pistolet semi-automatique fiable.", "en": "A reliable semi-automatic pistol." }
+    },
+    {
+      "id": "weapon_ak47",
+      "name": { "fr": "Rifle d'assaut", "en": "Assault Rifle" }
+    }
+  ],
+  "exclusiveItems": []
+}

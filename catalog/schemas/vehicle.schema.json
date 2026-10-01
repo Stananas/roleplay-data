@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "vehicle.schema.json",
+  "title": "Catalogue de véhicules",
+  "description": "Catalogue canonique des modèles de véhicules. Un véhicule du jeu référence ce catalogue par id (modèle), puis est instancié par serveur avec plaque/couleur/état (données runtime non couvertes ici).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["vehicles"],
+  "properties": {
+    "vehicles": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/vehicle" }
+    }
+  },
+  "definitions": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": {
+        "fr": { "type": "string", "minLength": 1 },
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "vehicle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "brand", "model", "category", "image"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]+$",
+          "description": "Identifiant canonique du modèle (ex: sultan)."
+        },
+        "brand": {
+          "$ref": "#/definitions/localized",
+          "description": "Marque du véhicule (localisée)."
+        },
+        "model": {
+          "$ref": "#/definitions/localized",
+          "description": "Modèle du véhicule (localisé)."
+        },
+        "category": {
+          "type": "string",
+          "enum": ["car", "bike", "truck", "special"],
+          "description": "Catégorie de gameplay."
+        },
+        "image": {
+          "type": "string",
+          "description": "Chemin de l'image dans assets/vehicles/ (à contribuer)."
+        },
+        "seats": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 2,
+          "description": "Nombre de places."
+        },
+        "massKg": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Masse du véhicule en kg."
+        },
+        "fuelCapacity": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Capacité du réservoir (unité projet)."
+        },
+        "maxSpeed": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Vitesse maximale (unité projet)."
+        },
+        "cargo": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": false,
+          "properties": {
+            "maxSlots": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Nombre max de slots de coffre."
+            },
+            "maxWeightKg": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Poids maximal transportable en kg."
+            }
+          }
+        },
+        "metadata": {
+          "type": "object",
+          "default": {},
+          "additionalProperties": true,
+          "description": "Identité réelle du véhicule (ex: modèle IRL).",
+          "properties": {
+            "irl": {
+              "type": "object",
+              "additionalProperties": true,
+              "description": "Informations du monde réel."
+            },
+            "source": {
+              "type": "string",
+              "description": "Provenance du modèle (jeu, média, création)."
+            }
+          }
+        },
+        "customProperties": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {},
+          "description": "Point d'extension libre par projet."
+        }
+      }
+    }
+  }
+}
