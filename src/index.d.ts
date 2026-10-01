@@ -160,6 +160,77 @@ export function getItemImage(
 /** Libère les caches (rechargement à chaud). */
 export function clearCache(): void;
 
+/* ------------------------------------------------------------------ *
+ * API orientée objet (DX) — flux fluent, contexte global, accesseurs
+ * ------------------------------------------------------------------ */
+
+export type UnitMode = 'auto' | 'metric' | 'imperial';
+export type FallbackMode = 'default' | 'unknown';
+
+export type ItemsOptions = {
+  theme?: string;
+  locale?: string;
+  units?: UnitMode;
+  fallback?: FallbackMode;
+};
+
+/** Réglages globaux par défaut (partagés par toutes les instances). */
+export class ItemsDefaults {
+  static theme: string;
+  static locale: string;
+  static units: UnitMode;
+  static fallback: FallbackMode;
+}
+
+/** Fusionne des réglages dans les défauts globaux. Retourne les défauts mis à jour. */
+export function configure(config?: Partial<ItemsOptions>): typeof ItemsDefaults;
+
+/** Vue item : un item résolu dans un contexte (thème/locale/unités). */
+export class Item {
+  readonly id: string;
+  readonly _item: Item | null;
+  readonly _ctx: ItemsOptions;
+  exists(): boolean;
+  name(locale?: string): string;
+  nameRaw(): Localized | null;
+  description(locale?: string): string;
+  descriptionRaw(): Localized | null;
+  emoji(): string | null;
+  image(): string;
+  weight(): number;
+  weightLabel(): string | null;
+  volume(): number | null;
+  volumeLabel(): string | null;
+  satiety(): { food: number; thirst: number } | null;
+  consumable(): NonNullable<Item['consumable']> | null;
+  stackable(): boolean | number;
+  usable(): boolean;
+  tags(): string[];
+  metadata(): ItemMetadata;
+  customProperties(): CustomProperties;
+  raw(): Item | null;
+  toJSON(): Record<string, unknown>;
+}
+
+/** Client fluent du catalogue (contexte + accès). */
+export class Items {
+  constructor(opts?: ItemsOptions);
+  theme(name: string): this;
+  setTheme(name: string): this;
+  locale(locale: string): this;
+  units(units: UnitMode): this;
+  fallback(mode: FallbackMode): this;
+  getContext(): ItemsOptions;
+  currentTheme(): string;
+  themes(): string[];
+  themeLabel(): string;
+  get(id: string | null | undefined): Item;
+  has(id: string): boolean;
+  all(): Item[];
+  byTag(tag: string): Item[];
+  search(query: string): Item[];
+}
+
 /** Outils i18n. */
 export function translate(localized: Localized | null | undefined, locale?: string): string;
 export function itemLocalizedName(

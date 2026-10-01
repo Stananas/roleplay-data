@@ -289,6 +289,69 @@ le `metadata.irl`, etc. sont tous overrideables de cette façon.
 
 ---
 
+## 🧭 DX — API orientée objet (recommandée)
+
+Les fonctions de bas niveau restent disponibles, mais l'expérience principale est
+une **API en classes** : tu configures **une fois** le contexte (thème, langue,
+unités), puis tu manipules des items typés.
+
+```js
+import { Items, configure } from 'roleplay-data';
+
+// réglages globaux (défaut partagé par toutes les instances)
+configure({ locale: 'fr', fallback: 'default' });
+
+const items = new Items()
+  .theme('dayz')          // thème courant
+  .locale('fr')           // langue
+  .units('auto');         // 'auto' | 'metric' | 'imperial'
+
+const burger = items.get('burger');
+burger.name();            // 'Conserve DayZ'   (défini par le thème dayz)
+burger.image();           // meilleure image : thème → default → no_image
+burger.weightLabel();     // '100 g' (ou '4 oz' selon locale/unités)
+burger.volumeLabel();     // null pour un burger
+burger.satiety();         // { food: 30, thirst: 0 }
+
+items.setTheme('gtav-artwork');   // bascule du thème à la volée (fluent)
+items.get('burger').name();       // 'Burger' (image artwork RAINMAD)
+```
+
+### Politique de repli (fallback) — principe « un burger reste un burger »
+
+Un item qui **n'est pas défini par le thème** (ni override, ni exclusif) n'est
+jamais inventé. Tu choisis la politique :
+
+```js
+items.fallback('default');   // → item de base réaliste (pack par défaut)
+items.fallback('unknown');   // → item « inconnu » : exists() === false, image no_image
+```
+
+```js
+const water = new Items().theme('dayz').fallback('unknown').get('water_bottle_1l');
+water.exists();   // false (la bouteille n'existe pas dans le monde DayZ)
+water.name();     // 'water_bottle_1l'
+water.image();    // no_image.png
+```
+
+> Détail important : `dayz` **définit** réellement son burger (override
+> « Conserve DayZ ») — d'où ce nom dans l'exemple. Un burger **non défini** par
+> un thème resterait « Burger » (repli par défaut) ou « inconnu ».
+
+### Accesseurs Item
+
+`name()` · `description()` · `emoji()` · `image()` · `weight()` / `weightLabel()`
+· `volume()` / `volumeLabel()` · `satiety()` · `consumable()` · `stackable()`
+· `usable()` · `tags()` · `metadata()` · `customProperties()` · `raw()`
+· `exists()` · `toJSON()`
+
+### Items
+
+`get(id)` · `has(id)` · `all()` · `byTag(tag)` · `search(q)` · `themes()`
+· `themeLabel()` · `getContext()`
+
+---
+
 ## Feuille de route
 
 - [x] v0.1 — items + véhicules + thèmes + i18n + validation + builds multi-produits

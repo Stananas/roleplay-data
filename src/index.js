@@ -33,6 +33,8 @@ export {
   formatVolume,
 } from './localize.js';
 
+export { Items, Item, configure, ItemsDefaults } from './items-class.js';
+
 const here = dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = pathResolve(here, '..');
 
