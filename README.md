@@ -22,9 +22,11 @@ catalog/                  ✨ données canoniques
 themes/                   🎨 systèmes de thèmes (packs d'images + renommages + exclusifs)
 ├── themes.json            le registre : un thème est déclaré une fois, partout consommé
 ├── gta-artwork.json       renommages « monde GTA V » (ex: arme Beretta → « Pistol »)
+├── artwork-gtav.json      pack RAINMAD : 517 items artwork (43 overrides + 474 exclusifs)
 └── dayz.json              renommages + items exclusifs DayZ
 assets/                   🖼️ images (brutes en git — LFS later)
 ├── items/gta-artwork/     pack d'images par défaut (référence)
+├── items/artwork-gtav/    pack d'images RAINMAD « Artwork GTA V »
 ├── items/dayz/            pack d'images du thème DayZ
 └── no_image.png           fallback universel
 src/                      📦 l'API du package (zéro dépendance)

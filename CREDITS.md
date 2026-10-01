@@ -22,6 +22,7 @@ sa licence / son attribution dans `themes/themes.json` :
 | Thème | Origine des visuels |
 |---|---|
 | `gta-artwork` | Inspirés de GTA V © Rockstar Games — usage non commercial |
+| `artwork-gtav` | Importés de la galerie **RAINMAD** (items.rainmad.com) — voir `themes/themes.json` |
 | `dayz` | Générés par la communauté Amity Studio (MIT) |
 
 Si vous ajoutez un thème ou des images, créez vous aussi une entrée dans le registre

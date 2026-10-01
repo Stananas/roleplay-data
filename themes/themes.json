@@ -20,6 +20,16 @@
       "scope": ["items"],
       "license": "Visuels générés par la communauté Amity Studio (MIT).",
       "attribution": "Communauté Amity Studio"
+    },
+    "artwork-gtav": {
+      "label": { "fr": "Artwork GTAV", "en": "Artwork GTAV" },
+      "description": {
+        "fr": "Pack d'images d'inventaire haute résolution pour FiveM/RedM, importé depuis la galerie RAINMAD (catégories Artwork-DrugsV/OX/QB/Robbery, hors GTAVI). 517 items dont 474 exclusifs.",
+        "en": "High-res inventory artwork for FiveM/RedM, imported from the RAINMAD gallery (Artwork-DrugsV/OX/QB/Robbery, excluding GTAVI). 517 items including 474 exclusive ones."
+      },
+      "scope": ["items"],
+      "license": "Images © RAINMAD (items.rainmad.com) — redistribuées avec crédit ; vérifier les CGU RAINMAD avant usage commercial.",
+      "attribution": "RAINMAD — items.rainmad.com"
     }
   }
 }
